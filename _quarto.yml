@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "GMRI Grants Summary"
+  navbar:
+    left:
+      - href: Opportunity_Report.qmd
+        text: Grants Summary
+
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    df-print: paged
+    theme: flatly
+    code-fold: true

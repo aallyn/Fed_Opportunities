@@ -83,3 +83,5 @@ _site/
 # OS system files
 .DS_Store
 Thumbs.db
+
+/.quarto/
