@@ -1,0 +1,35 @@
+---
+title: "GMRI Grants Summary - `r format(Sys.Date(), '%B %d, %Y')`"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    df-print: paged
+    theme: flatly
+    code-fold: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(lubridate)
+```
+
+```{r, echo = FALSE, include  = FALSE}
+# Load the most recent grants CSV
+files <- list.files(here::here(), pattern = "^GMRI_Grants.csv$", full.names = TRUE)
+latest_file <- sort(files, decreasing = TRUE)[1]
+
+grants <- read_csv(latest_file)
+
+grants_out<- grants %>%
+  arrange(Deadline) %>%
+  select(Agency, Title, Deadline, Posted, AdditionalInfoURL) %>%
+  mutate(Title = paste0("[", Title, "](", AdditionalInfoURL, ")")) %>%
+  select(-AdditionalInfoURL) %>%
+  knitr::kable()
+```
+
+```{r}
+grants_out
+```

@@ -47,3 +47,39 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+Data/
+
+Opportunity_Report/Files/
+
+# Quarto cache and generated files
+_quarto/
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.utf8.md
+*.knit.md
+*.html
+*.pdf
+*.docx
+
+# Quarto figures, cache, and intermediate files
+*/_cache/
+*/_files/
+
+# R markdown and related intermediate files
+*.Rmd~
+*.Rmd.html
+
+# Output from quarto render (adjust if you output to other folders)
+_render/
+_site/
+
+# VSCode or other editor settings
+.vscode/
+.idea/
+
+# OS system files
+.DS_Store
+Thumbs.db
