@@ -76,7 +76,7 @@ df_filtered <- df %>%
 #####
 # NOAA Fisheries
 #####
-noaa_page <- read_html("Data/Grants _ NOAA Fisheries.html")
+noaa_page <- read_html("Data/NOAA_Fisheries.html")
 
 # Find all opportunity cards
 noaa_cards <- html_elements(noaa_page, ".vertical-list__item")
@@ -115,7 +115,7 @@ noaa_df <- map_dfr(noaa_cards, function(card) {
 #####
 # Load the homepage
 # Read the saved MAFMC HTML page
-mafmc_page <- read_html("Data/Mid-Atlantic Fishery Management Council.html")
+mafmc_page <- read_html("Data/MAFMC.html")
 
 # Extract each summary-item (each news card)
 news_cards <- html_elements(mafmc_page, ".summary-item")
@@ -185,7 +185,7 @@ out <- bind_rows(df_filtered, noaa_df, mafmc_df) %>%
 write_csv(out, csv_file)
 
 # Render Markdown (optional)
-quarto::quarto_render("grants_summary.qmd", output_file = "index.html")
+# quarto::quarto_render("grants_summary.qmd", output_file = "index.html")
 
 
 # Compose the email
