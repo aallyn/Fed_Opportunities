@@ -43,13 +43,14 @@ grants_out <- grants %>%
     Deadline = format(Deadline, "%b %d, %Y"),
     Posted = format(Posted, "%b %d, %Y"),
     New = if_else(
-      as.Date(Posted) >= Sys.Date() - 7,
-      "<span style='color: white; background-color: #28a745; border-radius: 3px; padding: 2px 6px; font-weight: bold;'>🟢 New</span>",
-      ""
-    )
-  ) |>
+      as.Date(Posted, format = "%b %d, %Y") >= Sys.Date() - 7,
+       "🟢",
+       ""
+       )
+    ) |>
   select(Agency, Title, New, Deadline, Posted) |>
   arrange(desc(New), Deadline) 
+
  
 ```
 
