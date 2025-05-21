@@ -1,11 +1,10 @@
 ---
 format:
   html:
-    toc: true
-    toc-depth: 2
+    toc: FALSE
     df-print: paged
     theme: flatly
-    code-fold: true
+    code-fold: false
     title-block-banner: false
     title-block: false
 ---
@@ -17,10 +16,10 @@ format:
 body {
   padding-top: 0 !important;
 }
-
+```
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE, include = FALSE)  # Set global defaults
 library(tidyverse)
 library(lubridate)
 library(knitr)
@@ -29,7 +28,7 @@ library(kableExtra)
 link_color <- "#0047AB"  # Royal blue
 ```
 
-```{r, echo = FALSE, include  = FALSE}
+```{r data-processing}
 # Load the most recent grants CSV
 files <- list.files(here::here(), pattern = "^GMRI_Grants.csv$", full.names = TRUE)
 latest_file <- sort(files, decreasing = TRUE)[1]
@@ -86,7 +85,11 @@ grants_out <- bind_rows(
 )
 ```
 
-```{r}
+```{r date-heading, include=TRUE, results="asis"}
+cat("# Grants Report - ", format(Sys.Date(), "%B %d, %Y"), "\n\n")
+```
+
+```{r table-output, include=TRUE, results="asis"}
 fmt <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 tbl_format <- ifelse(fmt == "html", "html", "latex")
 
@@ -95,7 +98,6 @@ kable(grants_out, format = tbl_format, escape = FALSE) %>%
     bootstrap_options = if (tbl_format == "html") "striped" else NULL,
     latex_options = if (tbl_format == "latex") c("striped", "hold_position") else NULL,
     full_width = FALSE
-  ) |>
+  ) %>%
   row_spec(break_index, background = "#e0e0e0")
-
 ```

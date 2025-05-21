@@ -36,7 +36,7 @@ stopifnot(file.exists(html_path))
 # msg$add_attachment(pdf_path)
 
 # Add recipients
-msg$add_recipients(to = c("aallyn@gmri.org", "fbenavides@gmri.org", "bdifiore@gmri.org"))
+msg$add_recipients(to = c("aallyn@gmri.org"))
 
 # Send
 msg$send()
