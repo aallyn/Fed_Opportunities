@@ -15,7 +15,7 @@ format:
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(lubridate)
-library(DT)
+library(knitr)
 ```
 
 ```{r, echo = FALSE, include  = FALSE}
@@ -25,52 +25,28 @@ latest_file <- sort(files, decreasing = TRUE)[1]
 
 grants <- read_csv(latest_file)
 
-grants_out <- grants %>%
-  arrange(Deadline) %>%
-  select(Agency, Title, Deadline, Posted, AdditionalInfoURL) %>%
-  mutate(
-    Title = paste0("[", Title, "](", AdditionalInfoURL, ")"),
-    Recent = if_else(Posted >= Sys.Date() - 7,
-                     '<span style="color:white; background-color:#28a745; padding:2px 6px; border-radius:4px;">New</span>',
-                     "")
-  ) %>%
-  select(Agency, Title, Recent, Deadline, Posted, AdditionalInfoURL) 
-
-# Fix date formats first
+# Ensure Posted and Deadline are dates
 grants <- grants %>%
   mutate(
-    Posted = mdy(Posted),     # Use mdy, ymd, or dmy as needed
+    Posted = mdy(Posted),
     Deadline = mdy(Deadline)
   )
 
-# Build interactive table
+# Create the formatted table
 grants_out <- grants %>%
   arrange(Deadline) %>%
   mutate(
-    Title = paste0("<a href='", AdditionalInfoURL, "' target='_blank'>", Title, "</a>"),
+    Title = paste0("[", Title, "](", AdditionalInfoURL, ")"),
     Deadline = format(Deadline, "%b %d, %Y"),
     Posted = format(Posted, "%b %d, %Y"),
     Recent = if_else(
-      Posted >= Sys.Date() - 7,
-      '<span style="color:white; background-color:#28a745; padding:2px 6px; border-radius:4px;">New</span>',
+      as.Date(Posted, format = "%b %d, %Y") >= Sys.Date() - 7,
+      "🟢 New",
       ""
     )
   ) %>%
-  select(Agency, Title, Recent, Deadline, Posted)
-
-# Only filter by Agency
-datatable(
-  grants_out,
-  escape = FALSE,
-  options = list(
-    pageLength = 10,
-    autoWidth = TRUE,
-    columnDefs = list(
-      list(targets = c(1, 2, 3, 4), searchable = FALSE) # only Agency is searchable
-    )
-  ),
-  filter = "top"
-)
+  select(Agency, Title, Recent, Deadline, Posted) %>%
+  kable()
 ```
 
 ```{r}
