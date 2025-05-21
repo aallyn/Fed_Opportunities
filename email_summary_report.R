@@ -6,10 +6,13 @@ library(glue)
 
 outlook <- get_business_outlook()
 
+report_url <- "https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html"
+
 html_body <- paste0(
   "<h2>GMRI Grants Summary – ", format(Sys.Date(), "%B %d, %Y"), "</h2>",
   "<p>Another money-mission Monday :)</p>",
-  "<p>Attached is the latest <strong>HTML</strong> version of the GMRI Federal Opportunities report.</p>",
+  "<p>Click below to view the latest <strong>interactive HTML</strong> version of the GMRI Federal Opportunities report:</p>",
+  "<p><a href='", report_url, "'>", report_url, "</a></p>",
   "<p>Happy proposaling,</p>",
   "<p>Andrew</p>"
 )
@@ -29,7 +32,7 @@ stopifnot(file.exists(html_path))
 # stopifnot(file.exists(html_path), file.exists(pdf_path))
 
 # Add attachments using full paths
-msg$add_attachment(html_path)
+# msg$add_attachment(html_path)
 # msg$add_attachment(pdf_path)
 
 # Add recipients

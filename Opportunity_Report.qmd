@@ -1,8 +1,6 @@
 ---
-title: "GMRI Grants Summary - `r format(Sys.Date(), '%B %d, %Y')`"
 format:
   html:
-    encoding: UTF-8
     toc: true
     toc-depth: 2
     df-print: paged
@@ -10,15 +8,6 @@ format:
     code-fold: true
     title-block-banner: false
     title-block: false
-  pdf:
-    toc: true
-    number-sections: false
-    documentclass: article
-    latex-engine: xelatex
-    keep-tex: false
-    fig-width: 6
-    fig-height: 4
-    df-print: kable
 ---
 
 ```{css, echo=FALSE}
@@ -28,7 +17,7 @@ format:
 body {
   padding-top: 0 !important;
 }
-```
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -57,55 +46,56 @@ grants_out <- grants %>%
     ),
     Deadline = as.Date(Deadline),
     Posted = as.Date(Posted),
-    IsNew = if_else(Posted >= Sys.Date() - 7, 1, 0),
-    New = if_else(IsNew == 1, "🟢", ""),
+    IsNew = Posted >= Sys.Date() - 7,  # TRUE/FALSE
+    New = if_else(IsNew, "<span style='color:green;font-size:1.2em;'>&#x25CF;</span>", ""),
     
     # Helper columns for sorting
-    Posted_for_sort = if_else(IsNew == 1, Posted, as.Date(NA)),
-    Deadline_for_sort = if_else(IsNew == 0, Deadline, as.Date(NA))
+    Posted_for_sort = if_else(IsNew, Posted, as.Date(NA)),
+    Deadline_for_sort = if_else(!IsNew, Deadline, as.Date(NA))
   ) %>%
-  select(Agency, Title, New, Deadline, Posted, IsNew, Posted_for_sort, Deadline_for_sort) %>%
   arrange(
-    desc(IsNew),          # Group new first
-    desc(Posted_for_sort), # Within new: most recent Posted first
-    Deadline_for_sort      # Within old: earliest Deadline first
-  ) %>%
+    desc(IsNew),
+    desc(Posted_for_sort),
+    Deadline_for_sort
+  )
+
+# Identify break point
+break_index <- max(which(grants_out$IsNew)) + 1
+
+# Drop sort helpers and format dates
+grants_out <- grants_out %>%
   mutate(
     Deadline = format(Deadline, "%b %d, %Y"),
     Posted = format(Posted, "%b %d, %Y")
   ) %>%
-  select(-Posted_for_sort, -Deadline_for_sort)  # clean up helper columns
+  select(Agency, Title, New, Deadline, Posted)  # drop helpers
 
-# Identify break point (first old item)
-break_index <- max(which(grants_out$IsNew == 1)) + 1
-
-# Insert a blank separator row with dashes or just empty cells
 break_row <- tibble(
-  Agency = "", 
-  Title = "<hr style='border: none; border-top: 2px solid #444;'>", 
-  New = "", 
-  Deadline = "", 
-  Posted = "", 
-  IsNew = NA
+  Agency = "&nbsp;",
+  Title = "&nbsp;",
+  New = "&nbsp;",
+  Deadline = "&nbsp;",
+  Posted = "&nbsp;"
 )
 
-# Combine
+# Bind with break row inserted
 grants_out <- bind_rows(
   grants_out[1:(break_index - 1), ],
   break_row,
   grants_out[break_index:nrow(grants_out), ]
-) %>%
-  select(-IsNew)  # Clean up for display
+)
 ```
 
 ```{r}
 fmt <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 tbl_format <- ifelse(fmt == "html", "html", "latex")
 
-kable(grants_out, format = tbl_format, escape = (tbl_format != "html")) %>%
+kable(grants_out, format = tbl_format, escape = FALSE) %>%
   kable_styling(
     bootstrap_options = if (tbl_format == "html") "striped" else NULL,
     latex_options = if (tbl_format == "latex") c("striped", "hold_position") else NULL,
     full_width = FALSE
-  )
+  ) |>
+  row_spec(break_index, background = "#e0e0e0")
+
 ```

@@ -10,7 +10,7 @@ project_dir <- "/Users/aallyn/GitHub/Fed_Opportunities"
 data_dir <- file.path(project_dir, "Data")
 report_file <- file.path(project_dir, "Opportunity_Report.qmd")
 today <- format(Sys.Date(), "%Y-%m-%d")
-output_html <- file.path(project_dir, glue("Opportunity_Report_{today}.html"))
+output_html <- file.path(project_dir, glue("docs/Opportunity_Report_{today}.html"))
 # output_pdf <- file.path(project_dir, glue("Opportunity_Report_{today}.pdf"))
 
 # Ensure data directory exists
