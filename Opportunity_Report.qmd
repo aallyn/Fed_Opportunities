@@ -11,11 +11,21 @@ format:
     title-block: false
 ---
 
+```{css, echo=FALSE}
+.navbar, .navbar-default {
+  display: none !important;
+}
+body {
+  padding-top: 0 !important;
+}
+```
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(lubridate)
 library(knitr)
+library(kableExtra)
 ```
 
 ```{r, echo = FALSE, include  = FALSE}
@@ -25,13 +35,6 @@ latest_file <- sort(files, decreasing = TRUE)[1]
 
 grants <- read_csv(latest_file)
 
-# Ensure Posted and Deadline are dates
-grants <- grants %>%
-  mutate(
-    Posted = mdy(Posted),
-    Deadline = mdy(Deadline)
-  )
-
 # Create the formatted table
 grants_out <- grants %>%
   arrange(Deadline) %>%
@@ -39,14 +42,15 @@ grants_out <- grants %>%
     Title = paste0("[", Title, "](", AdditionalInfoURL, ")"),
     Deadline = format(Deadline, "%b %d, %Y"),
     Posted = format(Posted, "%b %d, %Y"),
-    Recent = if_else(
+    New = if_else(
       as.Date(Posted, format = "%b %d, %Y") >= Sys.Date() - 7,
       "🟢 New",
       ""
     )
-  ) %>%
-  select(Agency, Title, Recent, Deadline, Posted) %>%
-  kable()
+  ) |>
+  select(Agency, Title, New, Deadline, Posted) |>
+  arrange(desc(New), Deadline) |>
+  kable(escape = FALSE) 
 ```
 
 ```{r}
