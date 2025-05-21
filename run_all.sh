@@ -8,7 +8,3 @@ cd /Users/aallyn/GitHub/Fed_Opportunities || exit 1
 
 # Then run Quarto manually (with correct path)
 "/Applications/quarto/bin/quarto" render Opportunity_Report.qmd --output index.html
-
-git add .
-git commit -m "Automated update on $(date)"
-git push
