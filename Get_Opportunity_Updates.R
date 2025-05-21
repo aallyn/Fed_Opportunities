@@ -172,15 +172,16 @@ if (file.exists(prev_file)) {
 # Mark new rows in current dataset
 out <- bind_rows(df_filtered, noaa_df, mafmc_df) %>%
   mutate(
-    Title = replace_na(Title, ""),  # replace NA with empty string to avoid issues
+    Title = replace_na(Title, ""), # replace NA with empty string to avoid issues
     IsNew = if (nrow(prev_df) > 0) {
       # also replace NA in prev_df$Title
       !Title %in% replace_na(prev_df$Title, "")
     } else {
-      TRUE  # all new if no previous data
+      TRUE # all new if no previous data
     }
   ) %>%
   arrange(desc(IsNew), Deadline, Agency)
+
 
 write_csv(out, csv_file)
 

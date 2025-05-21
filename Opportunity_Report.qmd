@@ -49,10 +49,10 @@ grants_out <- grants %>%
     )
   ) |>
   select(Agency, Title, New, Deadline, Posted) |>
-  arrange(desc(New), Deadline) |>
-  kable(escape = FALSE) 
+  arrange(desc(New), Deadline) 
+ 
 ```
 
 ```{r}
-grants_out
+knitr::kable(grants_out, escape = FALSE)
 ```
