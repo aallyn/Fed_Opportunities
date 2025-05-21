@@ -27,6 +27,8 @@ library(tidyverse)
 library(lubridate)
 library(knitr)
 library(kableExtra)
+
+link_color <- "#0047AB"  # Royal blue
 ```
 
 ```{r, echo = FALSE, include  = FALSE}
@@ -37,22 +39,59 @@ latest_file <- sort(files, decreasing = TRUE)[1]
 grants <- read_csv(latest_file)
 
 # Create the formatted table
-grants_out <- grants %>%
-  arrange(Deadline) %>%
-  mutate(
-    Title = paste0("[", Title, "](", AdditionalInfoURL, ")"),
-    Deadline = format(Deadline, "%b %d, %Y"),
-    Posted = format(Posted, "%b %d, %Y"),
-    New = if_else(
-      as.Date(Posted, format = "%b %d, %Y") >= Sys.Date() - 7,
-       "🟢",
-       ""
-       )
-    ) |>
-  select(Agency, Title, New, Deadline, Posted) |>
-  arrange(desc(New), Deadline) 
 
- 
+# Build your table data
+grants_out <- grants %>%
+  mutate(
+    Title = paste0(
+      "<a href='", AdditionalInfoURL, "' style='color:#0047AB;'>", Title, "</a>"
+    ),
+    Deadline = as.Date(Deadline),
+    Posted = as.Date(Posted),
+    IsNew = if_else(Posted >= Sys.Date() - 7, 1, 0),
+    New = if_else(IsNew == 1, "🟢", ""),
+    
+    # Helper columns for sorting
+    Posted_for_sort = if_else(IsNew == 1, Posted, as.Date(NA)),
+    Deadline_for_sort = if_else(IsNew == 0, Deadline, as.Date(NA))
+  ) %>%
+  select(Agency, Title, New, Deadline, Posted, IsNew, Posted_for_sort, Deadline_for_sort) %>%
+  arrange(
+    desc(IsNew),          # Group new first
+    desc(Posted_for_sort), # Within new: most recent Posted first
+    Deadline_for_sort      # Within old: earliest Deadline first
+  ) %>%
+  mutate(
+    Deadline = format(Deadline, "%b %d, %Y"),
+    Posted = format(Posted, "%b %d, %Y")
+  ) %>%
+  select(-Posted_for_sort, -Deadline_for_sort)  # clean up helper columns
+
+# Identify break point (first old item)
+break_index <- max(which(grants_out$IsNew == 1)) + 1
+
+# Insert a blank separator row with dashes or just empty cells
+break_row <- tibble(
+  Agency = "", 
+  Title = "<hr style='border: none; border-top: 2px solid #444;'>", 
+  New = "", 
+  Deadline = "", 
+  Posted = "", 
+  IsNew = NA
+)
+
+# Combine
+grants_out <- bind_rows(
+  grants_out[1:(break_index - 1), ],
+  break_row,
+  grants_out[break_index:nrow(grants_out), ]
+) %>%
+  select(-IsNew)  # Clean up for display
+
+# Render with styling — highlight break row in dark gray
+# kable(grants_out, "html", escape = FALSE) %>%
+#   kable_styling("striped", full_width = FALSE) %>%
+#   row_spec(break_index, background = "#A9A9A9", color = "white", align = "center")
 ```
 
 ```{r}
