@@ -7,6 +7,8 @@ format:
     df-print: paged
     theme: flatly
     code-fold: true
+    title-block-banner: false
+    title-block: false
 ---
 
 ```{r setup, include=FALSE}
@@ -32,10 +34,16 @@ grants_out <- grants %>%
                      '<span style="color:white; background-color:#28a745; padding:2px 6px; border-radius:4px;">New</span>',
                      "")
   ) %>%
-  select(Agency, Title, Recent, Deadline, Posted) %>%
-  knitr::kable(escape = FALSE)
+  select(Agency, Title, Recent, Deadline, Posted, AdditionalInfoURL) 
 
-# Format date columns nicely
+# Fix date formats first
+grants <- grants %>%
+  mutate(
+    Posted = mdy(Posted),     # Use mdy, ymd, or dmy as needed
+    Deadline = mdy(Deadline)
+  )
+
+# Build interactive table
 grants_out <- grants %>%
   arrange(Deadline) %>%
   mutate(
@@ -43,14 +51,14 @@ grants_out <- grants %>%
     Deadline = format(Deadline, "%b %d, %Y"),
     Posted = format(Posted, "%b %d, %Y"),
     Recent = if_else(
-      as.Date(Posted) >= Sys.Date() - 7,
+      Posted >= Sys.Date() - 7,
       '<span style="color:white; background-color:#28a745; padding:2px 6px; border-radius:4px;">New</span>',
       ""
     )
   ) %>%
   select(Agency, Title, Recent, Deadline, Posted)
 
-# Use DT and only apply filter to Agency column
+# Only filter by Agency
 datatable(
   grants_out,
   escape = FALSE,
@@ -58,7 +66,7 @@ datatable(
     pageLength = 10,
     autoWidth = TRUE,
     columnDefs = list(
-      list(targets = c(1, 2, 3, 4), searchable = FALSE)  # Only Agency (column 0) remains searchable
+      list(targets = c(1, 2, 3, 4), searchable = FALSE) # only Agency is searchable
     )
   ),
   filter = "top"
