@@ -34,6 +34,7 @@ unzip(zip_path, exdir = unzip_dir)
 
 # Step 4: Find and read the XML
 xml_file <- list.files(unzip_dir, pattern = "\\.xml$", full.names = TRUE)[1]
+
 # Load XML file and register namespaces
 doc <- read_xml(xml_file)
 ns <- xml_ns_rename(xml_ns(doc), d1 = "ns")
@@ -64,13 +65,12 @@ df <- df |>
     filter(Deadline >= today_date)      # only deadlines today or later
 
 # Step 6: Filter relevant, recent opportunities
-keywords <- c("artificial intelligence", "statistics", "geoscience", "climate", "ocean", "oceanography", "ecosystem", "fisheries", "biology", "STEM", "education", "resilience", "modeling")
+keywords <- c("accelerator", "artificial intelligence", "statistics", "prediction", "forecast", "geoscience", "climate", "ocean", "oceanography", "ecosystem", "fisheries", "biology", "STEM", "education", "resilience", "modeling", "habitat")
 
 df_filtered <- df %>%
-    filter(
-        Posted >= today() - days(7),
-        str_detect(str_to_lower(Title), str_c(keywords, collapse = "|"))
-    )
+    filter(str_detect(Title, regex(str_c(keywords, collapse = "|"), ignore_case = TRUE))) |>
+    filter(!str_detect(Agency, regex("U\\.S\\. Mission", ignore_case = TRUE))) |>
+   filter(!str_detect(Agency, "National Institutes of Health")) 
 
 
 #####
