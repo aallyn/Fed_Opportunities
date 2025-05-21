@@ -1,0 +1,19 @@
+{
+  "hash": "0a0ac1219309a7b87af8b02460493ac9",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"GMRI Grants Summary - May 20, 2025\"\nformat:\n  html:\n    toc: true\n    toc-depth: 2\n    df-print: paged\n    theme: flatly\n    code-fold: true\n---\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\ngrants_out\n```\n\n::: {.cell-output-display}\n\n\n|Agency                  |Title                                                                                                                                                                                                                              |Deadline   |Posted     |\n|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------|:----------|\n|MAFMC                   |[Mid-Atlantic Council Seeks Contractor to Operationalize Ecosystem and Habitat Indicators to Support Fisheries Management](https://www.mafmc.org/newsfeed/2025/rfp-ecosystem-habitat-indicators)                                   |2025-04-21 |2025-04-21 |\n|U.S. Mission to Jordan  |[EducationUSA Fair 2025](NA)                                                                                                                                                                                                       |2025-06-15 |2025-05-14 |\n|Department of Education |[Office of Elementary and Secondary Education (OESE): Charter Schools Program (CSP): Grants to Charter Management Organizations for the Replication and Expansion of High-Quality Charter Schools Assistance Listing Number 84.282M](https://www.govinfo.gov/content/pkg/FR-2025-05-15/pdf/2025-08657.pdf)|2025-06-18 |2025-05-15 |\n|Department of Education |[Office of Elementary and Secondary Education (OESE): Charter Schools Program (CSP): Grants for Credit Enhancement for Charter School Facilities (Credit Enhancement), Assistance Listing Number 84.354A](https://www.govinfo.gov/content/pkg/FR-2025-05-16/pdf/2025-08783.pdf)|2025-06-25 |2025-05-16 |\n|Department of Education |[Office of Elementary and Secondary Education (OESE): Charter Schools Program (CSP): CSP Developer Grants for The Opening of New Charter Schools, Assistance Listing Number 84.282B](https://www.govinfo.gov/content/pkg/FR-2025-05-15/pdf/2025-08660.pdf)|2025-06-30 |2025-05-15 |\n|Department of Education |[Office of Elementary and Secondary Education (OESE): Charter Schools Program (CSP): CSP Developer Grants for the Replication and Expansion of High-Quality Charter Schools, Assistance Listing Number 84.282E](https://www.govinfo.gov/content/pkg/FR-2025-05-15/pdf/2025-08660.pdf)|2025-06-30 |2025-05-15 |\n|Department of Education |[Office of Elementary and Secondary Education (OESE): Charter Schools Program (CSP)- Model Development and Dissemination Grants, Assistance Listing Number (ALN) 84.282G](https://www.govinfo.gov/content/pkg/FR-2025-05-16/pdf/2025-08766.pdf)|2025-07-14 |2025-05-16 |\n|NOAA Fisheries          |[Fiscal Year 2024–2026: Broad Agency Announcement](https://www.fisheries.noaa.gov/grant/fiscal-year-2024-2026-broad-agency-announcement)                                                                                           |2026-09-30 |2024-07-29 |\n\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"site_libs/pagedtable-1.1/css/pagedtable.css\" rel=\"stylesheet\" />\n<script src=\"site_libs/pagedtable-1.1/js/pagedtable.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
