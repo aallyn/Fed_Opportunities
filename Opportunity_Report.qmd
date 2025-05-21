@@ -35,24 +35,33 @@ grants_out <- grants %>%
   select(Agency, Title, Recent, Deadline, Posted) %>%
   knitr::kable(escape = FALSE)
 
+# Format date columns nicely
 grants_out <- grants %>%
   arrange(Deadline) %>%
   mutate(
     Title = paste0("<a href='", AdditionalInfoURL, "' target='_blank'>", Title, "</a>"),
-    Recent = if_else(Posted >= Sys.Date() - 7,
-                     '<span style="color:white; background-color:#28a745; padding:2px 6px; border-radius:4px;">New</span>',
-                     "")
+    Deadline = format(Deadline, "%b %d, %Y"),
+    Posted = format(Posted, "%b %d, %Y"),
+    Recent = if_else(
+      as.Date(Posted) >= Sys.Date() - 7,
+      '<span style="color:white; background-color:#28a745; padding:2px 6px; border-radius:4px;">New</span>',
+      ""
+    )
   ) %>%
   select(Agency, Title, Recent, Deadline, Posted)
 
-grants_out<- datatable(
+# Use DT and only apply filter to Agency column
+datatable(
   grants_out,
   escape = FALSE,
-  filter = "top",
   options = list(
     pageLength = 10,
-    autoWidth = TRUE
-  )
+    autoWidth = TRUE,
+    columnDefs = list(
+      list(targets = c(1, 2, 3, 4), searchable = FALSE)  # Only Agency (column 0) remains searchable
+    )
+  ),
+  filter = "top"
 )
 ```
 
