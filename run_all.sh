@@ -1,6 +1,10 @@
 #!/bin/zsh
 export PATH="/usr/sbin:/usr/local/bin:/usr/bin:/bin"
 
+# Start the ssh-agent if it's not already running
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+
 cd /Users/aallyn/GitHub/Fed_Opportunities || exit 1
 
 # Get today's date in YYYY-MM-DD format
