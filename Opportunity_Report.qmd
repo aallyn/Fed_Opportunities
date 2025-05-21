@@ -13,6 +13,7 @@ format:
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(lubridate)
+library(DT)
 ```
 
 ```{r, echo = FALSE, include  = FALSE}
@@ -22,12 +23,37 @@ latest_file <- sort(files, decreasing = TRUE)[1]
 
 grants <- read_csv(latest_file)
 
-grants_out<- grants %>%
+grants_out <- grants %>%
   arrange(Deadline) %>%
   select(Agency, Title, Deadline, Posted, AdditionalInfoURL) %>%
-  mutate(Title = paste0("[", Title, "](", AdditionalInfoURL, ")")) %>%
-  select(-AdditionalInfoURL) %>%
-  knitr::kable()
+  mutate(
+    Title = paste0("[", Title, "](", AdditionalInfoURL, ")"),
+    Recent = if_else(Posted >= Sys.Date() - 7,
+                     '<span style="color:white; background-color:#28a745; padding:2px 6px; border-radius:4px;">New</span>',
+                     "")
+  ) %>%
+  select(Agency, Title, Recent, Deadline, Posted) %>%
+  knitr::kable(escape = FALSE)
+
+grants_out <- grants %>%
+  arrange(Deadline) %>%
+  mutate(
+    Title = paste0("<a href='", AdditionalInfoURL, "' target='_blank'>", Title, "</a>"),
+    Recent = if_else(Posted >= Sys.Date() - 7,
+                     '<span style="color:white; background-color:#28a745; padding:2px 6px; border-radius:4px;">New</span>',
+                     "")
+  ) %>%
+  select(Agency, Title, Recent, Deadline, Posted)
+
+grants_out<- datatable(
+  grants_out,
+  escape = FALSE,
+  filter = "top",
+  options = list(
+    pageLength = 10,
+    autoWidth = TRUE
+  )
+)
 ```
 
 ```{r}
