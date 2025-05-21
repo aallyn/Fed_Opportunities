@@ -68,9 +68,9 @@ df <- df |>
 keywords <- c("accelerator", "artificial intelligence", "statistics", "prediction", "forecast", "geoscience", "climate", "ocean", "oceanography", "ecosystem", "fisheries", "biology", "STEM", "education", "resilience", "modeling", "habitat")
 
 df_filtered <- df %>%
-    filter(str_detect(Title, regex(str_c(keywords, collapse = "|"), ignore_case = TRUE))) |>
-    filter(!str_detect(Agency, regex("U\\.S\\. Mission", ignore_case = TRUE))) |>
-   filter(!str_detect(Agency, "National Institutes of Health")) 
+  filter(str_detect(Title, regex(str_c(keywords, collapse = "|"), ignore_case = TRUE))) |>
+  filter(!str_detect(Agency, regex("U\\.S\\. Mission", ignore_case = TRUE))) |>
+  filter(!str_detect(Agency, "National Institutes of Health"))
 
 
 #####
@@ -184,38 +184,3 @@ out <- bind_rows(df_filtered, noaa_df, mafmc_df) %>%
 
 
 write_csv(out, csv_file)
-
-# Render Markdown (optional)
-# quarto::quarto_render("grants_summary.qmd", output_file = "index.html")
-
-
-# Compose the email
-# email <- compose_email(
-#   body = md(glue::glue("
-# Hey Felipe,
-
-# Here's our latest grants report generated on {Sys.Date()}.
-
-# All the best,
-
-# Andrew
-# "))
-# )
-
-# Send the email
-# smtp_send(
-#   email,
-#   from = "aallyn@gmri.org",
-#   to = c("fbenavides@gmri.org", "aallyn@gmri.org"),
-#   subject = paste("Grants Report", Sys.Date()),
-#   attachments = paste0("grants_summary_", Sys.Date(), ".html"),
-#   credentials = creds_key("outlook")
-# )
-
-# smtp_send(
-#   email,
-#   from = "andrew.allyn@gmail.com",
-#   to = c("fbenavides@gmri.org", "aallyn@gmri.org"),
-#   subject = paste("Grants Report", Sys.Date()),
-#   credentials = creds_key("gmail")
-# )

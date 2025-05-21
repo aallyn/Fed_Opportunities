@@ -10,6 +10,15 @@ format:
     code-fold: true
     title-block-banner: false
     title-block: false
+  pdf:
+    toc: true
+    number-sections: false
+    documentclass: article
+    latex-engine: xelatex
+    keep-tex: false
+    fig-width: 6
+    fig-height: 4
+    df-print: kable
 ---
 
 ```{css, echo=FALSE}
@@ -87,13 +96,16 @@ grants_out <- bind_rows(
   grants_out[break_index:nrow(grants_out), ]
 ) %>%
   select(-IsNew)  # Clean up for display
-
-# Render with styling — highlight break row in dark gray
-# kable(grants_out, "html", escape = FALSE) %>%
-#   kable_styling("striped", full_width = FALSE) %>%
-#   row_spec(break_index, background = "#A9A9A9", color = "white", align = "center")
 ```
 
 ```{r}
-knitr::kable(grants_out, escape = FALSE)
+fmt <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+tbl_format <- ifelse(fmt == "html", "html", "latex")
+
+kable(grants_out, format = tbl_format, escape = (tbl_format != "html")) %>%
+  kable_styling(
+    bootstrap_options = if (tbl_format == "html") "striped" else NULL,
+    latex_options = if (tbl_format == "latex") c("striped", "hold_position") else NULL,
+    full_width = FALSE
+  )
 ```
