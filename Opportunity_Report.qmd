@@ -58,8 +58,13 @@ grants_out <- grants %>%
     Deadline_for_sort
   )
 
-# Identify break point
-break_index <- max(which(grants_out$IsNew)) + 1
+new_indices <- which(grants_out$IsNew)
+
+if (length(new_indices) == 0) {
+  break_index <- 1  # no new rows, so break at 1 (or whatever logic you want)
+} else {
+  break_index <- max(new_indices) + 1
+}
 
 # Drop sort helpers and format dates
 grants_out <- grants_out %>%
