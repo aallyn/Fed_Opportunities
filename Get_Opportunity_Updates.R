@@ -169,18 +169,34 @@ if (file.exists(prev_file)) {
   prev_df <- tibble()  # empty if no previous data
 }
 
-# Mark new rows in current dataset
+# Combine and filter passed deadlines out at the final step as well (just in case)
 out <- bind_rows(df_filtered, noaa_df, mafmc_df) %>%
   mutate(
     Title = replace_na(Title, ""), # replace NA with empty string to avoid issues
+    Deadline = as.Date(Deadline),  # ensure Deadline is Date class
     IsNew = if (nrow(prev_df) > 0) {
-      # also replace NA in prev_df$Title
       !Title %in% replace_na(prev_df$Title, "")
     } else {
-      TRUE # all new if no previous data
+      TRUE
     }
   ) %>%
+  filter(!is.na(Deadline)) %>%               # remove entries without deadline
+  filter(Deadline >= today_date) %>%         # remove expired deadlines
   arrange(desc(IsNew), Deadline, Agency)
 
+# Check if there are any new updates
+if (nrow(out) == 0) {
+  message("No new updates.")
+  # Optionally, create a placeholder tibble to write or send as a message
+  out <- tibble(
+    OpportunityID = NA_character_,
+    Agency = NA_character_,
+    Title = "No new updates",
+    Deadline = NA_Date_,
+    Posted = NA_Date_,
+    AdditionalInfoURL = NA_character_,
+    IsNew = FALSE
+  )
+}
 
 write_csv(out, csv_file)
