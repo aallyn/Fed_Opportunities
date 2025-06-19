@@ -2,7 +2,7 @@ install.packages("Microsoft365R")
 library(Microsoft365R)
 
 # login once and save token to cache
-outlook <- get_business_outlook()  # or get_personal_outlook()
+outlook <- get_business_outlook(auth_type = "device_code") # or get_personal_outlook()
 
 # Compose message
 msg <- outlook$create_email(
