@@ -106,7 +106,7 @@ noaa_df <- map_dfr(noaa_cards, function(card) {
         Posted = posted,
         AdditionalInfoURL = url
     )
-}) %>%
+}) |>
     filter(is.na(Deadline) | Deadline >= today())
 
 
@@ -153,8 +153,10 @@ mafmc_df <- map_dfr(news_cards, function(card) {
   )
 })
 
-mafmc_df<- mafmc_df |>
-  filter(str_detect(str_to_lower(Title), "funding|contractor|proposals"))
+mafmc_df <- mafmc_df |>
+  filter(str_detect(str_to_lower(Title), "funding|contractor|proposals")) |>
+  filter(is.na(Deadline) | Deadline >= today())
+
 
 #####
 # Saving and rendering
@@ -169,34 +171,48 @@ if (file.exists(prev_file)) {
   prev_df <- tibble()  # empty if no previous data
 }
 
-# Combine and filter passed deadlines out at the final step as well (just in case)
+# Combine and filter
 out <- bind_rows(df_filtered, noaa_df, mafmc_df) %>%
   mutate(
-    Title = replace_na(Title, ""), # replace NA with empty string to avoid issues
-    Deadline = as.Date(Deadline),  # ensure Deadline is Date class
+    Title = replace_na(Title, ""),
+    Deadline = as.Date(Deadline),
     IsNew = if (nrow(prev_df) > 0) {
       !Title %in% replace_na(prev_df$Title, "")
     } else {
       TRUE
     }
   ) %>%
-  filter(!is.na(Deadline)) %>%               # remove entries without deadline
-  filter(Deadline >= today_date) %>%         # remove expired deadlines
-  arrange(desc(IsNew), Deadline, Agency)
+  filter(!is.na(Deadline)) %>%
+  filter(Deadline >= today_date)
 
-# Check if there are any new updates
-if (nrow(out) == 0) {
-  message("No new updates.")
-  # Optionally, create a placeholder tibble to write or send as a message
-  out <- tibble(
+# Add "No new updates" row if nothing is new
+if (!any(out$IsNew)) {
+  no_new_row <- tibble(
     OpportunityID = NA_character_,
-    Agency = NA_character_,
-    Title = "No new updates",
+    Agency = "",
+    Title = "📭 No new funding opportunities since the last update.",
     Deadline = NA_Date_,
     Posted = NA_Date_,
-    AdditionalInfoURL = NA_character_,
+    AdditionalInfoURL = "",
     IsNew = FALSE
   )
+  out <- bind_rows(no_new_row, out)
 }
+
+out <- bind_rows(df_filtered, noaa_df, mafmc_df) %>%
+  mutate(
+    Title = replace_na(Title, ""),
+    Deadline = as.Date(Deadline),
+    Posted = as.Date(Posted),
+    IsNew = if (nrow(prev_df) > 0) {
+      !Title %in% replace_na(prev_df$Title, "")
+    } else {
+      TRUE
+    }
+  ) %>%
+  filter(!is.na(Deadline)) %>%
+  filter(Deadline >= Sys.Date()) %>%  # <-- THIS LINE ENSURES ONLY FUTURE DEADLINES
+  arrange(desc(IsNew), Deadline, Agency)
+
 
 write_csv(out, csv_file)
