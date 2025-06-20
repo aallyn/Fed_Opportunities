@@ -2,7 +2,7 @@ name: Update Federal Opportunities
 
 on:
   schedule:
-    - cron: '* * * * *'  # every day at 9am ET
+    - cron: '0 13 * * *'  # every day at 9am ET
   workflow_dispatch:      # allow manual trigger
 
 jobs:
