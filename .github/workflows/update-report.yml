@@ -2,7 +2,7 @@ name: Update Federal Opportunities
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # 9AM ET daily
+    - cron: '#*/5 * * * *'  # 9AM ET daily
   workflow_dispatch:
 
 jobs:
