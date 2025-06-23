@@ -24,8 +24,6 @@ email <- compose_email(
 
 # File paths to attachments
 html_path <- here("docs", "Opportunity_Report.html")
-
-census_dat <- read.csv(here("Data/OuterGreenData-Census.csv"))
 # pdf_path <- here("docs", "Opportunity_Report.pdf")
 
 # Optional: Check that attachments exist before sending
