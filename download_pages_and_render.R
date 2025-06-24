@@ -1,4 +1,5 @@
 # Load necessary libraries
+library(here)
 library(httr)
 library(rmarkdown)
 library(blastula)
@@ -6,7 +7,7 @@ library(glue)
 library(lubridate)
 
 # Set directories
-project_dir <- "/Users/aallyn/GitHub/Fed_Opportunities"
+project_dir <- here::here()
 data_dir <- file.path(project_dir, "Data")
 report_file <- file.path(project_dir, "Opportunity_Report.qmd")
 today <- format(Sys.Date(), "%Y-%m-%d")
