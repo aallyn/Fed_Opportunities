@@ -25,6 +25,7 @@ library(dplyr)
 library(tibble)
 library(lubridate)
 library(knitr)
+library(svglite)
 library(kableExtra)
 library(here)
 
