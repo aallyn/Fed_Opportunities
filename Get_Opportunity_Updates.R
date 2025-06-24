@@ -1,11 +1,16 @@
 #####
 # Libraries and Preliminaries
 #####
-library(xml2)
-library(tidyverse)
+library(tibble)
+library(purrr)
+library(stringr)
+library(dplyr)
+library(readr)
 library(lubridate)
+library(tidyr)
+library(xml2)
 library(rvest)
-library(blastula)
+library(here)
 
 today_str <- format(Sys.Date(), "%Y%m%d")
 today_date <- today()  
