@@ -20,10 +20,13 @@ body {
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, include = FALSE)  # Set global defaults
-library(tidyverse)
+library(readr)
+library(dplyr)
+library(tibble)
 library(lubridate)
 library(knitr)
 library(kableExtra)
+library(here)
 
 link_color <- "#0047AB"  # Royal blue
 ```
