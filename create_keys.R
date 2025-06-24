@@ -1,4 +1,3 @@
-install.packages("Microsoft365R")
 library(Microsoft365R)
 
 # login once and save token to cache

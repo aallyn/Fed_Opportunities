@@ -46,47 +46,48 @@
 #   attachments = c(html_path)  # , pdf_path
 # )
 
-args <- commandArgs(trailingOnly = TRUE)
-today <- args[1]
+#### THIS WORKS MANUALLY #####
+# args <- commandArgs(trailingOnly = TRUE)
+# today <- args[1]
 
-library(Microsoft365R)
-library(glue)
+# library(Microsoft365R)
+# library(glue)
 
-outlook <- get_business_outlook()
+# outlook <- get_business_outlook()
 
-report_url <- "https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html"
+# report_url <- "https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html"
 
-html_body <- paste0(
-  "<h2>GMRI Grants Summary – ", format(Sys.Date(), "%B %d, %Y"), "</h2>",
-  "<p>Another money-mission Monday :)</p>",
-  "<p>Testing this out sending to you two and not just me!</p>",
-  "<p>Click below to view the latest <strong>interactive HTML</strong> version of the GMRI Federal Opportunities report:</p>",
-  "<p><a href='", report_url, "'>", report_url, "</a></p>",
-  "<p>Happy proposaling,</p>",
-  "<p>Andrew</p>"
-)
+# html_body <- paste0(
+#   "<h2>GMRI Grants Summary – ", format(Sys.Date(), "%B %d, %Y"), "</h2>",
+#   "<p>Another money-mission Monday :)</p>",
+#   "<p>Testing this out sending to you two and not just me!</p>",
+#   "<p>Click below to view the latest <strong>interactive HTML</strong> version of the GMRI Federal Opportunities report:</p>",
+#   "<p><a href='", report_url, "'>", report_url, "</a></p>",
+#   "<p>Happy proposaling,</p>",
+#   "<p>Andrew</p>"
+# )
 
-msg <- outlook$create_email(
-  subject = sprintf("GMRI Grants Summary – %s", format(Sys.Date(), "%B %d, %Y"))
-)
+# msg <- outlook$create_email(
+#   subject = sprintf("GMRI Grants Summary – %s", format(Sys.Date(), "%B %d, %Y"))
+# )
 
-msg$set_body(body = html_body, content_type = "html")
+# msg$set_body(body = html_body, content_type = "html")
 
-# Define full paths
-html_path <- file.path(here::here("docs", "Opportunity_Report.html"))
-# pdf_path <- file.path(here::here("docs", "Opportunity_Report.pdf"))
+# # Define full paths
+# html_path <- file.path(here::here("docs", "Opportunity_Report.html"))
+# # pdf_path <- file.path(here::here("docs", "Opportunity_Report.pdf"))
 
-# Confirm files exist
-stopifnot(file.exists(html_path))
-# stopifnot(file.exists(html_path), file.exists(pdf_path))
+# # Confirm files exist
+# stopifnot(file.exists(html_path))
+# # stopifnot(file.exists(html_path), file.exists(pdf_path))
 
-# Add attachments using full paths
-# msg$add_attachment(html_path)
-# msg$add_attachment(pdf_path)
+# # Add attachments using full paths
+# # msg$add_attachment(html_path)
+# # msg$add_attachment(pdf_path)
 
-# Add recipients
-msg$add_recipients(to = c("aallyn@gmri.org", "fbenavides@gmri.org", "arand@gmri.org"))
+# # Add recipients
+# msg$add_recipients(to = c("aallyn@gmri.org", "fbenavides@gmri.org", "arand@gmri.org"))
 
-# Send
-msg$send()
+# # Send
+# msg$send()
 

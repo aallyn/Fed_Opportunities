@@ -21,7 +21,7 @@ jobs:
 
       - name: Install R dependencies
         run: |
-          Rscript -e 'install.packages(c("tidyverse", "lubridate", "rvest", "xml2", "here", "readr"))'
+          Rscript -e 'install.packages(c("readr", "dplyr", "here", "lubridate", "knitr", "kableExtra", "tibble", "blastula", "rvest", "xml2", "here"))'
           Rscript -e 'if (!requireNamespace("quarto", quietly = TRUE)) install.packages("quarto")'
 
       - name: Run R script to fetch grants and save CSV
