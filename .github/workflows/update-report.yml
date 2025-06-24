@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '* * * * *'  # Every Monday at 8:00 AM UTC (adjust for your timezone)
   workflow_dispatch:      # Allow manual triggering
+  push:
+    paths:
+      - Opportunity_Report.qmd
+      - download_pages_and_render.R
+      - email_summary_report.R
+      - .github/workflows/update-report.yml
 
 jobs:
   build-and-notify:
