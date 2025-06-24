@@ -32,6 +32,17 @@ jobs:
 
       - name: Install Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+      
+      - name: Install system dependencies for svglite
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libfreetype6-dev \
+            libharfbuzz-dev \
+            libfribidi-dev \
+            libpng-dev \
+            libtiff5-dev \
+            libcairo2-dev
 
       - name: Install R dependencies
         run: |
