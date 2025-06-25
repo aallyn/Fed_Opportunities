@@ -5,12 +5,8 @@ on:
     - cron: '0 9 * * 2'  # Every Monday at 8:00 AM UTC (adjust for your timezone) edit
   workflow_dispatch:      # Allow manual triggering
   push:
-    paths:
-      - Opportunity_Report.qmd
-      - download_pages_and_render.R
-      - email_summary_report.R
-      - .github/workflows/update-report.yml
-
+    branches:
+      - main
 jobs:
   build-and-notify:
     runs-on: ubuntu-latest
