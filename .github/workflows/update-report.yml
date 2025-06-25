@@ -46,7 +46,8 @@ jobs:
 
       - name: Install R dependencies
         run: |
-          Rscript -e 'install.packages(c("readr", "dplyr", "here", "lubridate", "knitr", "svglite", "kableExtra", "tibble", "httr", "curl", "blastula", "rvest", "xml2", "here"))'
+          Rscript -e 'install.packages(c("readr", "dplyr", "here", "lubridate", "knitr", "svglite", "kableExtra", "tibble", "httr", "curl", "blastula", "rvest", "xml2"), dependencies = TRUE, repos = "https://cloud.r-project.org")'
+
 
       - name: Run R script to fetch grants and save CSV
         run: Rscript download_pages_and_render.R
