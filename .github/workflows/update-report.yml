@@ -58,6 +58,7 @@ jobs:
             blastula
             rvest
             xml2
+            janitor
 
       - name: Run R script to fetch grants and save CSV
         run: Rscript download_pages_and_render.R

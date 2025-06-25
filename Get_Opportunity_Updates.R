@@ -11,6 +11,7 @@ library(tidyr)
 library(xml2)
 library(rvest)
 library(here)
+library(janitor)
 
 today_str <- format(Sys.Date(), "%Y%m%d")
 today_date <- today()  
@@ -164,6 +165,34 @@ mafmc_df <- mafmc_df |>
 
 
 #####
+# Maine RFAs
+#####
+
+# Load Maine grants page
+me_page <- read_html("https://www.maine.gov/dafs/bbm/procurementservices/vendors/grants")
+
+# Parse rows in the RFA table
+# Extract the grant opportunity rows (adjust the selector as needed)
+me_table <- page |>
+  html_element("table") |>
+  html_table() |>
+  clean_names() |>
+  filter(rfa_status == "Open")
+
+me_table <- me_table |>
+  mutate(application_due_date = na_if(application_due_date, ""), application_due_date = if_else(is.na(application_due_date), format(Sys.Date(), "%m/%d/%Y"), application_due_date))
+
+# Some formatting
+me_df<- tibble(
+    OpportunityID = me_table$rfa_number,
+    Agency = "Maine",
+    Title = me_table$rfa_title,
+    Deadline = as.Date(me_table$application_due_date, "%m/%d/%Y"),
+    Posted = as.Date(me_table$date_posted, "%m/%d/%Y"),
+    AdditionalInfoURL = "https://www.maine.gov/dafs/bbm/procurementservices/vendors/grants"
+  )
+
+#####
 # Saving and rendering
 #####
 csv_file <- file.path(here::here(), paste0("GMRI_Grants.csv"))
@@ -177,7 +206,7 @@ if (file.exists(prev_file)) {
 }
 
 # Combine and filter
-out <- bind_rows(df_filtered, noaa_df, mafmc_df) %>%
+out <- bind_rows(df_filtered, noaa_df, mafmc_df, me_df) %>%
   mutate(
     Title = replace_na(Title, ""),
     Deadline = as.Date(Deadline),

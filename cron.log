@@ -10594,3 +10594,3764 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 No changes to commit
 Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+[31mError in `1:(break_index - 1)`:
+! result would be too long a vector
+Backtrace:
+     x
+  1. \-global .main()
+  2.   \-execute(...)
+  3.     \-rmarkdown::render(...)
+  4.       \-knitr::knit(knit_input, knit_output, envir = envir, quiet = quiet)
+  5.         \-knitr:::process_file(text, output)
+  6.           +-xfun:::handle_error(...)
+  7.           +-base::withCallingHandlers(...)
+  8.           \-knitr:::process_group(group)
+  9.             \-knitr:::call_block(x)
+ 10.               \-knitr:::block_exec(params)
+ 11.                 \-knitr:::eng_r(options)
+ 12.                   +-knitr:::in_input_dir(...)
+ 13.                   | \-knitr:::in_dir(input_dir(), expr)
+ 14.                   \-knitr (local) evaluate(...)
+ 15.                     \-evaluate::evaluate(...)
+ 16.                       \-base::withRestarts(...)
+ 17.                         \-base (local) withRestartList(expr, restarts)
+ 18.                           \-base (local) withOneRestart(withRestartList(expr, restarts[-nr]), restarts[[nr]])
+ 19.                             \-base (local) docall(restart$handler, restartArgs)
+ 20.                               +-base::do.call("fun", lapply(args, enquote))
+ 21.                               \-evaluate (local) fun(base::quote(`<smplErrr>`))
+[39m[31m
+
+
+Quitting from lines 32-86 [data-processing] (Opportunity_Report.qmd)
+[39m[31mExecution halted
+[39m[1] ""
+Loading Microsoft Graph login for default tenant
+Access token has expired or is no longer valid; refreshing
+Error in process_aad_response(res) : 
+  Bad Request (HTTP 400). Failed to obtain Azure Active Directory token. Message:
+AADSTS50078: Presented multi-factor authentication has expired due to policies configured by your administrator, you must refresh your multi-factor authentication to access '00000003-0000-0000-c000-000000000000'. Trace ID: 6882fc35-9c6d-4fb4-ab9b-296f9c322d00 Correlation ID: 3d0b98fd-563e-4020-8c84-64d2deabe371 Timestamp: 2025-06-15 13:56:22Z.
+Error: Unable to refresh token
+Execution halted
+[main 365089c] Auto-update report for 2025-06-15
+ 36 files changed, 11910 deletions(-)
+ delete mode 100644 docs/Opportunity_Report.html
+ delete mode 100644 docs/Opportunity_Report_files/libs/bootstrap/bootstrap-icons.css
+ delete mode 100644 docs/Opportunity_Report_files/libs/bootstrap/bootstrap-icons.woff
+ delete mode 100644 docs/Opportunity_Report_files/libs/bootstrap/bootstrap.min.css
+ delete mode 100644 docs/Opportunity_Report_files/libs/bootstrap/bootstrap.min.js
+ delete mode 100644 docs/Opportunity_Report_files/libs/clipboard/clipboard.min.js
+ delete mode 100644 docs/Opportunity_Report_files/libs/pagedtable-1.1/css/pagedtable.css
+ delete mode 100644 docs/Opportunity_Report_files/libs/pagedtable-1.1/js/pagedtable.js
+ delete mode 100644 docs/Opportunity_Report_files/libs/quarto-html/anchor.min.js
+ delete mode 100644 docs/Opportunity_Report_files/libs/quarto-html/popper.min.js
+ delete mode 100644 docs/Opportunity_Report_files/libs/quarto-html/quarto-syntax-highlighting.css
+ delete mode 100644 docs/Opportunity_Report_files/libs/quarto-html/quarto.js
+ delete mode 100644 docs/Opportunity_Report_files/libs/quarto-html/tippy.css
+ delete mode 100644 docs/Opportunity_Report_files/libs/quarto-html/tippy.umd.min.js
+ delete mode 100644 docs/index.html
+ delete mode 100644 docs/search.json
+ delete mode 100644 docs/site_libs/bootstrap/bootstrap-icons.css
+ delete mode 100644 docs/site_libs/bootstrap/bootstrap-icons.woff
+ delete mode 100644 docs/site_libs/bootstrap/bootstrap.min.css
+ delete mode 100644 docs/site_libs/bootstrap/bootstrap.min.js
+ delete mode 100644 docs/site_libs/clipboard/clipboard.min.js
+ delete mode 100644 docs/site_libs/kePrint-0.0.1/kePrint.js
+ delete mode 100644 docs/site_libs/lightable-0.0.1/lightable.css
+ delete mode 100644 docs/site_libs/pagedtable-1.1/css/pagedtable.css
+ delete mode 100644 docs/site_libs/pagedtable-1.1/js/pagedtable.js
+ delete mode 100644 docs/site_libs/quarto-html/anchor.min.js
+ delete mode 100644 docs/site_libs/quarto-html/popper.min.js
+ delete mode 100644 docs/site_libs/quarto-html/quarto-syntax-highlighting.css
+ delete mode 100644 docs/site_libs/quarto-html/quarto.js
+ delete mode 100644 docs/site_libs/quarto-html/tippy.css
+ delete mode 100644 docs/site_libs/quarto-html/tippy.umd.min.js
+ delete mode 100644 docs/site_libs/quarto-nav/headroom.min.js
+ delete mode 100644 docs/site_libs/quarto-nav/quarto-nav.js
+ delete mode 100644 docs/site_libs/quarto-search/autocomplete.umd.js
+ delete mode 100644 docs/site_libs/quarto-search/fuse.min.js
+ delete mode 100644 docs/site_libs/quarto-search/quarto-search.js
+To github.com:aallyn/Fed_Opportunities.git
+   5575809..365089c  main -> main
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+[31mError in `1:(break_index - 1)`:
+! result would be too long a vector
+Backtrace:
+     x
+  1. \-global .main()
+  2.   \-execute(...)
+  3.     \-rmarkdown::render(...)
+  4.       \-knitr::knit(knit_input, knit_output, envir = envir, quiet = quiet)
+  5.         \-knitr:::process_file(text, output)
+  6.           +-xfun:::handle_error(...)
+  7.           +-base::withCallingHandlers(...)
+  8.           \-knitr:::process_group(group)
+  9.             \-knitr:::call_block(x)
+ 10.               \-knitr:::block_exec(params)
+ 11.                 \-knitr:::eng_r(options)
+ 12.                   +-knitr:::in_input_dir(...)
+ 13.                   | \-knitr:::in_dir(input_dir(), expr)
+ 14.                   \-knitr (local) evaluate(...)
+ 15.                     \-evaluate::evaluate(...)
+ 16.                       \-base::withRestarts(...)
+ 17.                         \-base (local) withRestartList(expr, restarts)
+ 18.                           \-base (local) withOneRestart(withRestartList(expr, restarts[-nr]), restarts[[nr]])
+ 19.                             \-base (local) docall(restart$handler, restartArgs)
+ 20.                               +-base::do.call("fun", lapply(args, enquote))
+ 21.                               \-evaluate (local) fun(base::quote(`<smplErrr>`))
+[39m[31m
+
+
+Quitting from lines 32-86 [data-processing] (Opportunity_Report.qmd)
+[39m[31mExecution halted
+[39m[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+Waiting for authentication in browser...
+Press Esc/Ctrl + C to abort
+Please point your browser to the following url: 
+https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=d44a05d5-c6a5-4bbb-82d2-443123722380&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A1410%2F&state=shdyghodopwsnbxjubtf&scope=https%3A%2F%2Fgraph.microsoft.com%2FUser.Read%20https%3A%2F%2Fgraph.microsoft.com%2FMail.Send%20https%3A%2F%2Fgraph.microsoft.com%2FMail.ReadWrite%20openid%20offline_access
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+[31mError in `1:(break_index - 1)`:
+! result would be too long a vector
+Backtrace:
+     x
+  1. \-global .main()
+  2.   \-execute(...)
+  3.     \-rmarkdown::render(...)
+  4.       \-knitr::knit(knit_input, knit_output, envir = envir, quiet = quiet)
+  5.         \-knitr:::process_file(text, output)
+  6.           +-xfun:::handle_error(...)
+  7.           +-base::withCallingHandlers(...)
+  8.           \-knitr:::process_group(group)
+  9.             \-knitr:::call_block(x)
+ 10.               \-knitr:::block_exec(params)
+ 11.                 \-knitr:::eng_r(options)
+ 12.                   +-knitr:::in_input_dir(...)
+ 13.                   | \-knitr:::in_dir(input_dir(), expr)
+ 14.                   \-knitr (local) evaluate(...)
+ 15.                     \-evaluate::evaluate(...)
+ 16.                       \-base::withRestarts(...)
+ 17.                         \-base (local) withRestartList(expr, restarts)
+ 18.                           \-base (local) withOneRestart(withRestartList(expr, restarts[-nr]), restarts[[nr]])
+ 19.                             \-base (local) docall(restart$handler, restartArgs)
+ 20.                               +-base::do.call("fun", lapply(args, enquote))
+ 21.                               \-evaluate (local) fun(base::quote(`<smplErrr>`))
+[39m[31m
+
+
+Quitting from lines 32-86 [data-processing] (Opportunity_Report.qmd)
+[39m[31mExecution halted
+[39m[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+[31mError in `1:(break_index - 1)`:
+! result would be too long a vector
+Backtrace:
+     x
+  1. \-global .main()
+  2.   \-execute(...)
+  3.     \-rmarkdown::render(...)
+  4.       \-knitr::knit(knit_input, knit_output, envir = envir, quiet = quiet)
+  5.         \-knitr:::process_file(text, output)
+  6.           +-xfun:::handle_error(...)
+  7.           +-base::withCallingHandlers(...)
+  8.           \-knitr:::process_group(group)
+  9.             \-knitr:::call_block(x)
+ 10.               \-knitr:::block_exec(params)
+ 11.                 \-knitr:::eng_r(options)
+ 12.                   +-knitr:::in_input_dir(...)
+ 13.                   | \-knitr:::in_dir(input_dir(), expr)
+ 14.                   \-knitr (local) evaluate(...)
+ 15.                     \-evaluate::evaluate(...)
+ 16.                       \-base::withRestarts(...)
+ 17.                         \-base (local) withRestartList(expr, restarts)
+ 18.                           \-base (local) withOneRestart(withRestartList(expr, restarts[-nr]), restarts[[nr]])
+ 19.                             \-base (local) docall(restart$handler, restartArgs)
+ 20.                               +-base::do.call("fun", lapply(args, enquote))
+ 21.                               \-evaluate (local) fun(base::quote(`<smplErrr>`))
+[39m[31m
+
+
+Quitting from lines 32-86 [data-processing] (Opportunity_Report.qmd)
+[39m[31mExecution halted
+[39m[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+[31mError in `1:(break_index - 1)`:
+! result would be too long a vector
+Backtrace:
+     x
+  1. \-global .main()
+  2.   \-execute(...)
+  3.     \-rmarkdown::render(...)
+  4.       \-knitr::knit(knit_input, knit_output, envir = envir, quiet = quiet)
+  5.         \-knitr:::process_file(text, output)
+  6.           +-xfun:::handle_error(...)
+  7.           +-base::withCallingHandlers(...)
+  8.           \-knitr:::process_group(group)
+  9.             \-knitr:::call_block(x)
+ 10.               \-knitr:::block_exec(params)
+ 11.                 \-knitr:::eng_r(options)
+ 12.                   +-knitr:::in_input_dir(...)
+ 13.                   | \-knitr:::in_dir(input_dir(), expr)
+ 14.                   \-knitr (local) evaluate(...)
+ 15.                     \-evaluate::evaluate(...)
+ 16.                       \-base::withRestarts(...)
+ 17.                         \-base (local) withRestartList(expr, restarts)
+ 18.                           \-base (local) withOneRestart(withRestartList(expr, restarts[-nr]), restarts[[nr]])
+ 19.                             \-base (local) docall(restart$handler, restartArgs)
+ 20.                               +-base::do.call("fun", lapply(args, enquote))
+ 21.                               \-evaluate (local) fun(base::quote(`<smplErrr>`))
+[39m[31m
+
+
+Quitting from lines 32-86 [data-processing] (Opportunity_Report.qmd)
+[39m[31mExecution halted
+[39m[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+[31mError in `1:(break_index - 1)`:
+! result would be too long a vector
+Backtrace:
+     x
+  1. \-global .main()
+  2.   \-execute(...)
+  3.     \-rmarkdown::render(...)
+  4.       \-knitr::knit(knit_input, knit_output, envir = envir, quiet = quiet)
+  5.         \-knitr:::process_file(text, output)
+  6.           +-xfun:::handle_error(...)
+  7.           +-base::withCallingHandlers(...)
+  8.           \-knitr:::process_group(group)
+  9.             \-knitr:::call_block(x)
+ 10.               \-knitr:::block_exec(params)
+ 11.                 \-knitr:::eng_r(options)
+ 12.                   +-knitr:::in_input_dir(...)
+ 13.                   | \-knitr:::in_dir(input_dir(), expr)
+ 14.                   \-knitr (local) evaluate(...)
+ 15.                     \-evaluate::evaluate(...)
+ 16.                       \-base::withRestarts(...)
+ 17.                         \-base (local) withRestartList(expr, restarts)
+ 18.                           \-base (local) withOneRestart(withRestartList(expr, restarts[-nr]), restarts[[nr]])
+ 19.                             \-base (local) docall(restart$handler, restartArgs)
+ 20.                               +-base::do.call("fun", lapply(args, enquote))
+ 21.                               \-evaluate (local) fun(base::quote(`<smplErrr>`))
+[39m[31m
+
+
+Quitting from lines 32-86 [data-processing] (Opportunity_Report.qmd)
+Execution halted
+[39m[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+[31mError in `1:(break_index - 1)`:
+! result would be too long a vector
+Backtrace:
+     x
+  1. \-global .main()
+  2.   \-execute(...)
+  3.     \-rmarkdown::render(...)
+  4.       \-knitr::knit(knit_input, knit_output, envir = envir, quiet = quiet)
+  5.         \-knitr:::process_file(text, output)
+  6.           +-xfun:::handle_error(...)
+  7.           +-base::withCallingHandlers(...)
+  8.           \-knitr:::process_group(group)
+  9.             \-knitr:::call_block(x)
+ 10.               \-knitr:::block_exec(params)
+ 11.                 \-knitr:::eng_r(options)
+ 12.                   +-knitr:::in_input_dir(...)
+ 13.                   | \-knitr:::in_dir(input_dir(), expr)
+ 14.                   \-knitr (local) evaluate(...)
+ 15.                     \-evaluate::evaluate(...)
+ 16.                       \-base::withRestarts(...)
+ 17.                         \-base (local) withRestartList(expr, restarts)
+ 18.                           \-base (local) withOneRestart(withRestartList(expr, restarts[-nr]), restarts[[nr]])
+ 19.                             \-base (local) docall(restart$handler, restartArgs)
+ 20.                               +-base::do.call("fun", lapply(args, enquote))
+ 21.                               \-evaluate (local) fun(base::quote(`<smplErrr>`))
+[39m[31m
+
+
+Quitting from lines 32-86 [data-processing] (Opportunity_Report.qmd)
+[39m[31mExecution halted
+[39m[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+[31mError in `1:(break_index - 1)`:
+! result would be too long a vector
+Backtrace:
+     x
+  1. \-global .main()
+  2.   \-execute(...)
+  3.     \-rmarkdown::render(...)
+  4.       \-knitr::knit(knit_input, knit_output, envir = envir, quiet = quiet)
+  5.         \-knitr:::process_file(text, output)
+  6.           +-xfun:::handle_error(...)
+  7.           +-base::withCallingHandlers(...)
+  8.           \-knitr:::process_group(group)
+  9.             \-knitr:::call_block(x)
+ 10.               \-knitr:::block_exec(params)
+ 11.                 \-knitr:::eng_r(options)
+ 12.                   +-knitr:::in_input_dir(...)
+ 13.                   | \-knitr:::in_dir(input_dir(), expr)
+ 14.                   \-knitr (local) evaluate(...)
+ 15.                     \-evaluate::evaluate(...)
+ 16.                       \-base::withRestarts(...)
+ 17.                         \-base (local) withRestartList(expr, restarts)
+ 18.                           \-base (local) withOneRestart(withRestartList(expr, restarts[-nr]), restarts[[nr]])
+ 19.                             \-base (local) docall(restart$handler, restartArgs)
+ 20.                               +-base::do.call("fun", lapply(args, enquote))
+ 21.                               \-evaluate (local) fun(base::quote(`<smplErrr>`))
+[39m[31m
+
+
+Quitting from lines 32-86 [data-processing] (Opportunity_Report.qmd)
+[39m[31mExecution halted
+[39m[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+[31mError in `1:(break_index - 1)`:
+! result would be too long a vector
+Backtrace:
+     x
+  1. \-global .main()
+  2.   \-execute(...)
+  3.     \-rmarkdown::render(...)
+  4.       \-knitr::knit(knit_input, knit_output, envir = envir, quiet = quiet)
+  5.         \-knitr:::process_file(text, output)
+  6.           +-xfun:::handle_error(...)
+  7.           +-base::withCallingHandlers(...)
+  8.           \-knitr:::process_group(group)
+  9.             \-knitr:::call_block(x)
+ 10.               \-knitr:::block_exec(params)
+ 11.                 \-knitr:::eng_r(options)
+ 12.                   +-knitr:::in_input_dir(...)
+ 13.                   | \-knitr:::in_dir(input_dir(), expr)
+ 14.                   \-knitr (local) evaluate(...)
+ 15.                     \-evaluate::evaluate(...)
+ 16.                       \-base::withRestarts(...)
+ 17.                         \-base (local) withRestartList(expr, restarts)
+ 18.                           \-base (local) withOneRestart(withRestartList(expr, restarts[-nr]), restarts[[nr]])
+ 19.                             \-base (local) docall(restart$handler, restartArgs)
+ 20.                               +-base::do.call("fun", lapply(args, enquote))
+ 21.                               \-evaluate (local) fun(base::quote(`<smplErrr>`))
+[39m[31m
+
+
+Quitting from lines 32-86 [data-processing] (Opportunity_Report.qmd)
+[39m[31mExecution halted
+[39m[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+[31mError in `1:(break_index - 1)`:
+! result would be too long a vector
+Backtrace:
+     x
+  1. \-global .main()
+  2.   \-execute(...)
+  3.     \-rmarkdown::render(...)
+  4.       \-knitr::knit(knit_input, knit_output, envir = envir, quiet = quiet)
+  5.         \-knitr:::process_file(text, output)
+  6.           +-xfun:::handle_error(...)
+  7.           +-base::withCallingHandlers(...)
+  8.           \-knitr:::process_group(group)
+  9.             \-knitr:::call_block(x)
+ 10.               \-knitr:::block_exec(params)
+ 11.                 \-knitr:::eng_r(options)
+ 12.                   +-knitr:::in_input_dir(...)
+ 13.                   | \-knitr:::in_dir(input_dir(), expr)
+ 14.                   \-knitr (local) evaluate(...)
+ 15.                     \-evaluate::evaluate(...)
+ 16.                       \-base::withRestarts(...)
+ 17.                         \-base (local) withRestartList(expr, restarts)
+ 18.                           \-base (local) withOneRestart(withRestartList(expr, restarts[-nr]), restarts[[nr]])
+ 19.                             \-base (local) docall(restart$handler, restartArgs)
+ 20.                               +-base::do.call("fun", lapply(args, enquote))
+ 21.                               \-evaluate (local) fun(base::quote(`<smplErrr>`))
+[39m[31m
+
+
+Quitting from lines 32-86 [data-processing] (Opportunity_Report.qmd)
+Execution halted
+[39m[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+[31mError in `1:(break_index - 1)`:
+! result would be too long a vector
+Backtrace:
+     x
+  1. \-global .main()
+  2.   \-execute(...)
+  3.     \-rmarkdown::render(...)
+  4.       \-knitr::knit(knit_input, knit_output, envir = envir, quiet = quiet)
+  5.         \-knitr:::process_file(text, output)
+  6.           +-xfun:::handle_error(...)
+  7.           +-base::withCallingHandlers(...)
+  8.           \-knitr:::process_group(group)
+  9.             \-knitr:::call_block(x)
+ 10.               \-knitr:::block_exec(params)
+ 11.                 \-knitr:::eng_r(options)
+ 12.                   +-knitr:::in_input_dir(...)
+ 13.                   | \-knitr:::in_dir(input_dir(), expr)
+ 14.                   \-knitr (local) evaluate(...)
+ 15.                     \-evaluate::evaluate(...)
+ 16.                       \-base::withRestarts(...)
+ 17.                         \-base (local) withRestartList(expr, restarts)
+ 18.                           \-base (local) withOneRestart(withRestartList(expr, restarts[-nr]), restarts[[nr]])
+ 19.                             \-base (local) docall(restart$handler, restartArgs)
+ 20.                               +-base::do.call("fun", lapply(args, enquote))
+ 21.                               \-evaluate (local) fun(base::quote(`<smplErrr>`))
+[39m[31m
+
+
+Quitting from lines 32-86 [data-processing] (Opportunity_Report.qmd)
+[39m[31mExecution halted
+[39m[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+[main 317811f] Auto-update report for 2025-06-15
+ 23 files changed, 7400 insertions(+)
+ create mode 100644 docs/Opportunity_Report.html
+ create mode 100644 docs/index.html
+ create mode 100644 docs/search.json
+ create mode 100644 docs/site_libs/bootstrap/bootstrap-icons.css
+ create mode 100644 docs/site_libs/bootstrap/bootstrap-icons.woff
+ create mode 100644 docs/site_libs/bootstrap/bootstrap.min.css
+ create mode 100644 docs/site_libs/bootstrap/bootstrap.min.js
+ create mode 100644 docs/site_libs/clipboard/clipboard.min.js
+ create mode 100644 docs/site_libs/kePrint-0.0.1/kePrint.js
+ create mode 100644 docs/site_libs/lightable-0.0.1/lightable.css
+ create mode 100644 docs/site_libs/pagedtable-1.1/css/pagedtable.css
+ create mode 100644 docs/site_libs/pagedtable-1.1/js/pagedtable.js
+ create mode 100644 docs/site_libs/quarto-html/anchor.min.js
+ create mode 100644 docs/site_libs/quarto-html/popper.min.js
+ create mode 100644 docs/site_libs/quarto-html/quarto-syntax-highlighting.css
+ create mode 100644 docs/site_libs/quarto-html/quarto.js
+ create mode 100644 docs/site_libs/quarto-html/tippy.css
+ create mode 100644 docs/site_libs/quarto-html/tippy.umd.min.js
+ create mode 100644 docs/site_libs/quarto-nav/headroom.min.js
+ create mode 100644 docs/site_libs/quarto-nav/quarto-nav.js
+ create mode 100644 docs/site_libs/quarto-search/autocomplete.umd.js
+ create mode 100644 docs/site_libs/quarto-search/fuse.min.js
+ create mode 100644 docs/site_libs/quarto-search/quarto-search.js
+To github.com:aallyn/Fed_Opportunities.git
+   365089c..317811f  main -> main
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+[main c28df84] Auto-update report for 2025-06-15
+ 4 files changed, 12 insertions(+), 9 deletions(-)
+To github.com:aallyn/Fed_Opportunities.git
+   317811f..c28df84  main -> main
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+Waiting for authentication in browser...
+Press Esc/Ctrl + C to abort
+Please point your browser to the following url: 
+https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=d44a05d5-c6a5-4bbb-82d2-443123722380&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A1410%2F&state=qfixhlggzfmrdpcjssnc&scope=https%3A%2F%2Fgraph.microsoft.com%2FUser.Read%20https%3A%2F%2Fgraph.microsoft.com%2FMail.Send%20https%3A%2F%2Fgraph.microsoft.com%2FMail.ReadWrite%20openid%20offline_access
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+[main 97229b1] Auto-update report for 2025-06-19
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+To github.com:aallyn/Fed_Opportunities.git
+   c28df84..97229b1  main -> main
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/Users/aallyn/Library/Application Support/AzureR/6186a537c45707b6cb4310d853611677', probable reason 'No such file or directory'
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Using authorization_code flow
+Creating Microsoft Graph login for default tenant
+Using authorization_code flow
+createTcpServer: address already in use
+Error in initialize(...) : Failed to create server
+Calls: get_business_outlook ... listen_for_authcode -> <Anonymous> -> <Anonymous> -> initialize
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+<Outlook email>
+  directory id: AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AdjGXyupF-Eix5z_moM6M6AAI6m6FoAAA 
+  from:
+  sent:
+  to:  
+  subject: GMRI Grants Summary <e2><80><93> June 19, 2025 
+---
+GMRI Grants Summary <80><93> June 19, 2025
+
+Another money-mission Monday :)
+
+Click below to view the latest interactive HTML version of the GMRI Federal Opportunities report:
+
+https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html
+
+Hap ...
+<Outlook email>
+  directory id: AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AdjGXyupF-Eix5z_moM6M6AAI6m6FoAAA 
+  from:
+  sent:
+  to: Andrew Allyn <aallyn@Gmri.org> 
+  subject: GMRI Grants Summary <e2><80><93> June 19, 2025 
+---
+GMRI Grants Summary <80><93> June 19, 2025
+
+Another money-mission Monday :)
+
+Click below to view the latest interactive HTML version of the GMRI Federal Opportunities report:
+
+https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html
+
+Hap ...
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+<Outlook email>
+  directory id: AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AdjGXyupF-Eix5z_moM6M6AAI6m6FqwAA 
+  from:
+  sent:
+  to:  
+  subject: GMRI Grants Summary <e2><80><93> June 19, 2025 
+---
+GMRI Grants Summary <80><93> June 19, 2025
+
+Another money-mission Monday :)
+
+Click below to view the latest interactive HTML version of the GMRI Federal Opportunities report:
+
+https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html
+
+Hap ...
+<Outlook email>
+  directory id: AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AdjGXyupF-Eix5z_moM6M6AAI6m6FqwAA 
+  from:
+  sent:
+  to: Andrew Allyn <aallyn@Gmri.org> 
+  subject: GMRI Grants Summary <e2><80><93> June 19, 2025 
+---
+GMRI Grants Summary <80><93> June 19, 2025
+
+Another money-mission Monday :)
+
+Click below to view the latest interactive HTML version of the GMRI Federal Opportunities report:
+
+https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html
+
+Hap ...
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   create_keys.R
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+<Outlook email>
+  directory id: AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AdjGXyupF-Eix5z_moM6M6AAI6m6FtAAA 
+  from:
+  sent:
+  to:  
+  subject: GMRI Grants Summary <e2><80><93> June 19, 2025 
+---
+GMRI Grants Summary <80><93> June 19, 2025
+
+Another money-mission Monday :)
+
+Click below to view the latest interactive HTML version of the GMRI Federal Opportunities report:
+
+https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html
+
+Hap ...
+<Outlook email>
+  directory id: AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AdjGXyupF-Eix5z_moM6M6AAI6m6FtAAA 
+  from:
+  sent:
+  to: Andrew Allyn <aallyn@Gmri.org> 
+  subject: GMRI Grants Summary <e2><80><93> June 19, 2025 
+---
+GMRI Grants Summary <80><93> June 19, 2025
+
+Another money-mission Monday :)
+
+Click below to view the latest interactive HTML version of the GMRI Federal Opportunities report:
+
+https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html
+
+Hap ...
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   create_keys.R
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+<Outlook email>
+  directory id: AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AdjGXyupF-Eix5z_moM6M6AAI6m6FvQAA 
+  from:
+  sent:
+  to:  
+  subject: GMRI Grants Summary <e2><80><93> June 19, 2025 
+---
+GMRI Grants Summary <80><93> June 19, 2025
+
+Another money-mission Monday :)
+
+Click below to view the latest interactive HTML version of the GMRI Federal Opportunities report:
+
+https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html
+
+Hap ...
+<Outlook email>
+  directory id: AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AdjGXyupF-Eix5z_moM6M6AAI6m6FvQAA 
+  from:
+  sent:
+  to: Andrew Allyn <aallyn@Gmri.org> 
+  subject: GMRI Grants Summary <e2><80><93> June 19, 2025 
+---
+GMRI Grants Summary <80><93> June 19, 2025
+
+Another money-mission Monday :)
+
+Click below to view the latest interactive HTML version of the GMRI Federal Opportunities report:
+
+https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html
+
+Hap ...
+[main e151b4d] Auto-update report for 2025-06-19
+ 1 file changed, 19 insertions(+), 3 deletions(-)
+To github.com:aallyn/Fed_Opportunities.git
+   97229b1..e151b4d  main -> main
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+<Outlook email>
+  directory id: AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AdjGXyupF-Eix5z_moM6M6AAI6m6FzgAA 
+  from:
+  sent:
+  to:  
+  subject: GMRI Grants Summary <e2><80><93> June 19, 2025 
+---
+GMRI Grants Summary <80><93> June 19, 2025
+
+Another money-mission Monday :)
+
+Click below to view the latest interactive HTML version of the GMRI Federal Opportunities report:
+
+https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html
+
+Hap ...
+<Outlook email>
+  directory id: AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AdjGXyupF-Eix5z_moM6M6AAI6m6FzgAA 
+  from:
+  sent:
+  to: Andrew Allyn <aallyn@Gmri.org> 
+  subject: GMRI Grants Summary <e2><80><93> June 19, 2025 
+---
+GMRI Grants Summary <80><93> June 19, 2025
+
+Another money-mission Monday :)
+
+Click below to view the latest interactive HTML version of the GMRI Federal Opportunities report:
+
+https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html
+
+Hap ...
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+<Outlook email>
+  directory id: AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AdjGXyupF-Eix5z_moM6M6AAI6m6F2QAA 
+  from:
+  sent:
+  to:  
+  subject: GMRI Grants Summary <e2><80><93> June 19, 2025 
+---
+GMRI Grants Summary <80><93> June 19, 2025
+
+Another money-mission Monday :)
+
+Click below to view the latest interactive HTML version of the GMRI Federal Opportunities report:
+
+https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html
+
+Hap ...
+<Outlook email>
+  directory id: AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AdjGXyupF-Eix5z_moM6M6AAI6m6F2QAA 
+  from:
+  sent:
+  to: Andrew Allyn <aallyn@Gmri.org> 
+  subject: GMRI Grants Summary <e2><80><93> June 19, 2025 
+---
+GMRI Grants Summary <80><93> June 19, 2025
+
+Another money-mission Monday :)
+
+Click below to view the latest interactive HTML version of the GMRI Federal Opportunities report:
+
+https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html
+
+Hap ...
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+<Outlook email>
+  directory id: AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AdjGXyupF-Eix5z_moM6M6AAI6m6F4gAA 
+  from:
+  sent:
+  to:  
+  subject: GMRI Grants Summary <e2><80><93> June 19, 2025 
+---
+GMRI Grants Summary <80><93> June 19, 2025
+
+Another money-mission Monday :)
+
+Click below to view the latest interactive HTML version of the GMRI Federal Opportunities report:
+
+https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html
+
+Hap ...
+<Outlook email>
+  directory id: AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AdjGXyupF-Eix5z_moM6M6AAI6m6F4gAA 
+  from:
+  sent:
+  to: Andrew Allyn <aallyn@Gmri.org> 
+  subject: GMRI Grants Summary <e2><80><93> June 19, 2025 
+---
+GMRI Grants Summary <80><93> June 19, 2025
+
+Another money-mission Monday :)
+
+Click below to view the latest interactive HTML version of the GMRI Federal Opportunities report:
+
+https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html
+
+Hap ...
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+<Outlook email>
+  directory id: AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AdjGXyupF-Eix5z_moM6M6AAI6m6F6wAA 
+  from:
+  sent:
+  to:  
+  subject: GMRI Grants Summary <e2><80><93> June 19, 2025 
+---
+GMRI Grants Summary <80><93> June 19, 2025
+
+Another money-mission Monday :)
+
+Click below to view the latest interactive HTML version of the GMRI Federal Opportunities report:
+
+https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html
+
+Hap ...
+<Outlook email>
+  directory id: AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AdjGXyupF-Eix5z_moM6M6AAI6m6F6wAA 
+  from:
+  sent:
+  to: Andrew Allyn <aallyn@Gmri.org> 
+  subject: GMRI Grants Summary <e2><80><93> June 19, 2025 
+---
+GMRI Grants Summary <80><93> June 19, 2025
+
+Another money-mission Monday :)
+
+Click below to view the latest interactive HTML version of the GMRI Federal Opportunities report:
+
+https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html
+
+Hap ...
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+<Outlook email>
+  directory id: AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AdjGXyupF-Eix5z_moM6M6AAI6m6F9AAA 
+  from:
+  sent:
+  to:  
+  subject: GMRI Grants Summary <e2><80><93> June 19, 2025 
+---
+GMRI Grants Summary <80><93> June 19, 2025
+
+Another money-mission Monday :)
+
+Click below to view the latest interactive HTML version of the GMRI Federal Opportunities report:
+
+https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html
+
+Hap ...
+<Outlook email>
+  directory id: AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AdjGXyupF-Eix5z_moM6M6AAI6m6F9AAA 
+  from:
+  sent:
+  to: Andrew Allyn <aallyn@Gmri.org> 
+  subject: GMRI Grants Summary <e2><80><93> June 19, 2025 
+---
+GMRI Grants Summary <80><93> June 19, 2025
+
+Another money-mission Monday :)
+
+Click below to view the latest interactive HTML version of the GMRI Federal Opportunities report:
+
+https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html
+
+Hap ...
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+Loading Microsoft Graph login for default tenant
+<Outlook email>
+  directory id: AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AdjGXyupF-Eix5z_moM6M6AAI6m6F-QAA 
+  from:
+  sent:
+  to:  
+  subject: GMRI Grants Summary <e2><80><93> June 19, 2025 
+---
+GMRI Grants Summary <80><93> June 19, 2025
+
+Another money-mission Monday :)
+
+Click below to view the latest interactive HTML version of the GMRI Federal Opportunities report:
+
+https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html
+
+Hap ...
+<Outlook email>
+  directory id: AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AdjGXyupF-Eix5z_moM6M6AAI6m6F-QAA 
+  from:
+  sent:
+  to: Andrew Allyn <aallyn@Gmri.org> 
+  subject: GMRI Grants Summary <e2><80><93> June 19, 2025 
+---
+GMRI Grants Summary <80><93> June 19, 2025
+
+Another money-mission Monday :)
+
+Click below to view the latest interactive HTML version of the GMRI Federal Opportunities report:
+
+https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html
+
+Hap ...
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+here() starts at /Users/aallyn/GitHub/Fed_Opportunities
+Error in file(file, "rt") : cannot open the connection
+Calls: read.csv -> read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file '/Users/aallyn/GitHub/Fed_Opportunities/Data/OuterGreenData-Census.csv': No such file or directory
+Execution halted
+[main daec824] Auto-update report for 2025-06-23
+ 3 files changed, 62 insertions(+), 69 deletions(-)
+To github.com:aallyn/Fed_Opportunities.git
+   d00995b..daec824  main -> main
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+here() starts at /Users/aallyn/GitHub/Fed_Opportunities
+Error in creds(host = Sys.getenv("SMTP_HOST"), port = as.integer(Sys.getenv("SMTP_PORT")),  : 
+  unused argument (password = Sys.getenv("SMTP_PASS"))
+Calls: smtp_send
+Execution halted
+[main 5ae56ac] Auto-update report for 2025-06-23
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+To github.com:aallyn/Fed_Opportunities.git
+   c41357d..5ae56ac  main -> main
+[1] ""
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+Error in eval(xfun::parse_only(name)) : object 'html' not found
+Calls: <Anonymous> ... create_output_format -> create_output_format_function -> eval -> eval
+Execution halted
+[1] ""
+[31m
+
+processing file: Opportunity_Report.qmd
+[39m1/10                  
+2/10 [unnamed-chunk-1]
+3/10                  
+4/10 [setup]          
+5/10                  
+6/10 [data-processing]
+7/10                  
+8/10 [date-heading]   
+9/10                  
+10/10 [table-output]   
+[31moutput file: Opportunity_Report.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: Opportunity_Report.html
+  standalone: true
+  title-prefix: GMRI Grants Summary
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 2
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: flatly
+  after_body: dt-dependencies.html
+  title-block-banner: false
+  title-block: false
+  
+Output created: docs/Opportunity_Report.html
+
+[1] ""
+here() starts at /Users/aallyn/GitHub/Fed_Opportunities
+Error in creds(host = Sys.getenv("SMTP_HOST"), port = as.integer(Sys.getenv("SMTP_PORT")),  : 
+  unused argument (password = Sys.getenv("SMTP_PASS"))
+Calls: smtp_send
+Execution halted
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .quarto/_freeze/Opportunity_Report/execute-results/html.json
+	modified:   .quarto/idx/Opportunity_Report.qmd.json
+	modified:   .quarto/xref/e728dc31
+	modified:   cron.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+No changes to commit
+Everything up-to-date
