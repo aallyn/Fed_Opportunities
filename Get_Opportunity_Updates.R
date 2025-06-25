@@ -205,17 +205,17 @@ me_table <- page |>
   html_element("table") |>
   html_table() |>
   clean_names() |>
-  filter(rfa_status == "Open")
+  filter(rfp_status == "Open")
 
 me_table <- me_table |>
-  mutate(application_due_date = na_if(application_due_date, ""), application_due_date = if_else(is.na(application_due_date), format(Sys.Date(), "%m/%d/%Y"), application_due_date))
+  mutate(proposal_due_date = na_if(proposal_due_date, ""), proposal_due_date = if_else(is.na(proposal_due_date), format(Sys.Date(), "%m/%d/%Y"), proposal_due_date))
 
 # Some formatting
 me_df_rfp<- tibble(
-    OpportunityID = as.character(me_table$rfa_number),
+    OpportunityID = as.character(me_table$rfp_number),
     Agency = "State of Maine - RFP",
-    Title = me_table$rfa_title,
-    Deadline = as.Date(me_table$application_due_date, "%m/%d/%Y"),
+    Title = me_table$title,
+    Deadline = as.Date(me_table$proposal_due_date, "%m/%d/%Y"),
     Posted = as.Date(me_table$date_posted, "%m/%d/%Y"),
     AdditionalInfoURL = "https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps"
   )
