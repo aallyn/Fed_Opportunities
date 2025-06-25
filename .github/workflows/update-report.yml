@@ -2,7 +2,7 @@ name: Weekly Grants Report
 
 on:
   schedule:
-    - cron: '* * * * *'  # Every Monday at 8:00 AM UTC (adjust for your timezone) edit
+    - cron: '0 9 * * 1'  # Every Monday at 8:00 AM UTC (adjust for your timezone) edit
   workflow_dispatch:      # Allow manual triggering
   push:
     paths:
