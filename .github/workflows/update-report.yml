@@ -55,7 +55,9 @@ jobs:
             rvest
             xml2
             janitor
-
+            
+      - name: Run R script to download new pages
+        run: Rscript download_pages.R
       - name: Run R script to fetch grants and save CSV
         run: Rscript Get_Opportunity_Updates.R
 
