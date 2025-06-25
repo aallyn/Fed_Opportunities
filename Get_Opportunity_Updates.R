@@ -183,13 +183,41 @@ me_table <- me_table |>
   mutate(application_due_date = na_if(application_due_date, ""), application_due_date = if_else(is.na(application_due_date), format(Sys.Date(), "%m/%d/%Y"), application_due_date))
 
 # Some formatting
-me_df<- tibble(
+me_df_rfa<- tibble(
     OpportunityID = as.character(me_table$rfa_number),
-    Agency = "State of Maine",
+    Agency = "State of Maine - RFA",
     Title = me_table$rfa_title,
     Deadline = as.Date(me_table$application_due_date, "%m/%d/%Y"),
     Posted = as.Date(me_table$date_posted, "%m/%d/%Y"),
     AdditionalInfoURL = "https://www.maine.gov/dafs/bbm/procurementservices/vendors/grants"
+  )
+
+#####
+# Maine RFAs
+#####
+
+# Load Maine grants page
+me_page <- read_html("https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps")
+
+# Parse rows in the RFA table
+# Extract the grant opportunity rows (adjust the selector as needed)
+me_table <- page |>
+  html_element("table") |>
+  html_table() |>
+  clean_names() |>
+  filter(rfa_status == "Open")
+
+me_table <- me_table |>
+  mutate(application_due_date = na_if(application_due_date, ""), application_due_date = if_else(is.na(application_due_date), format(Sys.Date(), "%m/%d/%Y"), application_due_date))
+
+# Some formatting
+me_df_rfp<- tibble(
+    OpportunityID = as.character(me_table$rfa_number),
+    Agency = "State of Maine - RFP",
+    Title = me_table$rfa_title,
+    Deadline = as.Date(me_table$application_due_date, "%m/%d/%Y"),
+    Posted = as.Date(me_table$date_posted, "%m/%d/%Y"),
+    AdditionalInfoURL = "https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps"
   )
 
 #####
@@ -206,7 +234,7 @@ if (file.exists(prev_file)) {
 }
 
 # Combine and filter
-out <- bind_rows(df_filtered, noaa_df, mafmc_df, me_df) |>
+out <- bind_rows(df_filtered, noaa_df, mafmc_df, me_df_rfa, me_df_rfp) |>
   mutate(
     Title = replace_na(Title, ""),
     Deadline = as.Date(Deadline),
@@ -233,7 +261,7 @@ if (!any(out$IsNew)) {
   out <- bind_rows(no_new_row, out)
 }
 
-out <- bind_rows(df_filtered, noaa_df, mafmc_df, me_df) %>%
+out <- bind_rows(df_filtered, noaa_df, mafmc_df, me_df_rfa, me_df_rfp) %>%
   mutate(
     Title = replace_na(Title, ""),
     Deadline = as.Date(Deadline),
