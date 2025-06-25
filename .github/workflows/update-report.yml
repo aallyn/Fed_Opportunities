@@ -57,7 +57,7 @@ jobs:
             janitor
 
       - name: Run R script to fetch grants and save CSV
-        run: Rscript download_pages_and_render.R
+        run: Rscript Get_Opportunity_Updates.R
 
       - name: Render Quarto report
         run: |
