@@ -173,7 +173,7 @@ me_page <- read_html("https://www.maine.gov/dafs/bbm/procurementservices/vendors
 
 # Parse rows in the RFA table
 # Extract the grant opportunity rows (adjust the selector as needed)
-me_table <- page |>
+me_table <- me_page |>
   html_element("table") |>
   html_table() |>
   clean_names() |>
@@ -201,7 +201,7 @@ me_page <- read_html("https://www.maine.gov/dafs/bbm/procurementservices/vendors
 
 # Parse rows in the RFA table
 # Extract the grant opportunity rows (adjust the selector as needed)
-me_table <- page |>
+me_table <- me_page |>
   html_element("table") |>
   html_table() |>
   clean_names() |>
