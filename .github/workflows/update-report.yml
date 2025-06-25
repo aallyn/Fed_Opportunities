@@ -85,7 +85,7 @@ jobs:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
         run: |
           REPORT_DATE=$(date '+%B %d, %Y')
-          REPORT_URL="https://aallyn.github.io/Fed_Opportunities/docs/Opportunity_Report.html"
+          REPORT_URL="https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html"
           MESSAGE="*GMRI Weekly Grants Report* for ${REPORT_DATE}\n${REPORT_URL}"
           curl -X POST -H 'Content-type: application/json' \
             --data "{\"text\": \"${MESSAGE}\"}" \
