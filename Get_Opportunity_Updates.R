@@ -184,8 +184,8 @@ me_table <- me_table |>
 
 # Some formatting
 me_df<- tibble(
-    OpportunityID = me_table$rfa_number,
-    Agency = "Maine",
+    OpportunityID = as.character(me_table$rfa_number),
+    Agency = "State of Maine",
     Title = me_table$rfa_title,
     Deadline = as.Date(me_table$application_due_date, "%m/%d/%Y"),
     Posted = as.Date(me_table$date_posted, "%m/%d/%Y"),
@@ -206,7 +206,7 @@ if (file.exists(prev_file)) {
 }
 
 # Combine and filter
-out <- bind_rows(df_filtered, noaa_df, mafmc_df, me_df) %>%
+out <- bind_rows(df_filtered, noaa_df, mafmc_df, me_df) |>
   mutate(
     Title = replace_na(Title, ""),
     Deadline = as.Date(Deadline),
@@ -233,7 +233,7 @@ if (!any(out$IsNew)) {
   out <- bind_rows(no_new_row, out)
 }
 
-out <- bind_rows(df_filtered, noaa_df, mafmc_df) %>%
+out <- bind_rows(df_filtered, noaa_df, mafmc_df, me_df) %>%
   mutate(
     Title = replace_na(Title, ""),
     Deadline = as.Date(Deadline),
