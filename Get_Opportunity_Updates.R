@@ -13,6 +13,7 @@ library(rvest)
 library(here)
 library(janitor)
 
+Sys.setenv(TZ = "America/New_York")
 today_str <- format(Sys.Date(), "%Y%m%d")
 today_date <- today()  
 
