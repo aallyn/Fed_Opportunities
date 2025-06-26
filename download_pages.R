@@ -36,5 +36,5 @@ for (i in seq_along(urls)) {
 }
 
 # Step 2: Render HTML and PDF versions of the report
-system("quarto render Opportunity_Report.qmd --output-dir docs")
+#system("quarto render Opportunity_Report.qmd --output-dir docs")
 # rmarkdown::render(report_file, output_format = "pdf", output_file = output_pdf)

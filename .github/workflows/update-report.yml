@@ -62,8 +62,6 @@ jobs:
       - name: Render Quarto report
         run: |
           quarto render --execute Opportunity_Report.qmd --output-dir docs
-      - name: Check updated CSV contents
-        run: cat GMRI_Grants.csv
       - name: Configure GitHub credentials
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
