@@ -54,17 +54,16 @@ jobs:
             blastula
             rvest
             xml2
-            janitor
-            
+            janitor  
       - name: Run R script to download new pages
         run: Rscript download_pages.R
       - name: Run R script to fetch grants and save CSV
         run: Rscript Get_Opportunity_Updates.R
-
       - name: Render Quarto report
         run: |
-          quarto render Opportunity_Report.qmd --output-dir docs
-      
+          quarto render --execute Opportunity_Report.qmd --output-dir docs
+      - name: Check updated CSV contents
+        run: cat GMRI_Grants.csv
       - name: Configure GitHub credentials
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"

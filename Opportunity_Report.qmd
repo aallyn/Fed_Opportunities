@@ -34,10 +34,22 @@ link_color <- "#0047AB"  # Royal blue
 
 ```{r data-processing}
 # Load the most recent grants CSV
-files <- list.files(here::here(), pattern = "^GMRI_Grants.csv$", full.names = TRUE)
-latest_file <- sort(files, decreasing = TRUE)[1]
+# Define a known path using here::here() or fallback to getwd()
+project_root <- tryCatch(
+  here::here(),
+  error = function(e) getwd()
+)
 
-grants <- read_csv(latest_file)
+# Explicitly define the expected CSV path
+csv_path <- file.path(project_root, "GMRI_Grants.csv")
+
+# Check existence before reading
+if (!file.exists(csv_path)) {
+  stop("CSV file not found at expected location: ", csv_path)
+}
+
+# Read the file
+grants <- readr::read_csv(csv_path)
 
 grants <- grants %>%
   filter(is.na(Deadline) | as.Date(Deadline) >= Sys.Date())
