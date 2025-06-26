@@ -20,6 +20,7 @@ body {
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, include = FALSE)  # Set global defaults
+Sys.setenv(TZ = "America/New_York")
 library(readr)
 library(dplyr)
 library(tibble)

@@ -6,6 +6,8 @@ library(blastula)
 library(glue)
 library(lubridate)
 
+Sys.setenv(TZ = "America/New_York")
+
 # Set directories
 project_dir <- here::here()
 data_dir <- file.path(project_dir, "Data")
@@ -34,5 +36,5 @@ for (i in seq_along(urls)) {
 }
 
 # Step 2: Render HTML and PDF versions of the report
-# system("quarto render Opportunity_Report.qmd --output-dir docs")
+system("quarto render Opportunity_Report.qmd --output-dir docs")
 # rmarkdown::render(report_file, output_format = "pdf", output_file = output_pdf)
