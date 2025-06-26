@@ -61,7 +61,7 @@ jobs:
         run: Rscript Get_Opportunity_Updates.R
       - name: Render Quarto report
         run: |
-          quarto render --execute Opportunity_Report.qmd --output-dir docs
+          quarto render Opportunity_Report.qmd --output-dir docs
       - name: Configure GitHub credentials
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
