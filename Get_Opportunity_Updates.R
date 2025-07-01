@@ -89,13 +89,18 @@ filter_relevant <- function(df) {
     !str_detect(Title, regex("Warfare", ignore_case = TRUE)),
     !str_detect(Agency, regex("U\\.S\\. Mission", ignore_case = TRUE)),
     !str_detect(Agency, regex("National Institutes of Health", ignore_case = TRUE)),
-    !str_detect(Agency, regex("Indian Health Services", ignore_case = TRUE)),
+    !str_detect(Agency, regex("Indian Health Service", ignore_case = TRUE)),
+    !str_detect(Agency, regex("National Institute of Corrections", ignore_case = TRUE)),
+    !str_detect(Agency, regex("Fort Worth District", ignore_case = TRUE)),
+    !str_detect(Agency, regex("Alaska District", ignore_case = TRUE)),
     !str_detect(Agency, regex("Administration for Community Living", ignore_case = TRUE)),
     !str_detect(Agency, regex("Air Force", ignore_case = TRUE)),
     !str_detect(Agency, regex("Administration for Community Living", ignore_case = TRUE)),
     !str_detect(Agency, regex("Agency for Health Care Research and Quality", ignore_case = TRUE)),
     !str_detect(Agency, regex("Dept of the Army -- Materiel Command", ignore_case = TRUE)),
-    !str_detect(Agency, regex("Department of Health and Human Services", ignore_case = TRUE))
+    !str_detect(Agency, regex("Department of Health and Human Services", ignore_case = TRUE)),
+    !str_detect(Agency, regex("Office on Violence Against Women", ignore_case = TRUE)),
+    !str_detect(Agency, regex("DOT - Federal Railroad Administration", ignore_case = TRUE))
   )
 }
 
