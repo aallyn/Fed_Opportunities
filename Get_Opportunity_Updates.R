@@ -88,6 +88,10 @@ filter_relevant <- function(df) {
     str_detect(Title, regex(str_c(keywords, collapse = "|"), ignore_case = TRUE)),
     !str_detect(Agency, regex("U\\.S\\. Mission", ignore_case = TRUE)),
     !str_detect(Agency, regex("National Institutes of Health", ignore_case = TRUE)),
+    !str_detect(Agency, regex("Indian Health Services", ignore_case = TRUE)),
+    !str_detect(Agency, regex("Administration for Community Living", ignore_case = TRUE)),
+    !str_detect(Agency, regex("Air Force", ignore_case = TRUE)),
+    !str_detect(Agency, regex("Administration for Community Living", ignore_case = TRUE)),
     !str_detect(Agency, regex("Department of Health and Human Services", ignore_case = TRUE))
   )
 }
