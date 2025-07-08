@@ -160,8 +160,10 @@ mafmc_df <- map_dfr(news_cards, function(card) {
     AdditionalInfoURL = url
   )
 }) %>%
-  filter(str_detect(str_to_lower(Title), "funding|contractor|proposals")) %>%
-  filter(Posted + 120 >= today())
+  filter(str_detect(str_to_lower(Title), "funding|contractor|proposals"))
+
+# Date work
+mafmc_df$Deadline <- mafmc_df$Posted + 60
 
 #####
 # NEFMC
@@ -192,9 +194,8 @@ nefmc_df <- map_dfr(news_cards, function(card) {
 }) %>%
   filter(str_detect(str_to_lower(Title), "funding|contractor|proposals|grants|rfa|rfp"))
 
-# No deadline but should filter somehow...
-nefmc_df <- nefmc_df |>
-  filter(Posted + 120 >= today())
+# Date work
+nefmc_df$Deadline <- nefmc_df$Posted + 60
 
 #####
 # Maine RFAs
