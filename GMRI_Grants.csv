@@ -1,13 +1,5 @@
 OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
-359900,Employment and Training Administration,PY2025 Planning Instruction and Allotments for Senior Community Service Employment Program (SCSEP) State and Territorial Grantees,2025-08-04,2025-07-02,NA,TRUE
-359908,Naval Facilities Engineering Command Southwest,BLACK ABALONE REPRODUCTION INVESTIGATION: FACILITATING CRITICAL HABITAT EXEMPTION AT SAN CLEMENTE ISLAND FOR ENHANCED FLEET READINESS AND UNBURDENED TESTING AND TRAINING,2025-08-04,2025-07-02,NA,TRUE
-359911,Naval Facilities Engineering Command Southwest,"SPECIES DISTRIBUTION MODELING PROJECT AT MARINE CORPS AIR GROUND COMBAT CENTER, TWENTYNINE PALMS, CALIFORNIA",2025-08-04,2025-07-02,NA,TRUE
-359913,Naval Facilities Engineering Command Southwest,"FY25 AGASSIZ&#8217;S DESERT TORTOISE (GOPHERUS AGASSIZII) GENETIC ANALYSIS AT MCAGCC, THE MARINE CORPS AIR GROUND COMBAT CENTER, TWENTYNINE PALMS, CALIFORNIA",2025-08-04,2025-07-02,NA,TRUE
-202505076,State of Maine - RFP,MCP Inventory of Critical Maine Working Waterfronts,2025-08-04,2025-07-07,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,TRUE
-202506089,State of Maine - RFA,STOP Violence Against Women Formula Grant,2025-08-12,2025-07-08,https://www.maine.gov/dafs/bbm/procurementservices/vendors/grants,TRUE
-359891,Bureau of Indian Affairs,Energy and Mineral Development Program 2025,2025-08-13,2025-07-01,NA,TRUE
-359903,Department of the Interior,"OIA Maintenance Assistance Program (MAP) 2025 - reposted July 2, 2025",2025-08-15,2025-07-02,NA,TRUE
-359932,Office of Naval Research,"FY25 ONR Office Of Naval Research (ONR) Science, Technology, Engineering, and Mathematics(STEM) Education and Workforce Program",2026-06-30,2025-07-07,https://www.onr.navy.mil/work-with-us/funding-opportunities,TRUE
+NA,,📭 No new funding opportunities since the last update.,NA,NA,,FALSE
 358878,Department of Education,"Office of Elementary and Secondary Education (OESE): Expanding Opportunity Through Quality Charter Schools Program (CSP)&#8212;State Charter School Facilities Incentive Grant (SFIG) Program, Assistance Listing Number (ALN) 84.282D",2025-07-08,2025-05-09,https://www.govinfo.gov/content/pkg/FR-2025-05-09/pdf/2025-08093.pdf,FALSE
 358966,Office of Local Defense Community Cooperation,Community Noise Mitigation Program,2025-07-09,2025-05-27,NA,FALSE
 358990,Department of Education,"Office of Elementary and Secondary Education (OESE): Charter Schools Program (CSP)- Model Development and Dissemination Grants, Assistance Listing Number (ALN) 84.282G",2025-07-14,2025-05-16,https://www.govinfo.gov/content/pkg/FR-2025-05-16/pdf/2025-08766.pdf,FALSE
@@ -42,16 +34,24 @@ OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
 359831,Bureau of Ocean Energy Management,"AK-25-01, Alaska Coastal Marine Institute Administrative Award",2025-07-31,2025-06-26,NA,FALSE
 359775,Department of Education,"Office of Special Education and Rehabilitative Services (OSERS): Office of Special Education Programs (OSEP): State Personnel Development Grants (SPDG) Program, Assistance Listing Number 84.323A",2025-08-01,2025-06-23,https://www.govinfo.gov/content/pkg/FR-2025-06-23/pdf/2025-11476.pdf,FALSE
 359245,Bureau Of Educational and Cultural Affairs,FY 2025 Community College Initiative Program,2025-08-04,2025-06-04,https://www.state.gov/eca-grant-opportunities/,FALSE
+359900,Employment and Training Administration,PY2025 Planning Instruction and Allotments for Senior Community Service Employment Program (SCSEP) State and Territorial Grantees,2025-08-04,2025-07-02,NA,FALSE
+359908,Naval Facilities Engineering Command Southwest,BLACK ABALONE REPRODUCTION INVESTIGATION: FACILITATING CRITICAL HABITAT EXEMPTION AT SAN CLEMENTE ISLAND FOR ENHANCED FLEET READINESS AND UNBURDENED TESTING AND TRAINING,2025-08-04,2025-07-02,NA,FALSE
+359911,Naval Facilities Engineering Command Southwest,"SPECIES DISTRIBUTION MODELING PROJECT AT MARINE CORPS AIR GROUND COMBAT CENTER, TWENTYNINE PALMS, CALIFORNIA",2025-08-04,2025-07-02,NA,FALSE
+359913,Naval Facilities Engineering Command Southwest,"FY25 AGASSIZ&#8217;S DESERT TORTOISE (GOPHERUS AGASSIZII) GENETIC ANALYSIS AT MCAGCC, THE MARINE CORPS AIR GROUND COMBAT CENTER, TWENTYNINE PALMS, CALIFORNIA",2025-08-04,2025-07-02,NA,FALSE
+202505076,State of Maine - RFP,MCP Inventory of Critical Maine Working Waterfronts,2025-08-04,2025-07-07,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
 359756,Engineer Research and Development Center,"Oyster Larval Transport/Hydrodynamic Modeling for the Herring Bay Sanctuary, Maryland",2025-08-06,2025-06-18,NA,FALSE
 348260,U.S. National Science Foundation,Human Networks and Data Science,2025-08-07,2023-05-20,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23568,FALSE
 291594,FAA-COE-TTHP,COE for Technical Training and Human Performance,2025-08-10,2017-02-03,NA,FALSE
+202506089,State of Maine - RFA,STOP Violence Against Women Formula Grant,2025-08-12,2025-07-08,https://www.maine.gov/dafs/bbm/procurementservices/vendors/grants,FALSE
 351715,U.S. National Science Foundation,ECosystem for Leading Innovation in Plasma Science and Engineering,2025-08-12,2024-01-06,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505924,FALSE
 353962,U.S. National Science Foundation,Research Training Groups in the Mathematical Sciences,2025-08-12,2024-05-03,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24570,FALSE
 354144,U.S. National Science Foundation,Correctness for Scientific Computing Systems,2025-08-12,2024-05-10,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24571,FALSE
 357724,U.S. National Science Foundation,EPSCoR Research Infrastructure Improvement Program: EPSCoR Research Incubators for STEM Excellence,2025-08-12,2024-12-14,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf25522,FALSE
+359891,Bureau of Indian Affairs,Energy and Mineral Development Program 2025,2025-08-13,2025-07-01,NA,FALSE
 359824,Engineer Research and Development Center,Interior Least Tern Monitoring on the McClellan Kerr Arkansas River Navigation System in the Little Rock Corps District,2025-08-13,2025-06-25,NA,FALSE
 345091,U.S. National Science Foundation,Scholarships in STEM Network,2025-08-14,2022-12-23,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23536,FALSE
 358753,Department of Housing and Urban Development,Tribal Housing and Urban Development-Veterans Affairs Supportive Housing (Tribal HUD-VASH) Expansion (Revised),2025-08-15,2025-04-24,https://www.hud.gov/helping-americans/public-indian-housing-tribal-hud-vash,FALSE
+359903,Department of the Interior,"OIA Maintenance Assistance Program (MAP) 2025 - reposted July 2, 2025",2025-08-15,2025-07-02,NA,FALSE
 275148,U.S. National Science Foundation,Physical Oceanography,2025-08-15,2015-03-13,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12729,FALSE
 275150,U.S. National Science Foundation,Chemical Oceanography,2025-08-15,2015-03-13,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11698,FALSE
 344858,U.S. National Science Foundation,Biological Oceanography,2025-08-15,2022-12-13,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506154,FALSE
@@ -106,6 +106,7 @@ NA,NOAA Fisheries,Notice of Funding Opportunity: New Cooperative Institute Foste
 351947,U.S. National Science Foundation,Innovations in Graduate Education (IGE) Program,2026-03-25,2024-01-24,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24529,FALSE
 352198,DOC NOAA - ERA Production,FY 2024 Atlantic Salmon Habitat Restoration Partnership Grants,2026-03-31,2024-02-05,NA,FALSE
 356472,U.S. National Science Foundation,"Safety, Security, and Privacy of Open-Source Ecosystems",2026-04-28,2024-09-20,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24608,FALSE
+359932,Office of Naval Research,"FY25 ONR Office Of Naval Research (ONR) Science, Technology, Engineering, and Mathematics(STEM) Education and Workforce Program",2026-06-30,2025-07-07,https://www.onr.navy.mil/work-with-us/funding-opportunities,FALSE
 355706,DOC NOAA - ERA Production,"FY 2024 &#8211; 2026 Broad Agency Announcement (BAA), National Marine Fisheries Service",2026-09-30,2024-07-29,NA,FALSE
 356002,DOC NOAA - ERA Production,FY 2024 &#8211; 2026 - Broad Agency Announcement (BAA) for the Office of Education,2026-09-30,2024-08-12,NA,FALSE
 356669,DOC NOAA - ERA Production,"FY 2024 &#8211; 2026 Broad Agency Announcement (BAA), Office of Oceanic and Atmospheric Research (OAR)",2026-09-30,2024-10-09,NA,FALSE
