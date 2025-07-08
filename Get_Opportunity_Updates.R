@@ -155,13 +155,13 @@ mafmc_df <- map_dfr(news_cards, function(card) {
     OpportunityID = NA_character_,
     Agency = "MAFMC",
     Title = title,
-    Deadline = as.Date(date),
+    Deadline = as.Date(NA), # No explicit deadline info available
     Posted = as.Date(date),
     AdditionalInfoURL = url
   )
 }) %>%
   filter(str_detect(str_to_lower(Title), "funding|contractor|proposals")) %>%
-  filter(is.na(Deadline) | Deadline >= today())
+  filter(Posted + 120 >= today())
 
 #####
 # NEFMC
@@ -190,8 +190,7 @@ nefmc_df <- map_dfr(news_cards, function(card) {
     AdditionalInfoURL = url
   )
 }) %>%
-  filter(str_detect(str_to_lower(Title), "funding|contractor|proposals|grants|rfa|rfp")) %>%
-  filter_relevant()
+  filter(str_detect(str_to_lower(Title), "funding|contractor|proposals|grants|rfa|rfp"))
 
 # No deadline but should filter somehow...
 nefmc_df <- nefmc_df |>
@@ -252,7 +251,7 @@ out <- bind_rows(df_filtered, noaa_df, nefmc_df, mafmc_df, me_df_rfa, me_df_rfp)
       TRUE
     }
   ) |>
-  filter(!is.na(Deadline), Deadline >= Sys.Date()) |>
+  filter(Deadline >= Sys.Date()) |>
   arrange(desc(IsNew), Deadline, Agency)
 
 if (!any(out$IsNew)) {
