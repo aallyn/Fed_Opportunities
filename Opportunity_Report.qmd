@@ -62,12 +62,12 @@ grants <- grants %>%
 grants_out <- grants %>%
     mutate(
         Title = paste0(
-            "<a href='", AdditionalInfoURL, "' style='color:#0047AB;'>", Title, "</a>"
+            "<a href='", AdditionalInfoURL, "' style='color:#00608a;'>", Title, "</a>"
         ),
         Deadline = as.Date(Deadline),
         Posted = as.Date(Posted),
         IsNew = Posted >= Sys.Date() - 7, # TRUE/FALSE
-        New = if_else(IsNew, "<span style='color:green;font-size:1.2em;'>&#x25CF;</span>", ""),
+        New = if_else(IsNew, "<span style='color:#057872;font-size:1.2em;'>&#x25CF;</span>", ""),
 
         # Helper columns for sorting
         Posted_for_sort = if_else(IsNew, Posted, as.Date(NA)),
@@ -141,5 +141,5 @@ kable(grants_out, format = tbl_format, escape = FALSE) %>%
         latex_options = if (tbl_format == "latex") c("striped", "hold_position") else NULL,
         full_width = FALSE
     ) %>%
-    row_spec(break_index, background = "#0469bd")
+    row_spec(break_index, background = "#ea4f12")
 ```
