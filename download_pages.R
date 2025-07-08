@@ -22,11 +22,13 @@ dir.create(data_dir, showWarnings = FALSE, recursive = TRUE)
 # Step 1: Download HTML source pages
 urls <- c(
   "https://www.fisheries.noaa.gov/funding-opportunities/open-opportunities",
+  "https://www.nefmc.org/news/",
   "https://www.mafmc.org/"
 )
 
 paths <- c(
   file.path(data_dir, "NOAA_Fisheries.html"),
+  file.path(data_dir, "NEFMC.html"),
   file.path(data_dir, "MAFMC.html")
 )
 

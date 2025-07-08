@@ -161,8 +161,41 @@ mafmc_df <- map_dfr(news_cards, function(card) {
   )
 }) %>%
   filter(str_detect(str_to_lower(Title), "funding|contractor|proposals")) %>%
-  filter(is.na(Deadline) | Deadline >= today()) %>%
+  filter(is.na(Deadline) | Deadline >= today())
+
+#####
+# NEFMC
+#####
+nefmc_page <- read_html("Data/NEFMC.html")
+news_cards <- html_elements(nefmc_page, "article.news")
+
+nefmc_df <- map_dfr(news_cards, function(card) {
+  title_node <- html_element(card, "h3 a")
+  title <- html_text(title_node, trim = TRUE)
+  url <- html_attr(title_node, "href")
+  if (!is.na(url) && !str_starts(url, "http")) {
+    url <- paste0("https://www.nefmc.org", url)
+  }
+
+  date_text <- html_text(html_element(card, "p.date"), trim = TRUE)
+  posted <- str_extract(date_text, "\\w+ \\d{1,2}, \\d{4}")
+  posted_date <- parse_date_time(posted, orders = c("B d, Y"))
+
+  tibble(
+    OpportunityID = NA_character_,
+    Agency = "NEFMC",
+    Title = title,
+    Deadline = as.Date(NA), # No explicit deadline info available
+    Posted = as.Date(posted_date),
+    AdditionalInfoURL = url
+  )
+}) %>%
+  filter(str_detect(str_to_lower(Title), "funding|contractor|proposals|grants|rfa|rfp")) %>%
   filter_relevant()
+
+# No deadline but should filter somehow...
+nefmc_df <- nefmc_df |>
+  filter(Posted + 120 >= today())
 
 #####
 # Maine RFAs
@@ -208,7 +241,7 @@ csv_file <- file.path(here::here(), paste0("GMRI_Grants.csv"))
 prev_file <- csv_file
 prev_df <- if (file.exists(prev_file)) read_csv(prev_file) else tibble()
 
-out <- bind_rows(df_filtered, noaa_df, mafmc_df, me_df_rfa, me_df_rfp) |>
+out <- bind_rows(df_filtered, noaa_df, nefmc_df, mafmc_df, me_df_rfa, me_df_rfp) |>
   mutate(
     Title = replace_na(Title, ""),
     Deadline = as.Date(Deadline),
