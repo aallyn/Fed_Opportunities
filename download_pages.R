@@ -6,6 +6,7 @@ library(blastula)
 library(glue)
 library(lubridate)
 
+# Set timezone to Eastern Time
 Sys.setenv(TZ = "America/New_York")
 
 # Set directories
