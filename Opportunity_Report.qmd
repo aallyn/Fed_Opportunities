@@ -95,8 +95,7 @@ no_new_row <- tibble(
     New = "", Deadline = "", Posted = ""
 )
 
-# Only insert if not already present
-if (!any(grants_out$Title == no_new_row$Title)) {
+if (!any(str_detect(grants_out$Title, "📭 No new funding opportunities"))) {
     if (length(new_indices) == 0) {
         grants_out <- bind_rows(no_new_row, break_row, grants_out)
     } else {
