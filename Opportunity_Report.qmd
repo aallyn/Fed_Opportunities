@@ -22,6 +22,7 @@ body {
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, include = FALSE) # Set global defaults
 Sys.setenv(TZ = "America/New_York")
+library(tidyr)
 library(readr)
 library(dplyr)
 library(tibble)
@@ -30,6 +31,7 @@ library(knitr)
 library(svglite)
 library(kableExtra)
 library(here)
+
 
 link_color <- "#0047AB" # Royal blue
 ```
@@ -50,11 +52,14 @@ if (!file.exists(csv_path)) {
     stop("CSV file not found at expected location: ", csv_path)
 }
 
-# Read the file
-grants <- readr::read_csv(csv_path)
-
-grants <- grants %>%
-    filter(is.na(Deadline) | as.Date(Deadline) >= Sys.Date())
+# Read in grants file
+grants <- readr::read_csv(csv_path, show_col_types = FALSE) %>%
+    mutate(
+        Deadline = as.Date(Deadline),
+        Posted = as.Date(Posted),
+        IsNew = replace_na(IsNew, FALSE)
+    ) %>%
+    filter(is.na(Deadline) | Deadline >= Sys.Date())
 
 # Create the formatted table
 # Build your table data
@@ -71,40 +76,37 @@ grants_out <- grants %>%
     ) %>%
     arrange(desc(IsNew), desc(Posted_for_sort), Deadline_for_sort)
 
-new_indices <- which(grants_out$IsNew)
-break_index <- if (length(new_indices) == 0) 1 else max(new_indices) + 1
+new_indices <- which(grants$IsNew)
+has_new <- length(new_indices) > 0
+break_index <- if (has_new) max(new_indices) + 1 else 1
 
-
-# Format dates
-grants_out <- grants_out %>%
+grants_out <- grants %>%
     mutate(
+        Title = paste0("<a href='", AdditionalInfoURL, "' style='color:", link_color, ";'>", Title, "</a>"),
         Deadline = format(Deadline, "%b %d, %Y"),
-        Posted = format(Posted, "%b %d, %Y")
+        Posted = format(Posted, "%b %d, %Y"),
+        New = if_else(IsNew, "<span style='color:#ea4f12;font-size:1.2em;'>&#x25CF;</span>", "")
     ) %>%
     select(Agency, Title, New, Deadline, Posted)
 
-# Prepare special rows
 break_row <- tibble(
     Agency = "&nbsp;", Title = "&nbsp;", New = "&nbsp;",
     Deadline = "&nbsp;", Posted = "&nbsp;"
 )
 
-no_new_row <- tibble(
-    Agency = "",
-    Title = "<strong>📭 No new funding opportunities since the last update.</strong>",
-    New = "", Deadline = "", Posted = ""
-)
-
-if (!any(str_detect(grants_out$Title, "📭 No new funding opportunities"))) {
-    if (length(new_indices) == 0) {
-        grants_out <- bind_rows(no_new_row, break_row, grants_out)
-    } else {
-        grants_out <- bind_rows(
-            grants_out[1:(break_index - 1), ],
-            break_row,
-            grants_out[break_index:nrow(grants_out), ]
-        )
-    }
+if (!has_new) {
+    no_new_row <- tibble(
+        Agency = "",
+        Title = "<strong>📭 No new funding opportunities since the last update.</strong>",
+        New = "", Deadline = "", Posted = ""
+    )
+    grants_out <- bind_rows(no_new_row, break_row, grants_out)
+} else {
+    grants_out <- bind_rows(
+        grants_out[1:(break_index - 1), ],
+        break_row,
+        grants_out[break_index:nrow(grants_out), ]
+    )
 }
 ```
 

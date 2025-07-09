@@ -254,17 +254,17 @@ out <- bind_rows(df_filtered, noaa_df, nefmc_df, mafmc_df, me_df_rfa, me_df_rfp)
   filter(Deadline >= Sys.Date()) |>
   arrange(desc(IsNew), Deadline, Agency)
 
-if (!any(out$IsNew)) {
-  no_new_row <- tibble(
-    OpportunityID = NA_character_,
-    Agency = "",
-    Title = "📭 No new funding opportunities since the last update.",
-    Deadline = NA_Date_,
-    Posted = NA_Date_,
-    AdditionalInfoURL = "",
-    IsNew = FALSE
-  )
-  out <- bind_rows(no_new_row, out)
-}
+# if (!any(out$IsNew)) {
+#   no_new_row <- tibble(
+#     OpportunityID = NA_character_,
+#     Agency = "",
+#     Title = "📭 No new funding opportunities since the last update.",
+#     Deadline = NA_Date_,
+#     Posted = NA_Date_,
+#     AdditionalInfoURL = "",
+#     IsNew = FALSE
+#   )
+#   out <- bind_rows(no_new_row, out)
+# }
 
 write_csv(out, csv_file)
