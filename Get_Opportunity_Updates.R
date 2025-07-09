@@ -133,8 +133,7 @@ noaa_df <- map_dfr(noaa_cards, function(card) {
     AdditionalInfoURL = url
   )
 }) |>
-  filter(is.na(Deadline) | Deadline >= today()) |>
-  filter_relevant()
+  filter(is.na(Deadline) | Deadline >= today())
 
 #####
 # MAFMC
