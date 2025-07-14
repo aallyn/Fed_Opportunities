@@ -1,6 +1,18 @@
 OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
-358878,Department of Education,"Office of Elementary and Secondary Education (OESE): Expanding Opportunity Through Quality Charter Schools Program (CSP)&#8212;State Charter School Facilities Incentive Grant (SFIG) Program, Assistance Listing Number (ALN) 84.282D",2025-07-08,2025-05-09,https://www.govinfo.gov/content/pkg/FR-2025-05-09/pdf/2025-08093.pdf,FALSE
-358966,Office of Local Defense Community Cooperation,Community Noise Mitigation Program,2025-07-09,2025-05-27,NA,FALSE
+355908,Administration for Children & Families - ACYF/FYSB,Title V Competitive Sexual Risk Avoidance Education,2025-07-22,2025-07-08,NA,TRUE
+359965,Department of Defense,"Demographic, Movement, and Habitat Studies of the Endangered Snail Kite in Response to Operational Plans in the Everglades, Florida",2025-08-08,2025-07-09,NA,TRUE
+359973,Geological Survey,Cooperative Agreement for affiliated Partner with the Pacific Northwest Cooperative Ecosystem Studies Units (CESU),2025-08-10,2025-07-10,NA,TRUE
+359972,Geological Survey,Cooperative Agreement for affiliated Partner with the South Florida and Caribbean Cooperative Ecosystem Studies Units (CESU),2025-08-10,2025-07-10,NA,TRUE
+359980,Geological Survey,Cooperative Agreement for affiliated Partner with the Great Lakes-Northern Forest Cooperative Ecosystem Studies Units (CESU),2025-08-10,2025-07-10,NA,TRUE
+359978,Geological Survey,Cooperative Agreement for affiliated Partner with the Desert Southwest Cooperative Ecosystem Studies Unit (CESU),2025-08-10,2025-07-10,NA,TRUE
+359982,Naval Facilities Engineering Command Southwest,"CULTURAL AND NATURAL RESOURCES SUPPORT AT THE MARINE CORPS AIR GROUND COMBAT CENTER, TWENTYNINE PALMS, CALIFORNIA",2025-08-11,2025-07-10,NA,TRUE
+359986,Washington Headquarters Services,DoD Cyber Academic Engagement Office Program Support Grants to National Centers of Academic Excellence in Cybersecurity,2025-08-11,2025-07-11,NA,TRUE
+202506090,State of Maine - RFP,"Maine Veterans’ Memorial Cemeteries, Augusta – Turf Maintenance",2025-09-01,2025-07-14,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,TRUE
+NA,NOAA Fisheries,Notice of Funding Opportunity: New Cooperative Institute Fostering Aquaculture Research and Marketing,2025-09-05,2025-06-06,https://www.fisheries.noaa.gov/grant/notice-funding-opportunity-new-cooperative-institute-fostering-aquaculture-research-and-0,TRUE
+357951,National Endowment for the Humanities,Humanities Research Centers on Artificial Intelligence,2025-10-01,2025-07-08,https://www.neh.gov/program/humanities-research-centers-artificial-intelligence,TRUE
+359950,Bureau of Reclamation,"Native American Affairs: Emergency Drought Relief for Tribes Inflation Reduction Act of 2022, Section 80004",2025-10-14,2025-07-08,NA,TRUE
+360004,NASA Headquarters,ROSES 2025: C.2 Solar System Science,2026-03-31,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={C92A28D2-9E30-4149-24B7-8A40ED4F564B}&amp;path=&amp;method=init,TRUE
+360006,Food and Drug Administration,NARMS Cooperative Agreement Program to Strengthen Antibiotic Resistance Surveillance in Retail Food Specimens,2027-04-01,2025-07-11,https://grants.nih.gov/grants/guide/pa-files/PAR-25-014.html,TRUE
 358990,Department of Education,"Office of Elementary and Secondary Education (OESE): Charter Schools Program (CSP)- Model Development and Dissemination Grants, Assistance Listing Number (ALN) 84.282G",2025-07-14,2025-05-16,https://www.govinfo.gov/content/pkg/FR-2025-05-16/pdf/2025-08766.pdf,FALSE
 355778,Health Resources and Services Administration,Native Hawaiian Health Scholarship Program Administrative Support,2025-07-15,2025-05-30,NA,FALSE
 359009,Maritime Administration,Fiscal Year 2025 United States Marine Highway Program (USMHP),2025-07-15,2025-05-16,NA,FALSE
@@ -41,6 +53,7 @@ OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
 359756,Engineer Research and Development Center,"Oyster Larval Transport/Hydrodynamic Modeling for the Herring Bay Sanctuary, Maryland",2025-08-06,2025-06-18,NA,FALSE
 348260,U.S. National Science Foundation,Human Networks and Data Science,2025-08-07,2023-05-20,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23568,FALSE
 291594,FAA-COE-TTHP,COE for Technical Training and Human Performance,2025-08-10,2017-02-03,NA,FALSE
+359974,Geological Survey,Cooperative Agreement for affiliated Partner with the Gulf Coast Cooperative Ecosystem Studies Unit (CESU),2025-08-10,2025-07-10,NA,FALSE
 NA,MAFMC,Council Seeks Contractor to Evaluate Governance Structures and Processes – Proposals due July 18,2025-08-10,2025-06-11,https://www.mafmc.org/newsfeed/2025/request-for-proposals-improving-mid-atlantic-council-governance-structures-and-processes-proposals-due-july-18,FALSE
 202506089,State of Maine - RFA,STOP Violence Against Women Formula Grant,2025-08-12,2025-07-08,https://www.maine.gov/dafs/bbm/procurementservices/vendors/grants,FALSE
 351715,U.S. National Science Foundation,ECosystem for Leading Innovation in Plasma Science and Engineering,2025-08-12,2024-01-06,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505924,FALSE
@@ -66,7 +79,6 @@ NA,MAFMC,Council Seeks Contractor to Evaluate Governance Structures and Processe
 356423,U.S. National Science Foundation,Pathways to Enable Open-Source Ecosystems,2025-09-02,2024-09-14,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24606,FALSE
 359283,DOC NOAA - ERA Production,Cooperative Institute Fostering Aquaculture Research and Marketing (CIFARM),2025-09-05,2025-06-06,NA,FALSE
 NA,NOAA Fisheries,NOAA Great Lakes Fish Habitat Restoration Partnership Grants,2025-09-05,2024-08-27,https://www.fisheries.noaa.gov/grant/noaa-great-lakes-fish-habitat-restoration-partnership-grants,FALSE
-NA,NOAA Fisheries,Notice of Funding Opportunity: New Cooperative Institute Fostering Aquaculture Research and Marketing (CIFARM),2025-09-05,2025-06-06,https://www.fisheries.noaa.gov/grant/notice-funding-opportunity-new-cooperative-institute-fostering-aquaculture-research-and-0,FALSE
 202503049,State of Maine - RFP,"Engineering Services and Operations Support at State-Owned Landfill, East Millinocket, Maine",2025-09-08,2025-06-09,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
 356119,U.S. National Science Foundation,U.S. National Science Foundation Research Traineeship (NRT) Program,2025-09-08,2024-08-17,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24597,FALSE
 358188,Department of Homeland Security - FEMA,Fiscal Year 2025 Safeguarding Tomorrow through Ongoing Risk Mitigation Revolving Loan Fund Program,2025-09-30,2025-01-14,https://www.fema.gov/grants/mitigation/learn/storm-rlf,FALSE
