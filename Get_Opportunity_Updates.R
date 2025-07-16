@@ -80,7 +80,8 @@ keywords <- c(
   "modeling", "forecast", "prediction", "statistics", "remote sensing", "geospatial", "machine learning", "artificial intelligence", "AI", "data science",
   "offshore wind", "renewable", "energy", "blue economy", "marine spatial planning",
   "coastal", "community", "equity", "stakeholder", "engagement", "participation", "governance",
-  "STEM", "education", "workforce", "training", "teacher", "student", "capacity building", "internship"
+  "STEM", "education", "workforce", "training", "teacher", "student", "capacity building", "internship",
+  "ROSES"
 )
 
 filter_relevant <- function(df) {
@@ -106,6 +107,93 @@ filter_relevant <- function(df) {
 
 # Apply to Grants.gov
 df_filtered <- filter_relevant(df)
+
+#####
+# NIFA
+#####
+nifa_page <- read_html("Data/NIFA.html")
+nifa_cards <- html_elements(nifa_page, ".search-result")
+
+nifa_df <- map_dfr(nifa_cards, function(card) {
+  title_node <- html_element(card, "h2 a")
+  title <- html_text(title_node, trim = TRUE)
+  url <- html_attr(title_node, "href")
+  if (!is.na(url) && !str_starts(url, "http")) {
+    url <- paste0("https://www.nifa.usda.gov", url)
+  }
+
+  # Get the deadline or "closing date" text (if available)
+  deadline_text <- html_element(card, ".field--name-field-closing-date") |>
+    html_text(trim = TRUE)
+  deadline <- parse_date_time(deadline_text, orders = c("mdy", "B d, Y"))
+
+  # NIFA does not list posted date directly, so approximate it as today
+  posted_text <- html_element(card, ".field--name-field-posted-date") |>
+    html_text(trim = TRUE)
+  posted <- parse_date_time(posted_text, orders = c("mdy", "B d, Y"))
+
+
+  tibble(
+    OpportunityID = NA_character_,
+    Agency = "USDA NIFA",
+    Title = title,
+    Deadline = deadline,
+    Posted = posted,
+    AdditionalInfoURL = url
+  )
+}) %>%
+  filter(str_detect(str_to_lower(Title), "funding|grants|rfp|rfa|proposal|program|research")) |>
+  filter(is.na(Deadline) | Deadline >= Sys.Date())
+
+#####
+# EPA Research Grants - Funding Opportunities
+#####
+epa_url <- "https://www.epa.gov/research-grants/research-funding-opportunities"
+epa_page <- read_html(epa_url)
+
+# Try to extract the list under Open Funding Opportunities
+epa_list <- epa_page %>%
+  html_element(xpath = "//h4[contains(text(),'Open Funding Opportunities')]/following-sibling::ul[1]")
+
+if (is.null(epa_list)) {
+  epa_df <- tibble() # No open section at all
+} else {
+  epa_items <- html_elements(epa_list, "li")
+
+  if (length(epa_items) == 0) {
+    epa_df <- tibble() # Section exists but is empty
+  } else {
+    epa_df <- map_dfr(epa_items, function(item) {
+      title_node <- html_element(item, "a")
+      title <- html_text(title_node, trim = TRUE)
+      url <- html_attr(title_node, "href")
+
+      if (!is.na(url) && !startsWith(url, "http")) {
+        url <- paste0("https://www.epa.gov", url)
+      }
+
+      date_node <- html_element(item, "div.datetime")
+      posted <- html_text(date_node, trim = TRUE)
+      posted_date <- parse_date_time(posted, orders = c("b d, Y", "B d, Y", "m/d/Y"))
+
+      tibble(
+        OpportunityID = NA_character_,
+        Agency = "EPA",
+        Title = title,
+        Deadline = as.Date(NA), # Not listed
+        Posted = as.Date(posted_date),
+        AdditionalInfoURL = url
+      )
+    })
+  }
+}
+
+if (nrow(epa_df) > 0) {
+  epa_df <- epa_df |>
+    filter(str_detect(str_to_lower(Title), "funding|grants|rfp|rfa|proposal|program|research")) |>
+    filter(is.na(Deadline) | Deadline >= Sys.Date())
+}
+
 
 #####
 # NOAA Fisheries
@@ -240,7 +328,7 @@ csv_file <- file.path(here::here(), paste0("GMRI_Grants.csv"))
 prev_file <- csv_file
 prev_df <- if (file.exists(prev_file)) read_csv(prev_file) else tibble()
 
-out <- bind_rows(df_filtered, noaa_df, nefmc_df, mafmc_df, me_df_rfa, me_df_rfp) |>
+out <- bind_rows(df_filtered, nifa_df, epa_df, noaa_df, nefmc_df, mafmc_df, me_df_rfa, me_df_rfp) |>
   mutate(
     Title = replace_na(Title, ""),
     Deadline = as.Date(Deadline),
