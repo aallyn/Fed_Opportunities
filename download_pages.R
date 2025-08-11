@@ -38,8 +38,28 @@ paths <- c(
 )
 
 for (i in seq_along(urls)) {
-  page <- httr::GET(urls[i])
-  writeBin(httr::content(page, "raw"), paths[i])
+  success <- FALSE
+  attempt <- 1
+  while (!success && attempt <= 3) {
+    try(
+      {
+        page <- httr::GET(urls[i])
+        writeBin(httr::content(page, "raw"), paths[i])
+        page <- GET(
+          urls[i],
+          config(http_version = 1)
+        )
+        writeBin(content(page, "raw"), paths[i])
+        success <- TRUE
+      },
+      silent = TRUE
+    )
+    if (!success) {
+      message("Retry ", attempt, " for ", urls[i])
+      Sys.sleep(2)
+    }
+    attempt <- attempt + 1
+  }
 }
 
 # Step 2: Render HTML and PDF versions of the report
