@@ -1,163 +1,121 @@
 OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
-360208,Department of Homeland Security - FEMA,Fiscal Year 2025 State Fire Training Systems Grant,2025-08-08,2025-08-01,NA,TRUE
-360150,Department of Homeland Security - FEMA,Fiscal Year 2025 National Incident Management System (NIMS),2025-08-11,2025-07-28,NA,TRUE
-360156,Department of Homeland Security - FEMA,Fiscal Year 2025 Homeland Security National Training Program National Domestic Preparedness Consortium,2025-08-11,2025-07-28,NA,TRUE
-360153,Department of Homeland Security - FEMA,Fiscal Year 2025 National Urban Search And Rescue Response System Readiness Cooperative Agreement,2025-08-11,2025-07-28,NA,TRUE
-360197,Department of Homeland Security - FEMA,Fiscal Year 2025 Homeland Security National Training Program,2025-08-15,2025-08-01,NA,TRUE
-360214,Department of Homeland Security - FEMA,Fiscal Year 2025 Intercity Passenger Rail Program,2025-08-15,2025-08-01,https://www.fema.gov/grants/preparedness/intercity-passenger-rail-amtrak,TRUE
-360209,Department of Homeland Security - FEMA,Alliance for System Safety of Unmanned Aircraft Systems through Research Excellence (ASSURE),2025-08-15,2025-08-01,NA,TRUE
+202309208,State of Maine - RFA,Comprehensive Electronic Health Record Pilot,2025-08-17,2023-09-28,https://www.maine.gov/dafs/bbm/procurementservices/vendors/grants,TRUE
+360061,Department of Defense,"Cultural and Natural Resources Technical Reporting at Pacific Installations Bellows Air Force Station and Ka&#8217;ena Point Space Force Station Oahu, HI",2025-08-18,2025-07-17,NA,TRUE
 360165,Department of Housing and Urban Development,Fair Housing Initiatives Program - Private Enforcement Initiative (PEI),2025-08-21,2025-07-29,https://www.hud.gov/stat/fheo/initiatives-program,TRUE
 360166,Department of Housing and Urban Development,Fair Housing Initiatives Program - Education and Outreach Initiative - Test Coordinator Training,2025-08-21,2025-07-29,https://www.hud.gov/stat/fheo/initiatives-program,TRUE
 360163,Department of Housing and Urban Development,Fair Housing Initiatives Program - Fair Housing Organizations Initiative (FHOI),2025-08-21,2025-07-29,https://www.hud.gov/stat/fheo/initiatives-program,TRUE
 360162,Department of Housing and Urban Development,Fair Housing Initiatives Program Education and Outreach Initiative,2025-08-21,2025-07-29,https://www.hud.gov/stat/fheo/initiatives-program,TRUE
+360117,Bureau of Ocean Energy Management,"PC-25-02, Probability Analysis of Derelict Fishing Gear Interactions with Floating Offshore Wind Mooring Systems Offshore California",2025-08-22,2025-07-22,NA,TRUE
+360268,Department of Education,"Office of Elementary and Secondary Education (OESE): Assistance for Arts Education (AAE) Program, Assistance Listing Number (ALN) 84.351A",2025-08-25,2025-08-11,https://www.govinfo.gov/content/pkg/FR-2025-08-11/pdf/2025-15154.pdf,TRUE
+359826,Engineer Research and Development Center,Evaluating Snow Water Equivalent and Soil Moisture in a Complex Wildfire-Impacted Area of the Rocky Mountains using a Mobile Cosmic Ray Neutron Sensor,2025-08-25,2025-06-25,NA,TRUE
+202503048,State of Maine - RFP,Provision of Telecommunications Relay Outreach Services,2025-08-25,2025-06-30,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,TRUE
+359057,U.S. National Science Foundation,Verticals-enabling Intelligent Network Systems,2025-08-25,2025-05-20,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf25539,TRUE
+348012,U.S. National Science Foundation,Robert Noyce Teacher Scholarship Program,2025-08-26,2023-05-09,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23586,TRUE
+360274,DOC NOAA - ERA Production,Pacific International Training Desk,2025-08-27,2025-08-12,NA,TRUE
 357287,Advanced Research Projects Agency Energy ,Realize Energy-rich Compound Opportunities Valorizing Extraction from Refuse waters SBIR/STTR (RECOVER SBIR/STTR),2025-08-28,2024-11-21,https://arpa-e-foa.energy.gov,TRUE
 357286,Advanced Research Projects Agency Energy ,Realize Energy-rich Compound Opportunities Valorizing Extraction from Refuse waters (RECOVER),2025-08-28,2024-11-21,https://arpa-e-foa.energy.gov,TRUE
+356630,Headquarters,Energy Improvements in Rural or Remote Areas &#8211; Fiscal Year 2025 Release,2025-08-28,2024-10-03,https://oced-exchange.energy.gov/,TRUE
+314743,U.S. National Science Foundation,"Methodology, Measurement, and Statistics",2025-08-28,2019-04-10,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf19575,TRUE
+360168,Geological Survey,Cooperative Agreement for affiliated Partner with the Desert Southwest Cooperative Ecosystem Studies Unit (CESU),2025-08-29,2025-07-29,NA,TRUE
+358025,Office of Naval Research,"FY25 Department of the Navy (DoN) Science, Technology, Engineering, and Mathematics (STEM) Education and Workforce Program",2025-08-29,2025-01-07,https://www.onr.navy.mil/work-with-us/funding-opportunities/announcements,TRUE
+359978,Geological Survey,Cooperative Agreement for affiliated Partner with the Desert Southwest Cooperative Ecosystem Studies Unit (CESU),2025-08-31,2025-07-10,NA,TRUE
+202506090,State of Maine - RFP,"Maine Veterans’ Memorial Cemeteries, Augusta – Turf Maintenance",2025-09-01,2025-07-15,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,TRUE
+202506084,State of Maine - RFP,Headstone Installation and Realignment,2025-09-01,2025-07-15,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,TRUE
+360038,Engineer Research and Development Center,Analysis and Evaluation of Water Erosion Measurement of Bio-Cemented Soils for Dams and Levees Flood Mitigation,2025-09-02,2025-07-16,NA,TRUE
 202506091,State of Maine - RFP,Community Health Nursing  Maternal and Child Health Nursing Services,2025-09-02,2025-07-29,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,TRUE
+356423,U.S. National Science Foundation,Pathways to Enable Open-Source Ecosystems,2025-09-02,2024-09-14,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24606,TRUE
+360248,Bureau of Political-Military Affairs - WRA,Somalia Operational Mentorship and Sustainment Capacity Building,2025-09-03,2025-08-06,https://mygrants.servicenowservices.com/mygrants?id=mygrants_form&amp;table=x_g_usd4_d_grant_funding_opportunity&amp;sys_id=ab1d9f931b476290baa70fe4604bcbf9&amp;view=Default,TRUE
+202504054,State of Maine - RFP,Locum Tenens Services,2025-09-04,2025-07-28,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,TRUE
+359283,DOC NOAA - ERA Production,Cooperative Institute Fostering Aquaculture Research and Marketing (CIFARM),2025-09-05,2025-06-06,NA,TRUE
+NA,NOAA Fisheries,NOAA Great Lakes Fish Habitat Restoration Partnership Grants,2025-09-05,2024-08-27,https://www.fisheries.noaa.gov/grant/noaa-great-lakes-fish-habitat-restoration-partnership-grants,TRUE
+NA,NOAA Fisheries,Notice of Funding Opportunity: New Cooperative Institute Fostering Aquaculture Research and Marketing,2025-09-05,2025-06-06,https://www.fisheries.noaa.gov/grant/notice-funding-opportunity-new-cooperative-institute-fostering-aquaculture-research-and-0,TRUE
+202506080,State of Maine - RFP,Repair & Maintenance of State-Owned Printers and Scanners,2025-09-05,2025-08-13,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,TRUE
+360271,Geological Survey,Cooperative Agreement for affiliated Partner with the North Atlantic Coast Cooperative Ecosystem Studies Unit,2025-09-08,2025-08-08,NA,TRUE
+360273,Geological Survey,Cooperative Agreement for affiliated Partner with the Great Basin Cooperative Ecosystem Studies Unit,2025-09-08,2025-08-08,NA,TRUE
+360272,Geological Survey,Cooperative Agreement for affiliated Partner with the Great Rivers Cooperative Ecosystem Studies Unit (CESU),2025-09-08,2025-08-08,NA,TRUE
 202507095,State of Maine - RFP,2026-2031 Lawn and Plant Maintenance Services,2025-09-08,2025-08-04,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,TRUE
+202503049,State of Maine - RFP,"Engineering Services and Operations Support at State-Owned Landfill, East Millinocket, Maine",2025-09-08,2025-06-09,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,TRUE
+356119,U.S. National Science Foundation,U.S. National Science Foundation Research Traineeship (NRT) Program,2025-09-08,2024-08-17,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24597,TRUE
+359997,NASA Headquarters,ROSES 2025: A.5 Earth Venture Suborbital-4 Snow4Flow Science Team,2025-09-09,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={65B62BBE-4082-0E30-D642-353E3D70D98F}&amp;path=&amp;method=init,TRUE
+202507096,State of Maine - RFP,Temporary Employment Service,2025-09-10,2025-08-11,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,TRUE
+202507102,State of Maine - RFP,Administration of Veteran’s Emergency Financial Assistance Program,2025-09-15,2025-08-12,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,TRUE
 202507101,State of Maine - RFA,Maine BlueTech Innovation: Offshore Wind Monitoring and Testing,2025-09-17,2025-08-04,https://www.maine.gov/dafs/bbm/procurementservices/vendors/grants,TRUE
+202506092,State of Maine - RFA,Clean Energy Partnership: Residential Energy Efficiency Workforce Training Grants,2025-09-17,2025-07-16,https://www.maine.gov/dafs/bbm/procurementservices/vendors/grants,TRUE
 202505078,State of Maine - RFP,Education Finance Compliance and Monitoring System,2025-09-17,2025-08-04,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,TRUE
+202507097,State of Maine - RFP,Visitor Profile Research,2025-09-18,2025-08-13,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,TRUE
+360040,National Institute of Food and Agriculture,Small Business Innovation Research and Small Business Technology Transfer Programs Phase II,2025-09-23,2025-07-16,https://www.nifa.usda.gov/grants/funding-opportunities/small-business-innovation-research-small-business-technology,TRUE
+358898,Environmental Protection Agency,FY26 BROWNFIELDS JOB TRAINING (JT) GRANTS,2025-09-26,2025-07-21,NA,TRUE
+358188,Department of Homeland Security - FEMA,Fiscal Year 2025 Safeguarding Tomorrow through Ongoing Risk Mitigation Revolving Loan Fund Program,2025-09-30,2025-01-14,https://www.fema.gov/grants/mitigation/learn/storm-rlf,TRUE
+358716,Department of Housing and Urban Development,Application Instructions for the Indian Community Development Block Grant (ICDBG) Imminent Threat (IT) Program,2025-09-30,2025-04-18,https://www.hud.gov/helping-americans/public-indian-housing-grants-icdbg,TRUE
+358382,Fish and Wildlife Service,F25AS00188 Coastal Program FY25,2025-09-30,2025-01-23,NA,TRUE
+356605,Office of Naval Research,FY25 Long Range Broad Agency Announcement (BAA) for Navy and Marine Corps Science and Technology,2025-09-30,2024-10-01,https://www.onr.navy.mil/work-with-us/funding-opportunities,TRUE
+336931,U.S. National Science Foundation,Geospace Environment Modeling,2025-09-30,2021-12-10,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22537,TRUE
 360173,Environmental Protection Agency,National Tribal Air Association,2025-10-01,2025-07-30,NA,TRUE
-NA,USDA NIFA,Agriculture and Food Research Initiative - Foundational and Applied Science Program,2026-12-31,2025-08-01,https://www.nifa.usda.gov/grants/funding-opportunities/agriculture-food-research-initiative-foundational-applied-science,TRUE
-359245,Bureau Of Educational and Cultural Affairs,FY 2025 Community College Initiative Program,2025-08-04,2025-06-04,https://www.state.gov/eca-grant-opportunities/,FALSE
-359900,Employment and Training Administration,PY2025 Planning Instruction and Allotments for Senior Community Service Employment Program (SCSEP) State and Territorial Grantees,2025-08-04,2025-07-02,NA,FALSE
-359908,Naval Facilities Engineering Command Southwest,BLACK ABALONE REPRODUCTION INVESTIGATION: FACILITATING CRITICAL HABITAT EXEMPTION AT SAN CLEMENTE ISLAND FOR ENHANCED FLEET READINESS AND UNBURDENED TESTING AND TRAINING,2025-08-04,2025-07-02,NA,FALSE
-359911,Naval Facilities Engineering Command Southwest,"SPECIES DISTRIBUTION MODELING PROJECT AT MARINE CORPS AIR GROUND COMBAT CENTER, TWENTYNINE PALMS, CALIFORNIA",2025-08-04,2025-07-02,NA,FALSE
-359913,Naval Facilities Engineering Command Southwest,"FY25 AGASSIZ&#8217;S DESERT TORTOISE (GOPHERUS AGASSIZII) GENETIC ANALYSIS AT MCAGCC, THE MARINE CORPS AIR GROUND COMBAT CENTER, TWENTYNINE PALMS, CALIFORNIA",2025-08-04,2025-07-02,NA,FALSE
-359756,Engineer Research and Development Center,"Oyster Larval Transport/Hydrodynamic Modeling for the Herring Bay Sanctuary, Maryland",2025-08-06,2025-06-18,NA,FALSE
-348260,U.S. National Science Foundation,Human Networks and Data Science,2025-08-07,2023-05-20,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23568,FALSE
-359965,Department of Defense,"Demographic, Movement, and Habitat Studies of the Endangered Snail Kite in Response to Operational Plans in the Everglades, Florida",2025-08-08,2025-07-09,NA,FALSE
-360121,Food and Drug Administration,FDA&apos;s Integrated Food Safety System Training Delivery and Development,2025-08-08,2025-07-23,https://grants.nih.gov/grants/guide/rfa-files/RFA-FD-25-016.html,FALSE
-202506081,State of Maine - RFP,Electronic Death Investigation Case Management System,2025-08-08,2025-07-15,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
-291594,FAA-COE-TTHP,COE for Technical Training and Human Performance,2025-08-10,2017-02-03,NA,FALSE
-359973,Geological Survey,Cooperative Agreement for affiliated Partner with the Pacific Northwest Cooperative Ecosystem Studies Units (CESU),2025-08-10,2025-07-10,NA,FALSE
-359972,Geological Survey,Cooperative Agreement for affiliated Partner with the South Florida and Caribbean Cooperative Ecosystem Studies Units (CESU),2025-08-10,2025-07-10,NA,FALSE
-359974,Geological Survey,Cooperative Agreement for affiliated Partner with the Gulf Coast Cooperative Ecosystem Studies Unit (CESU),2025-08-10,2025-07-10,NA,FALSE
-359980,Geological Survey,Cooperative Agreement for affiliated Partner with the Great Lakes-Northern Forest Cooperative Ecosystem Studies Units (CESU),2025-08-10,2025-07-10,NA,FALSE
-359978,Geological Survey,Cooperative Agreement for affiliated Partner with the Desert Southwest Cooperative Ecosystem Studies Unit (CESU),2025-08-10,2025-07-10,NA,FALSE
-360145,Department of Homeland Security - FEMA,Fiscal Year 25 Community Assistance Program - State Support Services Element (CAP-SSSE),2025-08-11,2025-07-25,https://www.fema.gov/floodplain-management/community-assistance-program,FALSE
-360115,Employment and Training Administration,FY 25 Trade Adjustment Assistance (TAA) Program Training and Other Activities (TaOA) Funds,2025-08-11,2025-07-22,NA,FALSE
-359982,Naval Facilities Engineering Command Southwest,"CULTURAL AND NATURAL RESOURCES SUPPORT AT THE MARINE CORPS AIR GROUND COMBAT CENTER, TWENTYNINE PALMS, CALIFORNIA",2025-08-11,2025-07-10,NA,FALSE
-202505076,State of Maine - RFP,MCP Inventory of Critical Maine Working Waterfronts,2025-08-11,2025-07-07,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
-359986,Washington Headquarters Services,DoD Cyber Academic Engagement Office Program Support Grants to National Centers of Academic Excellence in Cybersecurity,2025-08-11,2025-07-11,NA,FALSE
-202506089,State of Maine - RFA,STOP Violence Against Women Formula Grant,2025-08-12,2025-07-08,https://www.maine.gov/dafs/bbm/procurementservices/vendors/grants,FALSE
-351715,U.S. National Science Foundation,ECosystem for Leading Innovation in Plasma Science and Engineering,2025-08-12,2024-01-06,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505924,FALSE
-353962,U.S. National Science Foundation,Research Training Groups in the Mathematical Sciences,2025-08-12,2024-05-03,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24570,FALSE
-354144,U.S. National Science Foundation,Correctness for Scientific Computing Systems,2025-08-12,2024-05-10,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24571,FALSE
-357724,U.S. National Science Foundation,EPSCoR Research Infrastructure Improvement Program: EPSCoR Research Incubators for STEM Excellence,2025-08-12,2024-12-14,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf25522,FALSE
-359891,Bureau of Indian Affairs,Energy and Mineral Development Program 2025,2025-08-13,2025-07-01,NA,FALSE
-359990,Department of Education,"Office of Postsecondary Education (OPE): Higher Education Programs (HEP): Institutional Service - Alaska Native-Serving Institutions Program (Part A), Assistance Listing Number (ALN) 84.031N",2025-08-13,2025-07-14,https://www.govinfo.gov/content/pkg/FR-2025-07-14/pdf/2025-13153.pdf,FALSE
-359993,Department of Education,"Office of Postsecondary Education (OPE): Higher Education Programs (HEP): Institutional Service: Native Hawaiian-Serving Institutions (ANNH) Program (Part A), Assistance Listing Number (ALN) 84.031W",2025-08-13,2025-07-14,https://www.govinfo.gov/content/pkg/FR-2025-07-14/pdf/2025-13153.pdf,FALSE
-359995,Department of Education,"Office of Postsecondary Education (OPE): Higher Education Programs (HEP): Native American-Serving Nontribal Institutions (NASNTI) Program, Assistance Listing Number 84.031X",2025-08-13,2025-07-14,https://www.govinfo.gov/content/pkg/FR-2025-07-14/pdf/2025-13151.pdf,FALSE
-359994,Department of Education,"Office of Postsecondary Education (OPE): Higher Education Programs (HEP): Institutional Service: Asian American and Native American Pacific Islander-Serving Institutions (AANAPISI) Program, Assistance Listing Number 84.031L",2025-08-13,2025-07-14,https://www.govinfo.gov/content/pkg/FR-2025-07-14/pdf/2025-13154.pdf,FALSE
-360009,Department of Education,"Office of Postsecondary Education (OPE): Transition Programs for Students with Intellectual Disabilities into Higher Education (TPSID), Assistance Listing Number (ALN) 84.407A",2025-08-13,2025-07-14,https://www.govinfo.gov/content/pkg/FR-2025-07-14/pdf/2025-13143.pdf,FALSE
-360010,Department of Education,"Office of Postsecondary Education (OPE): Model Comprehensive Transition and Postsecondary Programs for Students with Intellectual Disabilities Program (TPSID-CC), Assistance Listing Number 84.407B",2025-08-13,2025-07-14,https://www.govinfo.gov/content/pkg/FR-2025-07-14/pdf/2025-13144.pdf,FALSE
-359824,Engineer Research and Development Center,Interior Least Tern Monitoring on the McClellan Kerr Arkansas River Navigation System in the Little Rock Corps District,2025-08-13,2025-06-25,NA,FALSE
-360033,NAVSEA HQ - N00024,Navy&#8217;s Grants for Improvement of Navy Ship Repair or Alterations Capability,2025-08-14,2025-07-15,NA,FALSE
-345091,U.S. National Science Foundation,Scholarships in STEM Network,2025-08-14,2022-12-23,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23536,FALSE
-NA,USDA NIFA,Potato Breeding Research,2025-08-14,2025-07-24,https://www.nifa.usda.gov/grants/funding-opportunities/potato-breeding-research,FALSE
-358753,Department of Housing and Urban Development,Tribal Housing and Urban Development-Veterans Affairs Supportive Housing (Tribal HUD-VASH) Expansion (Revised),2025-08-15,2025-04-24,https://www.hud.gov/helping-americans/public-indian-housing-tribal-hud-vash,FALSE
-359903,Department of the Interior,"OIA Maintenance Assistance Program (MAP) 2025 - reposted July 2, 2025",2025-08-15,2025-07-02,NA,FALSE
-202506088,State of Maine - RFP,Employee Engagement Survey,2025-08-15,2025-07-23,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
-275148,U.S. National Science Foundation,Physical Oceanography,2025-08-15,2015-03-13,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12729,FALSE
-275150,U.S. National Science Foundation,Chemical Oceanography,2025-08-15,2015-03-13,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11698,FALSE
-344858,U.S. National Science Foundation,Biological Oceanography,2025-08-15,2022-12-13,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506154,FALSE
-360061,Department of Defense,"Cultural and Natural Resources Technical Reporting at Pacific Installations Bellows Air Force Station and Ka&#8217;ena Point Space Force Station Oahu, HI",2025-08-18,2025-07-17,NA,FALSE
-360035,Missile Defense Agency,MDA STEM BEST Robotics Grant,2025-08-20,2025-07-16,NA,FALSE
-360117,Bureau of Ocean Energy Management,"PC-25-02, Probability Analysis of Derelict Fishing Gear Interactions with Floating Offshore Wind Mooring Systems Offshore California",2025-08-22,2025-07-22,NA,FALSE
-359826,Engineer Research and Development Center,Evaluating Snow Water Equivalent and Soil Moisture in a Complex Wildfire-Impacted Area of the Rocky Mountains using a Mobile Cosmic Ray Neutron Sensor,2025-08-25,2025-06-25,NA,FALSE
-359057,U.S. National Science Foundation,Verticals-enabling Intelligent Network Systems,2025-08-25,2025-05-20,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf25539,FALSE
-348012,U.S. National Science Foundation,Robert Noyce Teacher Scholarship Program,2025-08-26,2023-05-09,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23586,FALSE
-356630,Headquarters,Energy Improvements in Rural or Remote Areas &#8211; Fiscal Year 2025 Release,2025-08-28,2024-10-03,https://oced-exchange.energy.gov/,FALSE
-314743,U.S. National Science Foundation,"Methodology, Measurement, and Statistics",2025-08-28,2019-04-10,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf19575,FALSE
-360168,Geological Survey,Cooperative Agreement for affiliated Partner with the Desert Southwest Cooperative Ecosystem Studies Unit (CESU),2025-08-29,2025-07-29,NA,FALSE
-360132,Office for Victims of Crime,OVC FY25 Increasing Availability of Medical Forensic Examinations for Victims of Sexual Assault,2025-08-29,2025-07-24,https://ovc.ojp.gov/funding/current-funding-opportunities,FALSE
-358025,Office of Naval Research,"FY25 Department of the Navy (DoN) Science, Technology, Engineering, and Mathematics (STEM) Education and Workforce Program",2025-08-29,2025-01-07,https://www.onr.navy.mil/work-with-us/funding-opportunities/announcements,FALSE
-358555,Washington Headquarters Services,"Bilateral Academic Research Initiative (BARI) Program &#8211; Ministry of Trade, Industry and Energy (MOTIE)",2025-08-29,2025-03-13,NA,FALSE
-202506090,State of Maine - RFP,"Maine Veterans’ Memorial Cemeteries, Augusta – Turf Maintenance",2025-09-01,2025-07-15,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
-360038,Engineer Research and Development Center,Analysis and Evaluation of Water Erosion Measurement of Bio-Cemented Soils for Dams and Levees Flood Mitigation,2025-09-02,2025-07-16,NA,FALSE
-356423,U.S. National Science Foundation,Pathways to Enable Open-Source Ecosystems,2025-09-02,2024-09-14,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24606,FALSE
-359283,DOC NOAA - ERA Production,Cooperative Institute Fostering Aquaculture Research and Marketing (CIFARM),2025-09-05,2025-06-06,NA,FALSE
-NA,NOAA Fisheries,NOAA Great Lakes Fish Habitat Restoration Partnership Grants,2025-09-05,2024-08-27,https://www.fisheries.noaa.gov/grant/noaa-great-lakes-fish-habitat-restoration-partnership-grants,FALSE
-NA,NOAA Fisheries,Notice of Funding Opportunity: New Cooperative Institute Fostering Aquaculture Research and Marketing,2025-09-05,2025-06-06,https://www.fisheries.noaa.gov/grant/notice-funding-opportunity-new-cooperative-institute-fostering-aquaculture-research-and-0,FALSE
-202503049,State of Maine - RFP,"Engineering Services and Operations Support at State-Owned Landfill, East Millinocket, Maine",2025-09-08,2025-06-09,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
-356119,U.S. National Science Foundation,U.S. National Science Foundation Research Traineeship (NRT) Program,2025-09-08,2024-08-17,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24597,FALSE
-360013,Agricultural Marketing Service,Dairy Business Innovation Initiatives Program (DBI) Fiscal Year 2025,2025-09-09,2025-07-14,https://www.ams.usda.gov/services/grants/dbi,FALSE
-359997,NASA Headquarters,ROSES 2025: A.5 Earth Venture Suborbital-4 Snow4Flow Science Team,2025-09-09,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={65B62BBE-4082-0E30-D642-353E3D70D98F}&amp;path=&amp;method=init,FALSE
-202506092,State of Maine - RFA,Clean Energy Partnership: Residential Energy Efficiency Workforce Training Grants,2025-09-17,2025-07-16,https://www.maine.gov/dafs/bbm/procurementservices/vendors/grants,FALSE
-NA,USDA NIFA,Small Business Innovation Research and Small Business Technology Transfer Programs Phase II,2025-09-23,2025-07-16,https://www.nifa.usda.gov/grants/funding-opportunities/small-business-innovation-research-small-business-technology,FALSE
-358898,Environmental Protection Agency,FY26 BROWNFIELDS JOB TRAINING (JT) GRANTS,2025-09-26,2025-07-21,NA,FALSE
-358188,Department of Homeland Security - FEMA,Fiscal Year 2025 Safeguarding Tomorrow through Ongoing Risk Mitigation Revolving Loan Fund Program,2025-09-30,2025-01-14,https://www.fema.gov/grants/mitigation/learn/storm-rlf,FALSE
-358716,Department of Housing and Urban Development,Application Instructions for the Indian Community Development Block Grant (ICDBG) Imminent Threat (IT) Program,2025-09-30,2025-04-18,https://www.hud.gov/helping-americans/public-indian-housing-grants-icdbg,FALSE
-358382,Fish and Wildlife Service,F25AS00188 Coastal Program FY25,2025-09-30,2025-01-23,NA,FALSE
-356605,Office of Naval Research,FY25 Long Range Broad Agency Announcement (BAA) for Navy and Marine Corps Science and Technology,2025-09-30,2024-10-01,https://www.onr.navy.mil/work-with-us/funding-opportunities,FALSE
-336931,U.S. National Science Foundation,Geospace Environment Modeling,2025-09-30,2021-12-10,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22537,FALSE
-357951,National Endowment for the Humanities,Humanities Research Centers on Artificial Intelligence,2025-10-01,2025-07-08,https://www.neh.gov/program/humanities-research-centers-artificial-intelligence,FALSE
-355100,U.S. National Science Foundation,Advanced Technological Education,2025-10-02,2024-06-25,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24584,FALSE
-360142,U.S. National Science Foundation,Smart Health and Biomedical Research in the Era of Artificial Intelligence and Advanced Data Science,2025-10-03,2025-07-24,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf25542,FALSE
-358795,Dept. of the Army -- USAMRAA,"DoD Rare Cancers, Resource and Community Development Award",2025-10-06,2025-05-01,NA,FALSE
-360021,NASA Headquarters,ROSES 2025: F.15 Artemis III Participating Scientist Program,2025-10-07,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={2279A2F5-A428-5FCA-2E1D-640E9B539477}&amp;path=&amp;method=init,FALSE
-350802,U.S. National Science Foundation,Research Experiences for Teachers (RET) in Engineering and Computer Science,2025-10-08,2023-10-31,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24503,FALSE
-354134,DARPA - Microsystems Technology Office ,Microsystems Technology Office (MTO) Office-wide,2025-10-09,2024-05-09,https://sam.gov/opp/49bbf2a87fb44ac6a5ef8c7d5c1ba292/view,FALSE
-353936,U.S. National Science Foundation,Mathematical Foundations of Artificial Intelligence,2025-10-10,2024-05-02,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24569,FALSE
-359950,Bureau of Reclamation,"Native American Affairs: Emergency Drought Relief for Tribes Inflation Reduction Act of 2022, Section 80004",2025-10-14,2025-07-08,NA,FALSE
-359250,Dept. of the Army -- USAMRAA,DHA-  Military Health System Research Program,2025-10-17,2025-06-04,NA,FALSE
-359998,NASA Headquarters,ROSES 2025: A.7 Water Quality Applications,2025-10-21,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={345E142D-1435-CDC0-E1BA-A5F7CC815049}&amp;path=&amp;method=init,FALSE
-360110,Bureau of Reclamation,Native American Affairs: Technical Assistance to Tribes for Fiscal Year 2025,2025-10-28,2025-07-22,NA,FALSE
-359992,NASA Headquarters,ROSES 2025: A.2 Earth Venture: TROPICS and PREFIRE Science and Applications Teams,2025-11-13,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={B956BA32-22A3-1A3C-F9EE-0684736326E0}&amp;path=&amp;method=init,FALSE
-360000,NASA Headquarters,ROSES 2025: A.8 Water Resources Applications,2025-11-14,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={50B720B3-CD96-3DB2-9591-E8A4668A6A4D}&amp;path=&amp;method=init,FALSE
-356944,U.S. National Science Foundation,Geosciences Open Science Ecosystem,2025-11-14,2024-11-02,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf25506,FALSE
-360015,NASA Headquarters,ROSES 2025: C.8 Yearly Opportunities for Research in Planetary Defense,2025-11-18,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={1F963989-1A67-FD25-55A3-A0C24A073AEB}&amp;path=&amp;method=init,FALSE
-360020,NASA Headquarters,ROSES 2025: F.9 Citizen Science Seed Funding Program,2025-11-19,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={98BB6302-ED70-F1C4-6514-8DF311BEE547}&amp;path=&amp;method=init,FALSE
-359104,U.S. National Science Foundation,Louis Stokes Alliances for Minority Participation,2025-11-21,2025-05-23,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24563,FALSE
-358751,U.S. National Science Foundation,Cyberinfrastructure for Sustained Scientific Innovation,2025-12-01,2025-04-24,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22632,FALSE
-360017,NASA Headquarters,ROSES 2025: C.10 Lunar Mapping Program,2025-12-03,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={E11DF130-35CF-6814-B439-9D31391E798D}&amp;path=&amp;method=init,FALSE
-360014,NASA Headquarters,ROSES 2025: C.5 Planetary Science Early Career Award,2025-12-04,2025-07-14,Click on the following link to see the full text of the announcement for this funding opportunity.,FALSE
-360001,NASA Headquarters,ROSES 2025: A.9 User-Centered Applications with Large Earth Foundation Models,2025-12-09,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={13B2AE21-8000-540F-C1E0-EFA2D7271A19}&amp;path=&amp;method=init,FALSE
-347967,U.S. National Science Foundation,IUSE: Innovation in Two-Year College STEM Education,2025-12-10,2023-05-06,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23584,FALSE
-302271,U.S. National Science Foundation,Statistics,2025-12-15,2018-03-29,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5556,FALSE
-351547,Environmental Protection Agency,CONTAMINATED ALASKA NATIVE CLAIMS SETTLEMENT ACT LANDS ASSISTANCE PROGRAM,2025-12-31,2023-12-28,https://www.epa.gov/r10-tribal/contamination-ancsa-conveyed-lands#grants,FALSE
-358169,Fish and Wildlife Service,F25AS00217 Aquatic Invasive Species Grants to Great Lakes Tribes - Fiscal Year 2025 Great Lakes Restoration Initiative,2025-12-31,2025-01-13,NA,FALSE
-358168,Fish and Wildlife Service,F25AS00216 - Aquatic Invasive Species Grants to Great Lakes States - Fiscal Year 2025 Great Lakes Restoration Initiative,2025-12-31,2025-01-13,NA,FALSE
-358170,Fish and Wildlife Service,F25AS00218 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2025 Great Lakes Restoration Initiative,2025-12-31,2025-01-13,NA,FALSE
-356444,National Energy Technology Laboratory,Notice of Intent (NOI) related to &quot;HARMONY: Human-Centric Analytics for Resilient &amp; Modernized Power sYstems&#8221;,2025-12-31,2024-09-17,https://www.fedconnect.net,FALSE
-353946,National Energy Technology Laboratory,Bipartisan Infrastructure Law - Carbon Dioxide Transportation Infrastructure Finance and Innovation (CIFIA) Program: Future Growth Grants (Section 40304),2026-01-02,2024-05-02,FedConnect,FALSE
-360022,NASA Headquarters,ROSES 2025: B.4 Space Weather Science Application Research-to-Operations-to-Research,2026-01-09,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={44C4B6D5-A499-3314-7172-3435A7ED59C6}&amp;path=&amp;method=init,FALSE
-344715,U.S. National Science Foundation,Oceanographic Facilities and Equipment Support,2026-01-12,2022-12-01,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23525,FALSE
-356256,U.S. National Science Foundation,Advancing Informal STEM Learning,2026-01-14,2024-08-29,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24601,FALSE
-354620,Department of Homeland Security - FEMA,Fiscal Year 2024 Flood Mitigation Assistance Swift Current,2026-01-15,2024-05-30,NA,FALSE
-344608,U.S. National Science Foundation,Training-based Workforce Development for Advanced Cyberinfrastructure  (CyberTraining),2026-01-15,2022-11-22,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23520,FALSE
-355219,U.S. National Science Foundation,"Research on the Science and Technology Enterprise: Indicators, Statistics, and Methods (NCSES S&amp;T)",2026-01-20,2024-07-01,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24587,FALSE
-344124,U.S. National Science Foundation,Improving Undergraduate STEM Education: Directorate for STEM Education,2026-01-21,2022-10-20,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23510,FALSE
-360019,NASA Headquarters,ROSES 2025: F.3 Exoplanets Research,2026-01-26,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={2F7D763F-B1F4-2C89-27C5-B1A961209D3F}&amp;path=&amp;method=init,FALSE
-352796,U.S. National Science Foundation,"Artificial Intelligence, Formal Methods, and Mathematical Reasoning",2026-02-05,2024-03-05,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24554,FALSE
-337984,U.S. National Science Foundation,Algorithms for Modern Power Systems,2026-02-09,2022-02-11,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22569,FALSE
-358568,U.S. National Science Foundation,Fire Science Innovations through Research and Education,2026-02-10,2025-03-16,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506410,FALSE
-352562,U.S. National Science Foundation,"Hispanic-Serving Institutions: Enriching Learning, Programs, and Student Experiences",2026-02-11,2024-02-22,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24551,FALSE
-45793,U.S. National Science Foundation,Ocean Technology and Interdisciplinary Coordination,2026-02-16,2009-03-05,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12724,FALSE
-337130,U.S. National Science Foundation,EDU Core Research: Building Capacity in STEM Education Research (ECR: BCSER),2026-02-27,2021-12-24,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22548,FALSE
-360018,NASA Headquarters,ROSES 2025: D.5 Astrophysics Pioneers,2026-03-13,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={2D567042-5011-7D69-C481-D5002E89FB62}&amp;path=&amp;method=init,FALSE
-351947,U.S. National Science Foundation,Innovations in Graduate Education (IGE) Program,2026-03-25,2024-01-24,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24529,FALSE
-352198,DOC NOAA - ERA Production,FY 2024 Atlantic Salmon Habitat Restoration Partnership Grants,2026-03-31,2024-02-05,NA,FALSE
-359996,NASA Headquarters,ROSES 2025: A.4 Rapid Response and Novel Research in Earth Science,2026-03-31,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={F2C85D95-15CF-AB33-C8A7-2BF14ADA5A8A}&amp;path=&amp;method=init,FALSE
-360004,NASA Headquarters,ROSES 2025: C.2 Solar System Science,2026-03-31,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={C92A28D2-9E30-4149-24B7-8A40ED4F564B}&amp;path=&amp;method=init,FALSE
-360003,NASA Headquarters,ROSES 2025: A.10 INNOVATE,2026-03-31,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={9E3216E9-ADB7-B72A-A1D7-12EC8050DC3F}&amp;path=&amp;method=init,FALSE
-356472,U.S. National Science Foundation,"Safety, Security, and Privacy of Open-Source Ecosystems",2026-04-28,2024-09-20,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24608,FALSE
-359989,NASA Headquarters,ROSES 2025: Research Opportunities in Space and Earth Science,2026-05-31,2025-07-11,https://solicitation.nasaprs.com/ROSES2025,FALSE
-359932,Office of Naval Research,"FY25 ONR Office Of Naval Research (ONR) Science, Technology, Engineering, and Mathematics(STEM) Education and Workforce Program",2026-06-30,2025-07-07,https://www.onr.navy.mil/work-with-us/funding-opportunities,FALSE
-357725,U.S. National Science Foundation,EPSCoR Research Infrastructure Improvement Program: EPSCoR Collaborations for Optimizing Research Ecosystems,2026-07-21,2024-12-14,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf25523,FALSE
-355706,DOC NOAA - ERA Production,"FY 2024 &#8211; 2026 Broad Agency Announcement (BAA), National Marine Fisheries Service",2026-09-30,2024-07-29,NA,FALSE
-356002,DOC NOAA - ERA Production,FY 2024 &#8211; 2026 - Broad Agency Announcement (BAA) for the Office of Education,2026-09-30,2024-08-12,NA,FALSE
-356669,DOC NOAA - ERA Production,"FY 2024 &#8211; 2026 Broad Agency Announcement (BAA), Office of Oceanic and Atmospheric Research (OAR)",2026-09-30,2024-10-09,NA,FALSE
-NA,NOAA Fisheries,Fiscal Year 2024–2026: Broad Agency Announcement,2026-09-30,2024-07-29,https://www.fisheries.noaa.gov/grant/fiscal-year-2024-2026-broad-agency-announcement,FALSE
-350910,U.S. National Science Foundation,International Research Experiences for Students,2026-10-26,2023-11-08,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24506,FALSE
-338821,Munitions Directorate,Air Delivered Effects,2027-03-21,2022-03-22,NA,FALSE
-359816,Food and Drug Administration,"Animal Food Regulatory Program Standards Implementation Development and Maintenance, with Mutual Reliance Initiatives Clinical Trials Not Allowed",2027-04-01,2025-06-25,https://grants.nih.gov/grants/guide/pa-files/PAR-25-003.html,FALSE
-360006,Food and Drug Administration,NARMS Cooperative Agreement Program to Strengthen Antibiotic Resistance Surveillance in Retail Food Specimens,2027-04-01,2025-07-11,https://grants.nih.gov/grants/guide/pa-files/PAR-25-014.html,FALSE
-343653,Dept. of the Army -- USAMRAA,Department of Defense HIV/AIDS Prevention Program,2027-09-18,2022-09-19,NA,FALSE
-345083,National Park Service,NPS Cooperative Ecosystems Studies Units (CESU) Master Cooperative Agreements,2027-12-31,2022-12-22,NA,FALSE
-334972,Centers for Disease Control and Prevention - ERA,Commercial Fishing Occupational Safety Training Project Grants (T03),2028-01-31,2022-07-11,NA,FALSE
-345938,Washington Headquarters Services,NDEP STEM Open NFO,2028-02-08,2023-02-09,NA,FALSE
-355417,Centers for Disease Control and Prevention - ERA,Occupational Safety and Health Education and Research Centers (T42),2028-10-26,2024-10-07,https://grants.nih.gov/grants/guide/rfa-files/RFA-OH-25-002.html,FALSE
-356623,Advanced Research Projects Agency Energy ,SEEDING CRITICAL ADVANCES FOR LEADING ENERGY TECHNOLOGIES WITH UNTAPPED POTENTIAL (SCALEUP) READY,2029-09-29,2024-10-02,https://arpa-e-foa.energy.gov,FALSE
-350952,Advanced Research Projects Agency Energy ,SPURRING PROJECTS TO ADVANCE ENERGY RESEARCH AND KNOWLEDGE SWIFTLY (SPARKS),2029-09-30,2023-11-09,https://arpa-e-foa.energy.gov,FALSE
-358674,Munitions Directorate,Air Dominance Broad Agency Announcement (BAA),2029-10-31,2025-04-14,NA,FALSE
+355100,U.S. National Science Foundation,Advanced Technological Education,2025-10-02,2024-06-25,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24584,TRUE
+360142,U.S. National Science Foundation,Smart Health and Biomedical Research in the Era of Artificial Intelligence and Advanced Data Science,2025-10-03,2025-07-24,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf25542,TRUE
+360232,Environmental Protection Agency,Midsize and Large Drinking Water System Infrastructure Resilience and Sustainability Program,2025-10-06,2025-08-05,NA,TRUE
+360021,NASA Headquarters,ROSES 2025: F.15 Artemis III Participating Scientist Program,2025-10-07,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={2279A2F5-A428-5FCA-2E1D-640E9B539477}&amp;path=&amp;method=init,TRUE
+350802,U.S. National Science Foundation,Research Experiences for Teachers (RET) in Engineering and Computer Science,2025-10-08,2023-10-31,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24503,TRUE
+354134,DARPA - Microsystems Technology Office ,Microsystems Technology Office (MTO) Office-wide,2025-10-09,2024-05-09,https://sam.gov/opp/49bbf2a87fb44ac6a5ef8c7d5c1ba292/view,TRUE
+353936,U.S. National Science Foundation,Mathematical Foundations of Artificial Intelligence,2025-10-10,2024-05-02,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24569,TRUE
+359950,Bureau of Reclamation,"Native American Affairs: Emergency Drought Relief for Tribes Inflation Reduction Act of 2022, Section 80004",2025-10-14,2025-07-08,NA,TRUE
+359998,NASA Headquarters,ROSES 2025: A.7 Water Quality Applications,2025-10-21,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={345E142D-1435-CDC0-E1BA-A5F7CC815049}&amp;path=&amp;method=init,TRUE
+360110,Bureau of Reclamation,Native American Affairs: Technical Assistance to Tribes for Fiscal Year 2025,2025-10-28,2025-07-22,NA,TRUE
+354633,U.S. National Science Foundation,NSF Small Business Innovation Research  / Small Business Technology Transfer Phase II Programs,2025-11-05,2024-05-31,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24580,TRUE
+354632,U.S. National Science Foundation,NSF Small Business Innovation Research / Small Business Technology Transfer Phase I Programs,2025-11-05,2024-05-31,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24579,TRUE
+355009,U.S. National Science Foundation,NSF Small Business Innovation Research / Small Business Technology Transfer Fast-Track Pilot Programs,2025-11-05,2024-06-18,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24582,TRUE
+359992,NASA Headquarters,ROSES 2025: A.2 Earth Venture: TROPICS and PREFIRE Science and Applications Teams,2025-11-13,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={B956BA32-22A3-1A3C-F9EE-0684736326E0}&amp;path=&amp;method=init,TRUE
+360000,NASA Headquarters,ROSES 2025: A.8 Water Resources Applications,2025-11-14,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={50B720B3-CD96-3DB2-9591-E8A4668A6A4D}&amp;path=&amp;method=init,TRUE
+356944,U.S. National Science Foundation,Geosciences Open Science Ecosystem,2025-11-14,2024-11-02,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf25506,TRUE
+360015,NASA Headquarters,ROSES 2025: C.8 Yearly Opportunities for Research in Planetary Defense,2025-11-18,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={1F963989-1A67-FD25-55A3-A0C24A073AEB}&amp;path=&amp;method=init,TRUE
+360020,NASA Headquarters,ROSES 2025: F.9 Citizen Science Seed Funding Program,2025-11-19,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={98BB6302-ED70-F1C4-6514-8DF311BEE547}&amp;path=&amp;method=init,TRUE
+359104,U.S. National Science Foundation,Louis Stokes Alliances for Minority Participation,2025-11-21,2025-05-23,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24563,TRUE
+358751,U.S. National Science Foundation,Cyberinfrastructure for Sustained Scientific Innovation,2025-12-01,2025-04-24,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22632,TRUE
+360017,NASA Headquarters,ROSES 2025: C.10 Lunar Mapping Program,2025-12-03,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={E11DF130-35CF-6814-B439-9D31391E798D}&amp;path=&amp;method=init,TRUE
+360014,NASA Headquarters,ROSES 2025: C.5 Planetary Science Early Career Award,2025-12-04,2025-07-14,Click on the following link to see the full text of the announcement for this funding opportunity.,TRUE
+360001,NASA Headquarters,ROSES 2025: A.9 User-Centered Applications with Large Earth Foundation Models,2025-12-09,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={13B2AE21-8000-540F-C1E0-EFA2D7271A19}&amp;path=&amp;method=init,TRUE
+347967,U.S. National Science Foundation,IUSE: Innovation in Two-Year College STEM Education,2025-12-10,2023-05-06,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23584,TRUE
+302271,U.S. National Science Foundation,Statistics,2025-12-15,2018-03-29,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5556,TRUE
+351547,Environmental Protection Agency,CONTAMINATED ALASKA NATIVE CLAIMS SETTLEMENT ACT LANDS ASSISTANCE PROGRAM,2025-12-31,2023-12-28,https://www.epa.gov/r10-tribal/contamination-ancsa-conveyed-lands#grants,TRUE
+358169,Fish and Wildlife Service,F25AS00217 Aquatic Invasive Species Grants to Great Lakes Tribes - Fiscal Year 2025 Great Lakes Restoration Initiative,2025-12-31,2025-01-13,NA,TRUE
+358168,Fish and Wildlife Service,F25AS00216 - Aquatic Invasive Species Grants to Great Lakes States - Fiscal Year 2025 Great Lakes Restoration Initiative,2025-12-31,2025-01-13,NA,TRUE
+358170,Fish and Wildlife Service,F25AS00218 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2025 Great Lakes Restoration Initiative,2025-12-31,2025-01-13,NA,TRUE
+356444,National Energy Technology Laboratory,Notice of Intent (NOI) related to &quot;HARMONY: Human-Centric Analytics for Resilient &amp; Modernized Power sYstems&#8221;,2025-12-31,2024-09-17,https://www.fedconnect.net,TRUE
+353946,National Energy Technology Laboratory,Bipartisan Infrastructure Law - Carbon Dioxide Transportation Infrastructure Finance and Innovation (CIFIA) Program: Future Growth Grants (Section 40304),2026-01-02,2024-05-02,FedConnect,TRUE
+360022,NASA Headquarters,ROSES 2025: B.4 Space Weather Science Application Research-to-Operations-to-Research,2026-01-09,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={44C4B6D5-A499-3314-7172-3435A7ED59C6}&amp;path=&amp;method=init,TRUE
+344715,U.S. National Science Foundation,Oceanographic Facilities and Equipment Support,2026-01-12,2022-12-01,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23525,TRUE
+356256,U.S. National Science Foundation,Advancing Informal STEM Learning,2026-01-14,2024-08-29,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24601,TRUE
+354620,Department of Homeland Security - FEMA,Fiscal Year 2024 Flood Mitigation Assistance Swift Current,2026-01-15,2024-05-30,NA,TRUE
+344608,U.S. National Science Foundation,Training-based Workforce Development for Advanced Cyberinfrastructure  (CyberTraining),2026-01-15,2022-11-22,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23520,TRUE
+355219,U.S. National Science Foundation,"Research on the Science and Technology Enterprise: Indicators, Statistics, and Methods (NCSES S&amp;T)",2026-01-20,2024-07-01,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24587,TRUE
+344124,U.S. National Science Foundation,Improving Undergraduate STEM Education: Directorate for STEM Education,2026-01-21,2022-10-20,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23510,TRUE
+360019,NASA Headquarters,ROSES 2025: F.3 Exoplanets Research,2026-01-26,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={2F7D763F-B1F4-2C89-27C5-B1A961209D3F}&amp;path=&amp;method=init,TRUE
+348260,U.S. National Science Foundation,Human Networks and Data Science,2026-02-05,2023-05-20,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23568,TRUE
+352796,U.S. National Science Foundation,"Artificial Intelligence, Formal Methods, and Mathematical Reasoning",2026-02-05,2024-03-05,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24554,TRUE
+337984,U.S. National Science Foundation,Algorithms for Modern Power Systems,2026-02-09,2022-02-11,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22569,TRUE
+358568,U.S. National Science Foundation,Fire Science Innovations through Research and Education,2026-02-10,2025-03-16,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506410,TRUE
+352562,U.S. National Science Foundation,"Hispanic-Serving Institutions: Enriching Learning, Programs, and Student Experiences",2026-02-11,2024-02-22,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24551,TRUE
+45793,U.S. National Science Foundation,Ocean Technology and Interdisciplinary Coordination,2026-02-16,2009-03-05,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12724,TRUE
+337130,U.S. National Science Foundation,EDU Core Research: Building Capacity in STEM Education Research (ECR: BCSER),2026-02-27,2021-12-24,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22548,TRUE
+360018,NASA Headquarters,ROSES 2025: D.5 Astrophysics Pioneers,2026-03-13,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={2D567042-5011-7D69-C481-D5002E89FB62}&amp;path=&amp;method=init,TRUE
+351947,U.S. National Science Foundation,Innovations in Graduate Education (IGE) Program,2026-03-25,2024-01-24,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24529,TRUE
+352198,DOC NOAA - ERA Production,FY 2024 Atlantic Salmon Habitat Restoration Partnership Grants,2026-03-31,2024-02-05,NA,TRUE
+359996,NASA Headquarters,ROSES 2025: A.4 Rapid Response and Novel Research in Earth Science,2026-03-31,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={F2C85D95-15CF-AB33-C8A7-2BF14ADA5A8A}&amp;path=&amp;method=init,TRUE
+360004,NASA Headquarters,ROSES 2025: C.2 Solar System Science,2026-03-31,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={C92A28D2-9E30-4149-24B7-8A40ED4F564B}&amp;path=&amp;method=init,TRUE
+360003,NASA Headquarters,ROSES 2025: A.10 INNOVATE,2026-03-31,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={9E3216E9-ADB7-B72A-A1D7-12EC8050DC3F}&amp;path=&amp;method=init,TRUE
+356472,U.S. National Science Foundation,"Safety, Security, and Privacy of Open-Source Ecosystems",2026-04-28,2024-09-20,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24608,TRUE
+359989,NASA Headquarters,ROSES 2025: Research Opportunities in Space and Earth Science,2026-05-31,2025-07-11,https://solicitation.nasaprs.com/ROSES2025,TRUE
+359932,Office of Naval Research,"FY25 ONR Office Of Naval Research (ONR) Science, Technology, Engineering, and Mathematics(STEM) Education and Workforce Program",2026-06-30,2025-07-07,https://www.onr.navy.mil/work-with-us/funding-opportunities,TRUE
+357725,U.S. National Science Foundation,EPSCoR Research Infrastructure Improvement Program: EPSCoR Collaborations for Optimizing Research Ecosystems,2026-07-21,2024-12-14,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf25523,TRUE
+355706,DOC NOAA - ERA Production,"FY 2024 &#8211; 2026 Broad Agency Announcement (BAA), National Marine Fisheries Service",2026-09-30,2024-07-29,NA,TRUE
+356002,DOC NOAA - ERA Production,FY 2024 &#8211; 2026 - Broad Agency Announcement (BAA) for the Office of Education,2026-09-30,2024-08-12,NA,TRUE
+356669,DOC NOAA - ERA Production,"FY 2024 &#8211; 2026 Broad Agency Announcement (BAA), Office of Oceanic and Atmospheric Research (OAR)",2026-09-30,2024-10-09,NA,TRUE
+NA,NOAA Fisheries,Fiscal Year 2024–2026: Broad Agency Announcement,2026-09-30,2024-07-29,https://www.fisheries.noaa.gov/grant/fiscal-year-2024-2026-broad-agency-announcement,TRUE
+350910,U.S. National Science Foundation,International Research Experiences for Students,2026-10-26,2023-11-08,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24506,TRUE
+359816,Food and Drug Administration,"Animal Food Regulatory Program Standards Implementation Development and Maintenance, with Mutual Reliance Initiatives Clinical Trials Not Allowed",2027-04-01,2025-06-25,https://grants.nih.gov/grants/guide/pa-files/PAR-25-003.html,TRUE
+360006,Food and Drug Administration,NARMS Cooperative Agreement Program to Strengthen Antibiotic Resistance Surveillance in Retail Food Specimens,2027-04-01,2025-07-11,https://grants.nih.gov/grants/guide/pa-files/PAR-25-014.html,TRUE
+345083,National Park Service,NPS Cooperative Ecosystems Studies Units (CESU) Master Cooperative Agreements,2027-12-31,2022-12-22,NA,TRUE
+334972,Centers for Disease Control and Prevention - ERA,Commercial Fishing Occupational Safety Training Project Grants (T03),2028-01-31,2022-07-11,NA,TRUE
+355417,Centers for Disease Control and Prevention - ERA,Occupational Safety and Health Education and Research Centers (T42),2028-10-26,2024-10-07,https://grants.nih.gov/grants/guide/rfa-files/RFA-OH-25-002.html,TRUE
+356623,Advanced Research Projects Agency Energy ,SEEDING CRITICAL ADVANCES FOR LEADING ENERGY TECHNOLOGIES WITH UNTAPPED POTENTIAL (SCALEUP) READY,2029-09-29,2024-10-02,https://arpa-e-foa.energy.gov,TRUE
+350952,Advanced Research Projects Agency Energy ,SPURRING PROJECTS TO ADVANCE ENERGY RESEARCH AND KNOWLEDGE SWIFTLY (SPARKS),2029-09-30,2023-11-09,https://arpa-e-foa.energy.gov,TRUE

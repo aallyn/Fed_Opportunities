@@ -98,11 +98,13 @@ filter_relevant <- function(df) {
     !str_detect(Agency, regex("Administration for Community Living", ignore_case = TRUE)),
     !str_detect(Agency, regex("Agency for Health Care Research and Quality", ignore_case = TRUE)),
     !str_detect(Agency, regex("Dept. of the Army", ignore_case = TRUE)),
+    !str_detect(Agency, regex("Dept of the Army", ignore_case = TRUE)),
+    !str_detect(Agency, regex("Department of Defence", ignore_case = TRUE)),
     !str_detect(Agency, regex("Missile Defense", ignore_case = TRUE)),
     !str_detect(Agency, regex("Bureau of Polotical-Military Affairs", ignore_case = TRUE)),
-    !str_detect(Agency, regex("Office for Victims of Crime", ignore_case = TRUE)),
+    !str_detect(Agency, regex("Office for Victims", ignore_case = TRUE)),
     !str_detect(Agency, regex("Employment and Training Administration", ignore_case = TRUE)),
-    !str_detect(Agency, regex("Washington Headquarters Services", ignore_case = TRUE)),
+    !str_detect(Agency, regex("Washington Headquarters", ignore_case = TRUE)),
     !str_detect(Agency, regex("National Endowment for the Humanities", ignore_case = TRUE)),
     !str_detect(Agency, regex("Naval Facilities", ignore_case = TRUE)),
     !str_detect(Agency, regex("Department of Health and Human Services", ignore_case = TRUE)),
@@ -111,12 +113,14 @@ filter_relevant <- function(df) {
     !str_detect(Agency, regex("USACE Portland District", ignore_case = TRUE)),
     !str_detect(Agency, regex("Agricultural Marketing Service", ignore_case = TRUE)),
     !str_detect(Agency, regex("Munitions Directorate", ignore_case = TRUE)),
-    str_detect(Title, regex(str_c(keywords, collapse = "|"), ignore_case = TRUE)),
+    !str_detect(Agency, regex("Missile Defense", ignore_case = TRUE)),
+    !str_detect(Agency, regex("National Endowment for the Humanities", ignore_case = TRUE))
   )
 }
 
 # Apply to Grants.gov
-df_filtered <- filter_relevant(df)
+df_filtered <- filter_relevant(df) |>
+  filter(str_detect(Title, regex(str_c(keywords, collapse = "|"), ignore_case = TRUE)))
 
 #####
 # NIFA
