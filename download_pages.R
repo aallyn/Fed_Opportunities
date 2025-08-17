@@ -25,7 +25,8 @@ urls <- c(
   "https://www.fisheries.noaa.gov/funding-opportunities/open-opportunities",
   "https://www.nefmc.org/news/",
   "https://www.mafmc.org/",
-  "https://www.nifa.usda.gov/grants/funding-opportunities",
+  # "https://www.nifa.usda.gov/grants/funding-opportunities",
+  # "https://www.nifa.usda.gov/page/search-grant",
   "https://www.epa.gov/research-grants/research-funding-opportunities"
 )
 
@@ -33,7 +34,7 @@ paths <- c(
   file.path(data_dir, "NOAA_Fisheries.html"),
   file.path(data_dir, "NEFMC.html"),
   file.path(data_dir, "MAFMC.html"),
-  file.path(data_dir, "NIFA.html"),
+  # file.path(data_dir, "NIFA.html"),
   file.path(data_dir, "EPA.html")
 )
 
@@ -45,11 +46,11 @@ for (i in seq_along(urls)) {
       {
         page <- httr::GET(urls[i])
         writeBin(httr::content(page, "raw"), paths[i])
-        page <- GET(
-          urls[i],
-          config(http_version = 1)
-        )
-        writeBin(content(page, "raw"), paths[i])
+        # page <- httr::GET(
+        #   urls[i],
+        #   config(http_version = 2) # 2 means 1.1
+        # )
+        # writeBin(content(page, "raw"), paths[i])
         success <- TRUE
       },
       silent = TRUE

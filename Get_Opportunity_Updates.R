@@ -81,12 +81,11 @@ keywords <- c(
   "offshore wind", "renewable", "energy", "blue economy", "marine spatial planning",
   "coastal", "community", "equity", "stakeholder", "engagement", "participation", "governance",
   "STEM", "education", "workforce", "training", "teacher", "student", "capacity building", "internship",
-  "ROSES"
+  "ROSES", "small business", "technology transfer", "agriculuture and food research initiative"
 )
 
 filter_relevant <- function(df) {
   df %>% filter(
-    str_detect(Title, regex(str_c(keywords, collapse = "|"), ignore_case = TRUE)),
     !str_detect(Title, regex("Warfare", ignore_case = TRUE)),
     !str_detect(Agency, regex("U\\.S\\. Mission", ignore_case = TRUE)),
     !str_detect(Agency, regex("National Institutes of Health", ignore_case = TRUE)),
@@ -98,10 +97,21 @@ filter_relevant <- function(df) {
     !str_detect(Agency, regex("Air Force", ignore_case = TRUE)),
     !str_detect(Agency, regex("Administration for Community Living", ignore_case = TRUE)),
     !str_detect(Agency, regex("Agency for Health Care Research and Quality", ignore_case = TRUE)),
-    !str_detect(Agency, regex("Dept of the Army -- Materiel Command", ignore_case = TRUE)),
+    !str_detect(Agency, regex("Dept. of the Army", ignore_case = TRUE)),
+    !str_detect(Agency, regex("Missile Defense", ignore_case = TRUE)),
+    !str_detect(Agency, regex("Bureau of Polotical-Military Affairs", ignore_case = TRUE)),
+    !str_detect(Agency, regex("Office for Victims of Crime", ignore_case = TRUE)),
+    !str_detect(Agency, regex("Employment and Training Administration", ignore_case = TRUE)),
+    !str_detect(Agency, regex("Washington Headquarters Services", ignore_case = TRUE)),
+    !str_detect(Agency, regex("National Endowment for the Humanities", ignore_case = TRUE)),
+    !str_detect(Agency, regex("Naval Facilities", ignore_case = TRUE)),
     !str_detect(Agency, regex("Department of Health and Human Services", ignore_case = TRUE)),
     !str_detect(Agency, regex("Office on Violence Against Women", ignore_case = TRUE)),
-    !str_detect(Agency, regex("DOT - Federal Railroad Administration", ignore_case = TRUE))
+    !str_detect(Agency, regex("DOT - Federal Railroad Administration", ignore_case = TRUE)),
+    !str_detect(Agency, regex("USACE Portland District", ignore_case = TRUE)),
+    !str_detect(Agency, regex("Agricultural Marketing Service", ignore_case = TRUE)),
+    !str_detect(Agency, regex("Munitions Directorate", ignore_case = TRUE)),
+    str_detect(Title, regex(str_c(keywords, collapse = "|"), ignore_case = TRUE)),
   )
 }
 
@@ -111,39 +121,39 @@ df_filtered <- filter_relevant(df)
 #####
 # NIFA
 #####
-nifa_page <- read_html("Data/NIFA.html")
-nifa_cards <- html_elements(nifa_page, ".search-result")
+# nifa_page <- read_html("Data/NIFA.html")
+# nifa_cards <- html_elements(nifa_page, ".search-result")
 
-nifa_df <- map_dfr(nifa_cards, function(card) {
-  title_node <- html_element(card, "h2 a")
-  title <- html_text(title_node, trim = TRUE)
-  url <- html_attr(title_node, "href")
-  if (!is.na(url) && !str_starts(url, "http")) {
-    url <- paste0("https://www.nifa.usda.gov", url)
-  }
+# nifa_df <- map_dfr(nifa_cards, function(card) {
+#   title_node <- html_element(card, "h2 a")
+#   title <- html_text(title_node, trim = TRUE)
+#   url <- html_attr(title_node, "href")
+#   if (!is.na(url) && !str_starts(url, "http")) {
+#     url <- paste0("https://www.nifa.usda.gov", url)
+#   }
 
-  # Get the deadline or "closing date" text (if available)
-  deadline_text <- html_element(card, ".field--name-field-closing-date") |>
-    html_text(trim = TRUE)
-  deadline <- parse_date_time(deadline_text, orders = c("mdy", "B d, Y"))
+#   # Get the deadline or "closing date" text (if available)
+#   deadline_text <- html_element(card, ".field--name-field-closing-date") |>
+#     html_text(trim = TRUE)
+#   deadline <- parse_date_time(deadline_text, orders = c("mdy", "B d, Y"))
 
-  # NIFA does not list posted date directly, so approximate it as today
-  posted_text <- html_element(card, ".field--name-field-posted-date") |>
-    html_text(trim = TRUE)
-  posted <- parse_date_time(posted_text, orders = c("mdy", "B d, Y"))
+#   # NIFA does not list posted date directly, so approximate it as today
+#   posted_text <- html_element(card, ".field--name-field-posted-date") |>
+#     html_text(trim = TRUE)
+#   posted <- parse_date_time(posted_text, orders = c("mdy", "B d, Y"))
 
 
-  tibble(
-    OpportunityID = NA_character_,
-    Agency = "USDA NIFA",
-    Title = title,
-    Deadline = deadline,
-    Posted = posted,
-    AdditionalInfoURL = url
-  )
-}) %>%
-  filter(str_detect(str_to_lower(Title), "funding|grants|rfp|rfa|proposal|program|research")) |>
-  filter(is.na(Deadline) | Deadline >= Sys.Date())
+#   tibble(
+#     OpportunityID = NA_character_,
+#     Agency = "USDA NIFA",
+#     Title = title,
+#     Deadline = deadline,
+#     Posted = posted,
+#     AdditionalInfoURL = url
+#   )
+# }) %>%
+#   filter(str_detect(str_to_lower(Title), "funding|grants|rfp|rfa|proposal|program|research")) |>
+#   filter(is.na(Deadline) | Deadline >= Sys.Date())
 
 #####
 # EPA Research Grants - Funding Opportunities
@@ -328,7 +338,8 @@ csv_file <- file.path(here::here(), paste0("GMRI_Grants.csv"))
 prev_file <- csv_file
 prev_df <- if (file.exists(prev_file)) read_csv(prev_file) else tibble()
 
-out <- bind_rows(df_filtered, nifa_df, epa_df, noaa_df, nefmc_df, mafmc_df, me_df_rfa, me_df_rfp) |>
+# Removed nifa_df
+out <- bind_rows(df_filtered, epa_df, noaa_df, nefmc_df, mafmc_df, me_df_rfa, me_df_rfp) |>
   mutate(
     Title = replace_na(Title, ""),
     Deadline = as.Date(Deadline),
