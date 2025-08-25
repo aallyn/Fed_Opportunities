@@ -1,17 +1,24 @@
 OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
-202507105,State of Maine - RFP,Consulting Services - Central Maine Power Rate Case,2025-09-08,2025-08-18,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,TRUE
-202508110,State of Maine - RFP,Implementation Reviewer for Child Welfare Psychotropic Medication Performance Criteria,2025-09-16,2025-08-18,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,TRUE
-202508114,State of Maine - RFP,"2025 Waste Diversion Grant Program, Fall Special Organics Round",2025-09-17,2025-08-18,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,TRUE
-202507106,State of Maine - RFP,Body-Worn Cameras,2025-09-24,2025-08-18,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,TRUE
-360061,Department of Defense,"Cultural and Natural Resources Technical Reporting at Pacific Installations Bellows Air Force Station and Ka&#8217;ena Point Space Force Station Oahu, HI",2025-08-18,2025-07-17,NA,FALSE
-202309208,State of Maine - RFA,Comprehensive Electronic Health Record Pilot,2025-08-18,2023-09-28,https://www.maine.gov/dafs/bbm/procurementservices/vendors/grants,FALSE
-360165,Department of Housing and Urban Development,Fair Housing Initiatives Program - Private Enforcement Initiative (PEI),2025-08-21,2025-07-29,https://www.hud.gov/stat/fheo/initiatives-program,FALSE
-360166,Department of Housing and Urban Development,Fair Housing Initiatives Program - Education and Outreach Initiative - Test Coordinator Training,2025-08-21,2025-07-29,https://www.hud.gov/stat/fheo/initiatives-program,FALSE
-360163,Department of Housing and Urban Development,Fair Housing Initiatives Program - Fair Housing Organizations Initiative (FHOI),2025-08-21,2025-07-29,https://www.hud.gov/stat/fheo/initiatives-program,FALSE
-360162,Department of Housing and Urban Development,Fair Housing Initiatives Program Education and Outreach Initiative,2025-08-21,2025-07-29,https://www.hud.gov/stat/fheo/initiatives-program,FALSE
-360117,Bureau of Ocean Energy Management,"PC-25-02, Probability Analysis of Derelict Fishing Gear Interactions with Floating Offshore Wind Mooring Systems Offshore California",2025-08-22,2025-07-22,NA,FALSE
+355628,Administration for Children and Families - OFVPS,Native Hawaiian Resource Center on Domestic Violence,2025-09-02,2025-08-22,NA,TRUE
+202507103,State of Maine - RFP,Cross State Office Building Café Services,2025-09-10,2025-08-20,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,TRUE
+360321,Geological Survey,Cooperative Agreement for affiliated Partner with the Rocky Mountain Cooperative Ecosystem Studies Unit (CESU),2025-09-20,2025-08-20,NA,TRUE
+360340,Geological Survey,Cooperative Agreement for affiliated Partner with the Colorado Plateau Cooperative Ecosystem Studies Unit,2025-09-21,2025-08-22,NA,TRUE
+360349,Geological Survey,Cooperative Agreement for affiliated Partner with the Great Lakes-Northern Forest Cooperative Ecosystem Studies Unit (CESU),2025-09-22,2025-08-22,NA,TRUE
+360348,Geological Survey,Cooperative Agreement for Affiliated Partner with the Great Rivers Cooperative Ecosystem Studies Unit (CESU),2025-09-22,2025-08-22,NA,TRUE
+360347,Geological Survey,Cooperative Agreement for affiliated Partner with the Southern Appalachian Cooperative Ecosystem Studies Unit (CESU),2025-09-22,2025-08-22,NA,TRUE
+360346,Geological Survey,Cooperative Agreement for affiliated Partner with the Great Basin Cooperative Ecosystem Studies Unit (CESU),2025-09-22,2025-08-22,NA,TRUE
+202508117,State of Maine - RFP,Building Management Services,2025-09-25,2025-08-25,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,TRUE
+202506085,State of Maine - RFP,Legal Services for Older Adults,2025-09-25,2025-08-20,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,TRUE
+202508111,State of Maine - RFP,"Recovery Support Centers Target Areas 3, 4, and 5",2025-09-26,2025-08-24,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,TRUE
+NA,MAFMC,Funding Opportunity: Pilot Regional Industry-Based Bottom Trawl Survey,2025-10-18,2025-08-19,https://www.mafmc.org/newsfeed/2025/funding-opportunity-pilot-regional-industry-based-bottom-trawl-survey,TRUE
+351715,U.S. National Science Foundation,ECosystem for Leading Innovation in Plasma Science and Engineering,2025-12-05,2024-01-06,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505924,TRUE
+353962,U.S. National Science Foundation,Research Training Groups in the Mathematical Sciences,2026-08-11,2024-05-03,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24570,TRUE
+354144,U.S. National Science Foundation,Correctness for Scientific Computing Systems,2026-08-11,2024-05-10,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24571,TRUE
+357724,U.S. National Science Foundation,EPSCoR Research Infrastructure Improvement Program: EPSCoR Research Incubators for STEM Excellence,2026-08-11,2024-12-14,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf25522,TRUE
+345091,U.S. National Science Foundation,Scholarships in STEM Network,2026-08-13,2022-12-23,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23536,TRUE
 360268,Department of Education,"Office of Elementary and Secondary Education (OESE): Assistance for Arts Education (AAE) Program, Assistance Listing Number (ALN) 84.351A",2025-08-25,2025-08-11,https://www.govinfo.gov/content/pkg/FR-2025-08-11/pdf/2025-15154.pdf,FALSE
 359826,Engineer Research and Development Center,Evaluating Snow Water Equivalent and Soil Moisture in a Complex Wildfire-Impacted Area of the Rocky Mountains using a Mobile Cosmic Ray Neutron Sensor,2025-08-25,2025-06-25,NA,FALSE
+202309208,State of Maine - RFA,Comprehensive Electronic Health Record Pilot,2025-08-25,2023-09-28,https://www.maine.gov/dafs/bbm/procurementservices/vendors/grants,FALSE
 202503048,State of Maine - RFP,Provision of Telecommunications Relay Outreach Services,2025-08-25,2025-06-30,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
 359057,U.S. National Science Foundation,Verticals-enabling Intelligent Network Systems,2025-08-25,2025-05-20,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf25539,FALSE
 348012,U.S. National Science Foundation,Robert Noyce Teacher Scholarship Program,2025-08-26,2023-05-09,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23586,FALSE
@@ -23,8 +30,8 @@ OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
 360168,Geological Survey,Cooperative Agreement for affiliated Partner with the Desert Southwest Cooperative Ecosystem Studies Unit (CESU),2025-08-29,2025-07-29,NA,FALSE
 358025,Office of Naval Research,"FY25 Department of the Navy (DoN) Science, Technology, Engineering, and Mathematics (STEM) Education and Workforce Program",2025-08-29,2025-01-07,https://www.onr.navy.mil/work-with-us/funding-opportunities/announcements,FALSE
 359978,Geological Survey,Cooperative Agreement for affiliated Partner with the Desert Southwest Cooperative Ecosystem Studies Unit (CESU),2025-08-31,2025-07-10,NA,FALSE
-202506090,State of Maine - RFP,"Maine Veterans’ Memorial Cemeteries, Augusta – Turf Maintenance",2025-09-01,2025-07-15,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
 202506084,State of Maine - RFP,Headstone Installation and Realignment,2025-09-01,2025-07-15,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
+202506090,State of Maine - RFP,"Maine Veterans’ Memorial Cemeteries, Augusta – Turf Maintenance",2025-09-01,2025-07-15,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
 360038,Engineer Research and Development Center,Analysis and Evaluation of Water Erosion Measurement of Bio-Cemented Soils for Dams and Levees Flood Mitigation,2025-09-02,2025-07-16,NA,FALSE
 202506091,State of Maine - RFP,Community Health Nursing  Maternal and Child Health Nursing Services,2025-09-02,2025-07-29,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
 356423,U.S. National Science Foundation,Pathways to Enable Open-Source Ecosystems,2025-09-02,2024-09-14,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24606,FALSE
@@ -37,17 +44,21 @@ NA,NOAA Fisheries,Notice of Funding Opportunity: New Cooperative Institute Foste
 360271,Geological Survey,Cooperative Agreement for affiliated Partner with the North Atlantic Coast Cooperative Ecosystem Studies Unit,2025-09-08,2025-08-08,NA,FALSE
 360273,Geological Survey,Cooperative Agreement for affiliated Partner with the Great Basin Cooperative Ecosystem Studies Unit,2025-09-08,2025-08-08,NA,FALSE
 360272,Geological Survey,Cooperative Agreement for affiliated Partner with the Great Rivers Cooperative Ecosystem Studies Unit (CESU),2025-09-08,2025-08-08,NA,FALSE
+202507105,State of Maine - RFP,Consulting Services - Central Maine Power Rate Case,2025-09-08,2025-08-18,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
 202507095,State of Maine - RFP,2026-2031 Lawn and Plant Maintenance Services,2025-09-08,2025-08-04,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
 202503049,State of Maine - RFP,"Engineering Services and Operations Support at State-Owned Landfill, East Millinocket, Maine",2025-09-08,2025-06-09,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
 356119,U.S. National Science Foundation,U.S. National Science Foundation Research Traineeship (NRT) Program,2025-09-08,2024-08-17,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24597,FALSE
 359997,NASA Headquarters,ROSES 2025: A.5 Earth Venture Suborbital-4 Snow4Flow Science Team,2025-09-09,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={65B62BBE-4082-0E30-D642-353E3D70D98F}&amp;path=&amp;method=init,FALSE
 202507096,State of Maine - RFP,Temporary Employment Service,2025-09-10,2025-08-11,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
 202507102,State of Maine - RFP,Administration of Veteran’s Emergency Financial Assistance Program,2025-09-15,2025-08-12,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
+202508110,State of Maine - RFP,Implementation Reviewer for Child Welfare Psychotropic Medication Performance Criteria,2025-09-16,2025-08-18,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
 202507101,State of Maine - RFA,Maine BlueTech Innovation: Offshore Wind Monitoring and Testing,2025-09-17,2025-08-04,https://www.maine.gov/dafs/bbm/procurementservices/vendors/grants,FALSE
 202506092,State of Maine - RFA,Clean Energy Partnership: Residential Energy Efficiency Workforce Training Grants,2025-09-17,2025-07-16,https://www.maine.gov/dafs/bbm/procurementservices/vendors/grants,FALSE
+202508114,State of Maine - RFP,"2025 Waste Diversion Grant Program, Fall Special Organics Round",2025-09-17,2025-08-18,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
 202505078,State of Maine - RFP,Education Finance Compliance and Monitoring System,2025-09-17,2025-08-04,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
 202507097,State of Maine - RFP,Visitor Profile Research,2025-09-18,2025-08-13,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
 360040,National Institute of Food and Agriculture,Small Business Innovation Research and Small Business Technology Transfer Programs Phase II,2025-09-23,2025-07-16,https://www.nifa.usda.gov/grants/funding-opportunities/small-business-innovation-research-small-business-technology,FALSE
+202507106,State of Maine - RFP,Body-Worn Cameras,2025-09-24,2025-08-18,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
 358898,Environmental Protection Agency,FY26 BROWNFIELDS JOB TRAINING (JT) GRANTS,2025-09-26,2025-07-21,NA,FALSE
 358188,Department of Homeland Security - FEMA,Fiscal Year 2025 Safeguarding Tomorrow through Ongoing Risk Mitigation Revolving Loan Fund Program,2025-09-30,2025-01-14,https://www.fema.gov/grants/mitigation/learn/storm-rlf,FALSE
 358716,Department of Housing and Urban Development,Application Instructions for the Indian Community Development Block Grant (ICDBG) Imminent Threat (IT) Program,2025-09-30,2025-04-18,https://www.hud.gov/helping-americans/public-indian-housing-grants-icdbg,FALSE
