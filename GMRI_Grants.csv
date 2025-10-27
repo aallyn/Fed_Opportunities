@@ -1,25 +1,19 @@
 OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
-353936,U.S. National Science Foundation,Mathematical Foundations of Artificial Intelligence,2026-10-09,2024-05-02,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24569,TRUE
-350802,U.S. National Science Foundation,Research Experiences for Teachers (RET) in Engineering and Computer Science,2026-10-14,2023-10-31,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24503,TRUE
-360620,Health Resources and Services Administration,Teaching Health Center Graduate Medical Education (THCGME) Program,2025-10-20,2025-09-18,http://,FALSE
-202309208,State of Maine - RFA,Comprehensive Electronic Health Record Pilot,2025-10-20,2023-09-28,https://www.maine.gov/dafs/bbm/procurementservices/vendors/grants,FALSE
-360564,Office of Juvenile Justice Delinquency Prevention ,OJJDP FY25 Internet Crimes Against Children Task Force National Training Program,2025-10-21,2025-09-11,https://www.ojp.gov/funding/docs/OJJDP-2025-172449,FALSE
-360579,Office of Juvenile Justice Delinquency Prevention ,OJJDP FY25 Post-Secondary Education Opportunities for Child Protection Professionals,2025-10-21,2025-09-12,https://www.ojp.gov/funding/docs/OJJDP-2025-172457,FALSE
-360586,Office of Juvenile Justice Delinquency Prevention ,OJJDP FY25 Internet Crimes Against Children Data System Enhancements,2025-10-23,2025-09-15,https://www.ojp.gov/funding/docs/OJJDP-2025-172453,FALSE
-202505073,State of Maine - RFP,Stakeholder and Facilitation to Support Maines Electric Transmission Infrastructure Strategies,2025-10-24,2025-09-29,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
+360771,National Energy Technology Laboratory,Request for Information (RFI): Accelerating Speed to Power/Winning the Artificial Intelligence Race: Federal Action to Rapidly Expand Grid Capacity and Enable Electricity Demand Growth,2025-11-21,2025-10-21,NA,TRUE
 360610,Bureau of Justice Assistance,BJA FY25 Office of Justice Programs Community Based Violence Intervention and Prevention Initiative,2025-10-27,2025-09-17,https://bja.ojp.gov/funding/opportunities/o-bja-2025-172468,FALSE
 360624,Bureau of Justice Assistance,"BJA FY25 Student, Teachers, and Officers Preventing (STOP) School Violence Program",2025-10-27,2025-09-18,https://bja.ojp.gov/funding/opportunities/o-bja-2025-172466,FALSE
 360628,Office of Juvenile Justice Delinquency Prevention ,OJJDP FY25 Community and Schools Youth Drug Prevention Program,2025-10-27,2025-09-18,https://www.ojp.gov/funding/docs/OJJDP-2025-172454,FALSE
-202509133,State of Maine - RFP,Understanding the Landscape and Cost-Effective Strategies for Meeting Maine’s Electric Transmission Infrastructure Needs,2025-10-27,2025-09-29,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
+202309208,State of Maine - RFA,Comprehensive Electronic Health Record Pilot,2025-10-27,2023-09-28,https://www.maine.gov/dafs/bbm/procurementservices/vendors/grants,FALSE
 360110,Bureau of Reclamation,Native American Affairs: Technical Assistance to Tribes for Fiscal Year 2025,2025-10-28,2025-07-22,NA,FALSE
-202509134,State of Maine - RFP,Substance Use Peer Navigators,2025-10-28,2025-09-28,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
 360668,Department of Education,"Office of Elementary and Secondary Education (OESE): Office of Safe and Supportive Schools: Mental Health Service Professional (MHSP) Demonstration Grant Program, Assistance Listing Number 84.184X",2025-10-29,2025-09-29,https://www.govinfo.gov/content/pkg/FR-2025-09-29/pdf/2025-18894.pdf,FALSE
 360667,Department of Education,"Office of Elementary and Secondary Education (OESE): Office of Safe and Supportive Schools: School-Based Mental Health Services (SBMH) Grant Program, Assistance Listing Number (ALN) number 84.184H",2025-10-29,2025-09-29,https://www.govinfo.gov/content/pkg/FR-2025-09-29/pdf/2025-18895.pdf,FALSE
 355722,Centers for Disease Control and Prevention - ERA,Occupational Safety and Health Training Project Grants (T03),2025-10-30,2024-11-22,https://grants.nih.gov/grants/guide/rfa-files/RFA-OH-25-003.html,FALSE
 360272,Geological Survey,Cooperative Agreement for affiliated Partner with the Great Rivers Cooperative Ecosystem Studies Unit (CESU),2025-10-30,2025-08-08,NA,FALSE
 360658,Geological Survey,Cooperative Agreement for affiliated Partner with the Gulf Coast Cooperative Ecosystem Studies Unit (CESU),2025-10-30,2025-09-25,NA,FALSE
 360677,Geological Survey,Cooperative Agreement for affiliated Partner with the Great Lakes Northern Forests Cooperative Ecosystem Studies Unit (CESU),2025-10-30,2025-09-29,NA,FALSE
+202509134,State of Maine - RFP,Substance Use Peer Navigators,2025-10-30,2025-09-28,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
 202506086,State of Maine - RFP,Bureau of Motor Vehicle Self-Service Kiosks,2025-10-31,2025-10-08,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
+202509133,State of Maine - RFP,Understanding the Landscape and Cost-Effective Strategies for Meeting Maine’s Electric Transmission Infrastructure Needs,2025-10-31,2025-09-29,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
 360728,Health Resources and Services Administration,Ryan White HIV/AIDS Program AIDS Drug Assistance Program (ADAP) Emergency Relief Fund (ERF)&#8239;,2025-11-03,2025-10-02,http://,FALSE
 202508125,State of Maine - RFP,Economic Impact Analysis,2025-11-05,2025-09-17,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
 354633,U.S. National Science Foundation,NSF Small Business Innovation Research  / Small Business Technology Transfer Phase II Programs,2025-11-05,2024-05-31,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24580,FALSE
@@ -97,6 +91,8 @@ NA,NOAA Fisheries,NOAA Great Lakes Fish Habitat Restoration Partnership Grants,2
 NA,NOAA Fisheries,Fiscal Year 2024–2026: Broad Agency Announcement,2026-09-30,2024-07-29,https://www.fisheries.noaa.gov/grant/fiscal-year-2024-2026-broad-agency-announcement,FALSE
 356605,Office of Naval Research,FY25 Long Range Broad Agency Announcement (BAA) for Navy and Marine Corps Science and Technology,2026-09-30,2024-10-01,https://www.onr.navy.mil/work-with-us/funding-opportunities,FALSE
 355100,U.S. National Science Foundation,Advanced Technological Education,2026-10-01,2024-06-25,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24584,FALSE
+353936,U.S. National Science Foundation,Mathematical Foundations of Artificial Intelligence,2026-10-09,2024-05-02,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24569,FALSE
+350802,U.S. National Science Foundation,Research Experiences for Teachers (RET) in Engineering and Computer Science,2026-10-14,2023-10-31,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24503,FALSE
 350910,U.S. National Science Foundation,International Research Experiences for Students,2026-10-26,2023-11-08,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24506,FALSE
 359816,Food and Drug Administration,"Animal Food Regulatory Program Standards Implementation Development and Maintenance, with Mutual Reliance Initiatives Clinical Trials Not Allowed",2027-04-01,2025-06-25,https://grants.nih.gov/grants/guide/pa-files/PAR-25-003.html,FALSE
 360006,Food and Drug Administration,NARMS Cooperative Agreement Program to Strengthen Antibiotic Resistance Surveillance in Retail Food Specimens,2027-04-01,2025-07-11,https://grants.nih.gov/grants/guide/pa-files/PAR-25-014.html,FALSE
