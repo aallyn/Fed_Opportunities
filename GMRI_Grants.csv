@@ -1,20 +1,7 @@
 OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
-360771,National Energy Technology Laboratory,Request for Information (RFI): Accelerating Speed to Power/Winning the Artificial Intelligence Race: Federal Action to Rapidly Expand Grid Capacity and Enable Electricity Demand Growth,2025-11-21,2025-10-21,NA,TRUE
-360610,Bureau of Justice Assistance,BJA FY25 Office of Justice Programs Community Based Violence Intervention and Prevention Initiative,2025-10-27,2025-09-17,https://bja.ojp.gov/funding/opportunities/o-bja-2025-172468,FALSE
-360624,Bureau of Justice Assistance,"BJA FY25 Student, Teachers, and Officers Preventing (STOP) School Violence Program",2025-10-27,2025-09-18,https://bja.ojp.gov/funding/opportunities/o-bja-2025-172466,FALSE
-360628,Office of Juvenile Justice Delinquency Prevention ,OJJDP FY25 Community and Schools Youth Drug Prevention Program,2025-10-27,2025-09-18,https://www.ojp.gov/funding/docs/OJJDP-2025-172454,FALSE
-202309208,State of Maine - RFA,Comprehensive Electronic Health Record Pilot,2025-10-27,2023-09-28,https://www.maine.gov/dafs/bbm/procurementservices/vendors/grants,FALSE
-360110,Bureau of Reclamation,Native American Affairs: Technical Assistance to Tribes for Fiscal Year 2025,2025-10-28,2025-07-22,NA,FALSE
-360668,Department of Education,"Office of Elementary and Secondary Education (OESE): Office of Safe and Supportive Schools: Mental Health Service Professional (MHSP) Demonstration Grant Program, Assistance Listing Number 84.184X",2025-10-29,2025-09-29,https://www.govinfo.gov/content/pkg/FR-2025-09-29/pdf/2025-18894.pdf,FALSE
-360667,Department of Education,"Office of Elementary and Secondary Education (OESE): Office of Safe and Supportive Schools: School-Based Mental Health Services (SBMH) Grant Program, Assistance Listing Number (ALN) number 84.184H",2025-10-29,2025-09-29,https://www.govinfo.gov/content/pkg/FR-2025-09-29/pdf/2025-18895.pdf,FALSE
-355722,Centers for Disease Control and Prevention - ERA,Occupational Safety and Health Training Project Grants (T03),2025-10-30,2024-11-22,https://grants.nih.gov/grants/guide/rfa-files/RFA-OH-25-003.html,FALSE
-360272,Geological Survey,Cooperative Agreement for affiliated Partner with the Great Rivers Cooperative Ecosystem Studies Unit (CESU),2025-10-30,2025-08-08,NA,FALSE
-360658,Geological Survey,Cooperative Agreement for affiliated Partner with the Gulf Coast Cooperative Ecosystem Studies Unit (CESU),2025-10-30,2025-09-25,NA,FALSE
-360677,Geological Survey,Cooperative Agreement for affiliated Partner with the Great Lakes Northern Forests Cooperative Ecosystem Studies Unit (CESU),2025-10-30,2025-09-29,NA,FALSE
-202509134,State of Maine - RFP,Substance Use Peer Navigators,2025-10-30,2025-09-28,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
-202506086,State of Maine - RFP,Bureau of Motor Vehicle Self-Service Kiosks,2025-10-31,2025-10-08,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
-202509133,State of Maine - RFP,Understanding the Landscape and Cost-Effective Strategies for Meeting Maine’s Electric Transmission Infrastructure Needs,2025-10-31,2025-09-29,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
 360728,Health Resources and Services Administration,Ryan White HIV/AIDS Program AIDS Drug Assistance Program (ADAP) Emergency Relief Fund (ERF)&#8239;,2025-11-03,2025-10-02,http://,FALSE
+202309208,State of Maine - RFA,Comprehensive Electronic Health Record Pilot,2025-11-03,2023-09-28,https://www.maine.gov/dafs/bbm/procurementservices/vendors/grants,FALSE
+202509133,State of Maine - RFP,Understanding the Landscape and Cost-Effective Strategies for Meeting Maine’s Electric Transmission Infrastructure Needs,2025-11-04,2025-09-29,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
 202508125,State of Maine - RFP,Economic Impact Analysis,2025-11-05,2025-09-17,https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps,FALSE
 354633,U.S. National Science Foundation,NSF Small Business Innovation Research  / Small Business Technology Transfer Phase II Programs,2025-11-05,2024-05-31,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24580,FALSE
 354632,U.S. National Science Foundation,NSF Small Business Innovation Research / Small Business Technology Transfer Phase I Programs,2025-11-05,2024-05-31,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24579,FALSE
@@ -27,6 +14,7 @@ OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
 360594,Health Resources and Services Administration,Fostering Collaboration Across Ryan White HIV/AIDS Programs (RWHAPs) to Engage People with HIV in Care,2025-11-17,2025-09-15,http://,FALSE
 360015,NASA Headquarters,ROSES 2025: C.8 Yearly Opportunities for Research in Planetary Defense,2025-11-18,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={1F963989-1A67-FD25-55A3-A0C24A073AEB}&amp;path=&amp;method=init,FALSE
 360020,NASA Headquarters,ROSES 2025: F.9 Citizen Science Seed Funding Program,2025-11-19,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={98BB6302-ED70-F1C4-6514-8DF311BEE547}&amp;path=&amp;method=init,FALSE
+360771,National Energy Technology Laboratory,Request for Information (RFI): Accelerating Speed to Power/Winning the Artificial Intelligence Race: Federal Action to Rapidly Expand Grid Capacity and Enable Electricity Demand Growth,2025-11-21,2025-10-21,NA,FALSE
 359104,U.S. National Science Foundation,Louis Stokes Alliances for Minority Participation,2025-11-21,2025-05-23,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24563,FALSE
 360542,Department of Housing and Urban Development,Community Development Block Grant Program for Indian Tribes and Alaska Native Villages,2025-11-24,2025-09-09,https://www.hud.gov/grants/,FALSE
 354134,DARPA - Microsystems Technology Office ,Microsystems Technology Office (MTO) Office-wide,2025-12-01,2024-05-09,https://sam.gov/opp/8d0a7db5995b409b93cb9b61579b0ee1/view,FALSE
