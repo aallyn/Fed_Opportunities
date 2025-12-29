@@ -1,16 +1,7 @@
 OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
-361005,Geological Survey,Cooperative Agreement for affiliated Partner with the Pacific Northwest Cooperative Ecosystem Studies Unit,2026-01-13,2025-12-12,NA,TRUE
-361004,Geological Survey,Cooperative Agreement for affiliated Partner with the Colorado Plateau Cooperative Ecosystem Studies Unit,2026-01-13,2025-12-12,NA,TRUE
-360955,DOT Federal Aviation Administration ,FY 2026 Notice of Funding Opportunity: Infrastructure Investment and Jobs Act (IIJA) Airport Terminal Program (ATP) Grants,2026-01-15,2025-12-10,https://www.faa.gov/iija/airport-terminals,TRUE
-360989,National Park Service,Public Programming and Educational Outreach: Brown v. Board of Education National Historical Park,2026-02-09,2025-12-11,NA,TRUE
-360956,NASA Headquarters,ROSES25: D.3C XRISM General Observer - Type 2,2026-02-27,2025-12-10,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={A952E51B-7AD4-B180-2F8C-4E8A79AFFAED}&amp;path=&amp;method=init,TRUE
-360983,NASA Headquarters,ROSES25: F.6 Science Activation Program,2026-03-31,2025-12-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={51E42B6A-FB1A-1A45-7E35-CA5FF915D8C6}&amp;path=&amp;method=init,TRUE
-361009,U.S. National Science Foundation,NSF Trailblazer Engineering Impact Award,2026-07-24,2025-12-12,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf26502,TRUE
-359104,U.S. National Science Foundation,Louis Stokes Alliances for Minority Participation,2026-11-20,2025-05-23,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24563,TRUE
-360017,NASA Headquarters,ROSES 2025: C.10 Lunar Mapping Program,2025-12-15,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={E11DF130-35CF-6814-B439-9D31391E798D}&amp;path=&amp;method=init,FALSE
-302271,U.S. National Science Foundation,Statistics,2025-12-15,2018-03-29,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5556,FALSE
-359998,NASA Headquarters,ROSES 2025: A.7 Water Quality Applications,2025-12-16,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={345E142D-1435-CDC0-E1BA-A5F7CC815049}&amp;path=&amp;method=init,FALSE
-351547,Environmental Protection Agency,CONTAMINATED ALASKA NATIVE CLAIMS SETTLEMENT ACT LANDS ASSISTANCE PROGRAM,2025-12-31,2023-12-28,https://www.epa.gov/r10-tribal/contamination-ancsa-conveyed-lands#grants,FALSE
+361033,Geological Survey,Cooperative Agreement for affiliated Partner with the North Atlantic Coast Cooperative Ecosystem Studies Unit,2026-01-17,2025-12-17,NA,TRUE
+361034,Geological Survey,Cooperative Agreement for Affiliated Partner with the Great Rivers Cooperative Ecosystem Studies Unit (CESU),2026-02-15,2025-12-17,NA,TRUE
+361036,NASA Headquarters,ROSES25: B.5 Research and Development of Initiatives for Advanced New Technologies,2026-04-27,2025-12-18,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={41FD555D-00B8-AE92-3285-4DE49EA8B6F1}&amp;path=&amp;method=init,TRUE
 358169,Fish and Wildlife Service,F25AS00217 Aquatic Invasive Species Grants to Great Lakes Tribes - Fiscal Year 2025 Great Lakes Restoration Initiative,2025-12-31,2025-01-13,NA,FALSE
 358168,Fish and Wildlife Service,F25AS00216 - Aquatic Invasive Species Grants to Great Lakes States - Fiscal Year 2025 Great Lakes Restoration Initiative,2025-12-31,2025-01-13,NA,FALSE
 358170,Fish and Wildlife Service,F25AS00218 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2025 Great Lakes Restoration Initiative,2025-12-31,2025-01-13,NA,FALSE
@@ -25,8 +16,11 @@ OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
 360014,NASA Headquarters,ROSES 2025: C.5 Planetary Science Early Career Award,2026-01-12,2025-07-14,Click on the following link to see the full text of the announcement for this funding opportunity.,FALSE
 NA,NEFMC,Council Solicits Contractor Proposals to Plan and Convene a Workshop for the Scientific and Statistical Committee on Integrating Dynamic Reference Points into Fisheries Management,2026-01-12,2025-11-13,https://www.nefmc.org/news/council-solicits-contractor-proposals-to-plan-and-convene-a-workshop-for-the-scientific-and-statistical-committee-on-integrating-dynamic-reference-points-into-fisheries-management,FALSE
 344715,U.S. National Science Foundation,Oceanographic Facilities and Equipment Support,2026-01-12,2022-12-01,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23525,FALSE
+361005,Geological Survey,Cooperative Agreement for affiliated Partner with the Pacific Northwest Cooperative Ecosystem Studies Unit,2026-01-13,2025-12-12,NA,FALSE
+361004,Geological Survey,Cooperative Agreement for affiliated Partner with the Colorado Plateau Cooperative Ecosystem Studies Unit,2026-01-13,2025-12-12,NA,FALSE
 359992,NASA Headquarters,ROSES 2025: A.2 Earth Venture: TROPICS and PREFIRE Science and Applications Teams,2026-01-13,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={B956BA32-22A3-1A3C-F9EE-0684736326E0}&amp;path=&amp;method=init,FALSE
 356423,U.S. National Science Foundation,Pathways to Enable Open-Source Ecosystems,2026-01-13,2024-09-14,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24606,FALSE
+360955,DOT Federal Aviation Administration ,FY 2026 Notice of Funding Opportunity: Infrastructure Investment and Jobs Act (IIJA) Airport Terminal Program (ATP) Grants,2026-01-15,2025-12-10,https://www.faa.gov/iija/airport-terminals,FALSE
 354620,Department of Homeland Security - FEMA,Fiscal Year 2024 Flood Mitigation Assistance Swift Current,2026-01-15,2024-05-30,NA,FALSE
 344608,U.S. National Science Foundation,Training-based Workforce Development for Advanced Cyberinfrastructure  (CyberTraining),2026-01-15,2022-11-22,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23520,FALSE
 360000,NASA Headquarters,ROSES 2025: A.8 Water Resources Applications,2026-01-20,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={50B720B3-CD96-3DB2-9591-E8A4668A6A4D}&amp;path=&amp;method=init,FALSE
@@ -42,11 +36,13 @@ NA,NEFMC,Council Solicits Contractor Proposals to Plan and Convene a Workshop fo
 360448,U.S. National Science Foundation,Foundations for Operating the National Artificial Intelligence Research Resource: the NAIRR Operations Center  (NAIRR-OC),2026-02-04,2025-09-02,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf25546,FALSE
 348260,U.S. National Science Foundation,Human Networks and Data Science,2026-02-05,2023-05-20,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23568,FALSE
 352796,U.S. National Science Foundation,"Artificial Intelligence, Formal Methods, and Mathematical Reasoning",2026-02-05,2024-03-05,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24554,FALSE
+360989,National Park Service,Public Programming and Educational Outreach: Brown v. Board of Education National Historical Park,2026-02-09,2025-12-11,NA,FALSE
 337984,U.S. National Science Foundation,Algorithms for Modern Power Systems,2026-02-09,2022-02-11,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22569,FALSE
 352562,U.S. National Science Foundation,"Hispanic-Serving Institutions: Enriching Learning, Programs, and Student Experiences",2026-02-11,2024-02-22,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24551,FALSE
 45793,U.S. National Science Foundation,Ocean Technology and Interdisciplinary Coordination,2026-02-16,2009-03-05,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12724,FALSE
 275150,U.S. National Science Foundation,Chemical Oceanography,2026-02-17,2015-03-13,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11698,FALSE
 344858,U.S. National Science Foundation,Biological Oceanography,2026-02-17,2022-12-13,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506154,FALSE
+360956,NASA Headquarters,ROSES25: D.3C XRISM General Observer - Type 2,2026-02-27,2025-12-10,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={A952E51B-7AD4-B180-2F8C-4E8A79AFFAED}&amp;path=&amp;method=init,FALSE
 354134,DARPA - Microsystems Technology Office ,Microsystems Technology Office (MTO) Office-wide,2026-03-02,2024-05-09,https://sam.gov/opp/73d3fb917e4445fba326ccd7d58f77d9/view,FALSE
 360018,NASA Headquarters,ROSES 2025: D.5 Astrophysics Pioneers,2026-03-13,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={2D567042-5011-7D69-C481-D5002E89FB62}&amp;path=&amp;method=init,FALSE
 351947,U.S. National Science Foundation,Innovations in Graduate Education (IGE) Program,2026-03-25,2024-01-24,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24529,FALSE
@@ -55,6 +51,7 @@ NA,NEFMC,Council Solicits Contractor Proposals to Plan and Convene a Workshop fo
 360004,NASA Headquarters,ROSES 2025: C.2 Solar System Science,2026-03-31,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={C92A28D2-9E30-4149-24B7-8A40ED4F564B}&amp;path=&amp;method=init,FALSE
 360003,NASA Headquarters,ROSES 2025: A.10 INNOVATE,2026-03-31,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={9E3216E9-ADB7-B72A-A1D7-12EC8050DC3F}&amp;path=&amp;method=init,FALSE
 360913,NASA Headquarters,ROSES 2025: B.3 Living with a Star Science,2026-03-31,2025-11-25,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={14906FAC-42E8-80E7-0892-E7FFE5A318AE}&amp;path=&amp;method=init,FALSE
+360983,NASA Headquarters,ROSES25: F.6 Science Activation Program,2026-03-31,2025-12-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={51E42B6A-FB1A-1A45-7E35-CA5FF915D8C6}&amp;path=&amp;method=init,FALSE
 358568,U.S. National Science Foundation,Fire Science Innovations through Research and Education,2026-04-07,2025-03-16,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506410,FALSE
 360022,NASA Headquarters,ROSES 2025: B.4 Space Weather Science Application Research-to-Operations-to-Research,2026-04-10,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={44C4B6D5-A499-3314-7172-3435A7ED59C6}&amp;path=&amp;method=init,FALSE
 356472,U.S. National Science Foundation,"Safety, Security, and Privacy of Open-Source Ecosystems",2026-04-28,2024-09-20,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24608,FALSE
@@ -62,6 +59,7 @@ NA,NEFMC,Council Solicits Contractor Proposals to Plan and Convene a Workshop fo
 359932,Office of Naval Research,"FY25 ONR Office Of Naval Research (ONR) Science, Technology, Engineering, and Mathematics(STEM) Education and Workforce Program",2026-06-30,2025-07-07,https://www.onr.navy.mil/work-with-us/funding-opportunities,FALSE
 347330,U.S. National Science Foundation,CyberAICorps Scholarship for Service,2026-07-15,2023-04-05,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23574,FALSE
 357725,U.S. National Science Foundation,EPSCoR Research Infrastructure Improvement Program: EPSCoR Collaborations for Optimizing Research Ecosystems,2026-07-21,2024-12-14,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf25523,FALSE
+361009,U.S. National Science Foundation,NSF Trailblazer Engineering Impact Award,2026-07-24,2025-12-12,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf26502,FALSE
 360371,U.S. National Science Foundation,Integrated Data Systems &amp; Services,2026-07-28,2025-08-27,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf25544,FALSE
 351715,U.S. National Science Foundation,ECosystem for Leading Innovation in Plasma Science and Engineering,2026-08-11,2024-01-06,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505924,FALSE
 353962,U.S. National Science Foundation,Research Training Groups in the Mathematical Sciences,2026-08-11,2024-05-03,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24570,FALSE
@@ -82,8 +80,11 @@ NA,NOAA Fisheries,Fiscal Year 2024–2026: Broad Agency Announcement,2026-09-30,
 353936,U.S. National Science Foundation,Mathematical Foundations of Artificial Intelligence,2026-10-09,2024-05-02,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24569,FALSE
 350802,U.S. National Science Foundation,Research Experiences for Teachers (RET) in Engineering and Computer Science,2026-10-14,2023-10-31,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24503,FALSE
 350910,U.S. National Science Foundation,International Research Experiences for Students,2026-10-26,2023-11-08,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24506,FALSE
+359104,U.S. National Science Foundation,Louis Stokes Alliances for Minority Participation,2026-11-20,2025-05-23,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24563,FALSE
+302271,U.S. National Science Foundation,Statistics,2026-12-15,2018-03-29,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5556,FALSE
 359816,Food and Drug Administration,"Animal Food Regulatory Program Standards Implementation Development and Maintenance, with Mutual Reliance Initiatives Clinical Trials Not Allowed",2027-04-01,2025-06-25,https://grants.nih.gov/grants/guide/pa-files/PAR-25-003.html,FALSE
 360006,Food and Drug Administration,NARMS Cooperative Agreement Program to Strengthen Antibiotic Resistance Surveillance in Retail Food Specimens,2027-04-01,2025-07-11,https://grants.nih.gov/grants/guide/pa-files/PAR-25-014.html,FALSE
+351547,Environmental Protection Agency,CONTAMINATED ALASKA NATIVE CLAIMS SETTLEMENT ACT LANDS ASSISTANCE PROGRAM,2027-12-31,2023-12-28,https://www.epa.gov/r10-tribal/contamination-ancsa-conveyed-lands#grants,FALSE
 345083,National Park Service,NPS Cooperative Ecosystems Studies Units (CESU) Master Cooperative Agreements,2027-12-31,2022-12-22,NA,FALSE
 334972,Centers for Disease Control and Prevention - ERA,Commercial Fishing Occupational Safety Training Project Grants (T03),2028-01-31,2022-07-11,NA,FALSE
 355417,Centers for Disease Control and Prevention - ERA,Occupational Safety and Health Education and Research Centers (T42),2028-10-26,2024-10-07,https://grants.nih.gov/grants/guide/rfa-files/RFA-OH-25-002.html,FALSE
