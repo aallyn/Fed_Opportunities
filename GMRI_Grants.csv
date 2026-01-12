@@ -1,10 +1,8 @@
 OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
-361064,Department of Education,"Office of Special Education and Rehabilitative Services (OSERS): Rehabilitation Services Administration (RSA): Braille Training Program, Assistance Listing Number 84.235E",2026-03-27,2025-12-29,https://ncrtm.ed.gov/RSAGrantInfo.aspx,TRUE
-360916,Geological Survey,Cooperative Agreement for affiliated Partner with the Great Lakes Northern Forest Cooperative Ecosystem Studies Unit,2026-01-06,2025-11-26,NA,FALSE
-360915,Geological Survey,Cooperative Agreement for affiliated Partner with the Great Lakes Northern Forest Cooperative Ecosystem Studies Unit,2026-01-06,2025-11-26,NA,FALSE
-360914,Geological Survey,Cooperative Agreement for affiliated Partner with the Piedmont South Atlantic Coast Cooperative Ecosystem Studies Unit,2026-01-06,2025-11-26,NA,FALSE
-360540,National Park Service,FY2025 ABPP - Battlefield Restoration Grants,2026-01-08,2025-09-09,NA,FALSE
-360001,NASA Headquarters,ROSES 2025: A.9 User-Centered Applications with Large Earth Foundation Models,2026-01-09,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={13B2AE21-8000-540F-C1E0-EFA2D7271A19}&amp;path=&amp;method=init,FALSE
+361107,Department of Housing and Urban Development,Lead Hazard Reduction Capacity Building Grant Program,2026-02-26,2026-01-08,https://www.hud.gov/grants,TRUE
+361100,Environmental Protection Agency,San Francisco Bay Restoration Grants,2026-03-03,2026-01-07,NA,TRUE
+361098,Environmental Protection Agency,Environmental Education Grant Program,2026-03-03,2026-01-07,NA,TRUE
+NA,MAFMC,Request for Proposals: Strategies for Improving Access and Quota Utilization in the Atlantic Surfclam and Ocean Quahog ITQ Fisheries – Proposals due March 31,2026-03-08,2026-01-07,https://www.mafmc.org/s/2026Jan_RFP_SCOQITQProgramImprovements.pdf,TRUE
 360014,NASA Headquarters,ROSES 2025: C.5 Planetary Science Early Career Award,2026-01-12,2025-07-14,Click on the following link to see the full text of the announcement for this funding opportunity.,FALSE
 NA,NEFMC,Council Solicits Contractor Proposals to Plan and Convene a Workshop for the Scientific and Statistical Committee on Integrating Dynamic Reference Points into Fisheries Management,2026-01-12,2025-11-13,https://www.nefmc.org/news/council-solicits-contractor-proposals-to-plan-and-convene-a-workshop-for-the-scientific-and-statistical-committee-on-integrating-dynamic-reference-points-into-fisheries-management,FALSE
 344715,U.S. National Science Foundation,Oceanographic Facilities and Equipment Support,2026-01-12,2022-12-01,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23525,FALSE
@@ -40,6 +38,7 @@ NA,NEFMC,Council Solicits Contractor Proposals to Plan and Convene a Workshop fo
 354134,DARPA - Microsystems Technology Office ,Microsystems Technology Office (MTO) Office-wide,2026-03-02,2024-05-09,https://sam.gov/opp/73d3fb917e4445fba326ccd7d58f77d9/view,FALSE
 360018,NASA Headquarters,ROSES 2025: D.5 Astrophysics Pioneers,2026-03-13,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={2D567042-5011-7D69-C481-D5002E89FB62}&amp;path=&amp;method=init,FALSE
 351947,U.S. National Science Foundation,Innovations in Graduate Education (IGE) Program,2026-03-25,2024-01-24,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24529,FALSE
+361064,Department of Education,"Office of Special Education and Rehabilitative Services (OSERS): Rehabilitation Services Administration (RSA): Braille Training Program, Assistance Listing Number 84.235E",2026-03-27,2025-12-29,https://ncrtm.ed.gov/RSAGrantInfo.aspx,FALSE
 352198,DOC NOAA - ERA Production,FY 2024 Atlantic Salmon Habitat Restoration Partnership Grants,2026-03-31,2024-02-05,NA,FALSE
 359996,NASA Headquarters,ROSES 2025: A.4 Rapid Response and Novel Research in Earth Science,2026-03-31,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={F2C85D95-15CF-AB33-C8A7-2BF14ADA5A8A}&amp;path=&amp;method=init,FALSE
 360004,NASA Headquarters,ROSES 2025: C.2 Solar System Science,2026-03-31,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={C92A28D2-9E30-4149-24B7-8A40ED4F564B}&amp;path=&amp;method=init,FALSE
