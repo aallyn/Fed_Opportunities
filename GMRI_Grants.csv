@@ -1,19 +1,14 @@
 OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
-361107,Department of Housing and Urban Development,Lead Hazard Reduction Capacity Building Grant Program,2026-02-26,2026-01-08,https://www.hud.gov/grants,TRUE
-361100,Environmental Protection Agency,San Francisco Bay Restoration Grants,2026-03-03,2026-01-07,NA,TRUE
-361098,Environmental Protection Agency,Environmental Education Grant Program,2026-03-03,2026-01-07,NA,TRUE
-NA,MAFMC,Request for Proposals: Strategies for Improving Access and Quota Utilization in the Atlantic Surfclam and Ocean Quahog ITQ Fisheries – Proposals due March 31,2026-03-08,2026-01-07,https://www.mafmc.org/s/2026Jan_RFP_SCOQITQProgramImprovements.pdf,TRUE
-360014,NASA Headquarters,ROSES 2025: C.5 Planetary Science Early Career Award,2026-01-12,2025-07-14,Click on the following link to see the full text of the announcement for this funding opportunity.,FALSE
-NA,NEFMC,Council Solicits Contractor Proposals to Plan and Convene a Workshop for the Scientific and Statistical Committee on Integrating Dynamic Reference Points into Fisheries Management,2026-01-12,2025-11-13,https://www.nefmc.org/news/council-solicits-contractor-proposals-to-plan-and-convene-a-workshop-for-the-scientific-and-statistical-committee-on-integrating-dynamic-reference-points-into-fisheries-management,FALSE
-344715,U.S. National Science Foundation,Oceanographic Facilities and Equipment Support,2026-01-12,2022-12-01,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23525,FALSE
-361005,Geological Survey,Cooperative Agreement for affiliated Partner with the Pacific Northwest Cooperative Ecosystem Studies Unit,2026-01-13,2025-12-12,NA,FALSE
-361004,Geological Survey,Cooperative Agreement for affiliated Partner with the Colorado Plateau Cooperative Ecosystem Studies Unit,2026-01-13,2025-12-12,NA,FALSE
-359992,NASA Headquarters,ROSES 2025: A.2 Earth Venture: TROPICS and PREFIRE Science and Applications Teams,2026-01-13,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={B956BA32-22A3-1A3C-F9EE-0684736326E0}&amp;path=&amp;method=init,FALSE
-356423,U.S. National Science Foundation,Pathways to Enable Open-Source Ecosystems,2026-01-13,2024-09-14,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24606,FALSE
-360955,DOT Federal Aviation Administration ,FY 2026 Notice of Funding Opportunity: Infrastructure Investment and Jobs Act (IIJA) Airport Terminal Program (ATP) Grants,2026-01-15,2025-12-10,https://www.faa.gov/iija/airport-terminals,FALSE
-354620,Department of Homeland Security - FEMA,Fiscal Year 2024 Flood Mitigation Assistance Swift Current,2026-01-15,2024-05-30,NA,FALSE
-344608,U.S. National Science Foundation,Training-based Workforce Development for Advanced Cyberinfrastructure  (CyberTraining),2026-01-15,2022-11-22,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23520,FALSE
-361033,Geological Survey,Cooperative Agreement for affiliated Partner with the North Atlantic Coast Cooperative Ecosystem Studies Unit,2026-01-17,2025-12-17,NA,FALSE
+361133,Bureau of Justice Assistance,BJA FY25 Preventing Violence Against Law Enforcement Officers and Ensuring Officer Resilience and Survivability (VALOR) Initiative,2026-02-05,2026-01-13,https://bja.ojp.gov/funding/opportunities/o-bja-2025-172465,TRUE
+361130,Geological Survey,Cooperative Agreement for affiliated Partner with the Californian Cooperative Ecosystem Studies Unit,2026-02-13,2026-01-12,NA,TRUE
+361156,Bureau of Justice Statistics,"BJS FY25 National Corrections Reporting Program (NCRP) National Prisoner Statistics (NPS) Program, Reference Years (RY) 2025&#8211;2029",2026-02-24,2026-01-15,https://bjs.ojp.gov/funding/opportunities/o-bjs-2025-172528,TRUE
+361154,Bureau of Justice Statistics,BJS FY25 State Justice Statistics Program for Statistical Analysis Centers,2026-02-24,2026-01-15,https://bjs.ojp.gov/funding/opportunities/o-bjs-2025-172526,TRUE
+361148,Institute of Museum and Library Services,Native American/Native Hawaiian Museum Services (2026),2026-03-13,2026-01-13,https://www.imls.gov/find-funding/funding-opportunities/grant-programs/native-american-native-hawaiian-museum-services,TRUE
+360995,Administration for Children and Families - ACYF/CB,Support for a National Electronic Interstate Records Exchange System,2026-03-16,2026-01-13,NA,TRUE
+361132,NASA Headquarters,"ROSES25: F.19 Collaborative Opportunities for Mentorship, Partnership and Academic Success in Science",2026-03-20,2026-01-13,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={2DBE72FD-35D3-6723-D733-1F9429C08C29}&amp;path=&amp;method=init,TRUE
+361125,NASA Headquarters,ROSES25: A.6 Earth Venture Suborbital-4 Landslide Change Characterization Experiment Science Team,2026-04-14,2026-01-12,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={28B359CF-8866-0872-479B-5AEE711E3AC0}&amp;path=&amp;method=init,TRUE
+361127,NASA Headquarters,ROSES25: B.6 Heliophysics Technology and Instrument Development for Science,2026-04-15,2026-01-12,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={6848BC23-D81A-ECD0-24F2-5CBCE5ECFFF8}&amp;path=&amp;method=init,TRUE
+361136,NASA Headquarters,ROSES25: C.12 Foundational Artificial Intelligence for the Moon and Mars,2026-04-28,2026-01-13,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={6F6D173C-46CD-003B-26EF-EFA39D4004A4}&amp;path=&amp;method=init,TRUE
 360000,NASA Headquarters,ROSES 2025: A.8 Water Resources Applications,2026-01-20,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={50B720B3-CD96-3DB2-9591-E8A4668A6A4D}&amp;path=&amp;method=init,FALSE
 355219,U.S. National Science Foundation,"Research on the Science and Technology Enterprise: Indicators, Statistics, and Methods (NCSES S&amp;T)",2026-01-20,2024-07-01,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24587,FALSE
 344124,U.S. National Science Foundation,Improving Undergraduate STEM Education: Directorate for STEM Education,2026-01-21,2022-10-20,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23510,FALSE
@@ -34,9 +29,12 @@ NA,NEFMC,Council Solicits Contractor Proposals to Plan and Convene a Workshop fo
 45793,U.S. National Science Foundation,Ocean Technology and Interdisciplinary Coordination,2026-02-16,2009-03-05,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12724,FALSE
 275150,U.S. National Science Foundation,Chemical Oceanography,2026-02-17,2015-03-13,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11698,FALSE
 344858,U.S. National Science Foundation,Biological Oceanography,2026-02-17,2022-12-13,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506154,FALSE
+361107,Department of Housing and Urban Development,Lead Hazard Reduction Capacity Building Grant Program,2026-02-26,2026-01-08,https://www.hud.gov/grants,FALSE
 360956,NASA Headquarters,ROSES25: D.3C XRISM General Observer - Type 2,2026-02-27,2025-12-10,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={A952E51B-7AD4-B180-2F8C-4E8A79AFFAED}&amp;path=&amp;method=init,FALSE
 354134,DARPA - Microsystems Technology Office ,Microsystems Technology Office (MTO) Office-wide,2026-03-02,2024-05-09,https://sam.gov/opp/73d3fb917e4445fba326ccd7d58f77d9/view,FALSE
-360018,NASA Headquarters,ROSES 2025: D.5 Astrophysics Pioneers,2026-03-13,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={2D567042-5011-7D69-C481-D5002E89FB62}&amp;path=&amp;method=init,FALSE
+361100,Environmental Protection Agency,San Francisco Bay Restoration Grants,2026-03-03,2026-01-07,NA,FALSE
+361098,Environmental Protection Agency,Environmental Education Grant Program,2026-03-03,2026-01-07,NA,FALSE
+NA,MAFMC,Request for Proposals: Strategies for Improving Access and Quota Utilization in the Atlantic Surfclam and Ocean Quahog ITQ Fisheries – Proposals due March 31,2026-03-08,2026-01-07,https://www.mafmc.org/s/2026Jan_RFP_SCOQITQProgramImprovements.pdf,FALSE
 351947,U.S. National Science Foundation,Innovations in Graduate Education (IGE) Program,2026-03-25,2024-01-24,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24529,FALSE
 361064,Department of Education,"Office of Special Education and Rehabilitative Services (OSERS): Rehabilitation Services Administration (RSA): Braille Training Program, Assistance Listing Number 84.235E",2026-03-27,2025-12-29,https://ncrtm.ed.gov/RSAGrantInfo.aspx,FALSE
 352198,DOC NOAA - ERA Production,FY 2024 Atlantic Salmon Habitat Restoration Partnership Grants,2026-03-31,2024-02-05,NA,FALSE
@@ -45,6 +43,7 @@ NA,NEFMC,Council Solicits Contractor Proposals to Plan and Convene a Workshop fo
 360003,NASA Headquarters,ROSES 2025: A.10 INNOVATE,2026-03-31,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={9E3216E9-ADB7-B72A-A1D7-12EC8050DC3F}&amp;path=&amp;method=init,FALSE
 360913,NASA Headquarters,ROSES 2025: B.3 Living with a Star Science,2026-03-31,2025-11-25,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={14906FAC-42E8-80E7-0892-E7FFE5A318AE}&amp;path=&amp;method=init,FALSE
 360983,NASA Headquarters,ROSES25: F.6 Science Activation Program,2026-03-31,2025-12-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={51E42B6A-FB1A-1A45-7E35-CA5FF915D8C6}&amp;path=&amp;method=init,FALSE
+360018,NASA Headquarters,ROSES 2025: D.5 Astrophysics Pioneers,2026-04-02,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={2D567042-5011-7D69-C481-D5002E89FB62}&amp;path=&amp;method=init,FALSE
 358568,U.S. National Science Foundation,Fire Science Innovations through Research and Education,2026-04-07,2025-03-16,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506410,FALSE
 360022,NASA Headquarters,ROSES 2025: B.4 Space Weather Science Application Research-to-Operations-to-Research,2026-04-10,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={44C4B6D5-A499-3314-7172-3435A7ED59C6}&amp;path=&amp;method=init,FALSE
 361036,NASA Headquarters,ROSES25: B.5 Research and Development of Initiatives for Advanced New Technologies,2026-04-27,2025-12-18,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={41FD555D-00B8-AE92-3285-4DE49EA8B6F1}&amp;path=&amp;method=init,FALSE
