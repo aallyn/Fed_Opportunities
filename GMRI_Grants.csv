@@ -1,41 +1,45 @@
 OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
-361192,Bureau of International Narcotics-Law Enforcement,"Travel, Training and Logistics for Costa Rica",2026-02-06,2026-01-22,https://mygrants.servicenowservices.com/mygrants?id=mygrants_form&amp;table=x_g_usd4_o_grant_funding_opportunity&amp;sys_id=086e4ca247aab6504f681864336d4308&amp;view=Default,TRUE
-361171,Bureau of Justice Statistics,BJS FY25 Census of Law Enforcement Training Academies (CLETA),2026-02-12,2026-01-21,https://bjs.ojp.gov/funding/opportunities/o-bjs-2025-172532,TRUE
-361184,U.S. National Science Foundation,Physical Oceanography,2026-02-17,2026-01-21,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12729,TRUE
-361033,Geological Survey,Cooperative Agreement for affiliated Partner with the North Atlantic Coast Cooperative Ecosystem Studies Unit,2026-02-22,2025-12-17,NA,TRUE
-NA,NOAA Fisheries,Application Solicitation - Scallop Research Set Aside Program,2026-03-23,2026-01-22,https://www.fisheries.noaa.gov/grant/application-solicitation-scallop-research-set-aside-program,TRUE
-361174,Institute of Museum and Library Services,Native Hawaiian Library Services Grants (2026),2026-04-10,2026-01-21,https://www.imls.gov/find-funding/funding-opportunities/grant-programs/native-hawaiian-library-services,TRUE
-356423,U.S. National Science Foundation,Pathways to Enable Open-Source Ecosystems,2026-09-01,2024-09-14,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24606,TRUE
-361169,National Institute of Food and Agriculture,Agriculture and Food Research Initiative Competitive Grants Program Education and Workforce Development,2026-12-31,2026-01-20,https://www.nifa.usda.gov/grants/funding-opportunities/agriculture-food-research-initiative-education-workforce-development,TRUE
-344608,U.S. National Science Foundation,Training-based Workforce Development for Advanced Cyberinfrastructure  (CyberTraining),2027-01-21,2022-11-22,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23520,TRUE
-360900,Environmental Protection Agency,FY26 Guidelines for Brownfield Assessment Grants (Community-wide Assessment Grants for States and Tribes),2026-01-28,2025-11-20,NA,FALSE
-360897,Environmental Protection Agency,FY26 Guidelines for Brownfield Assessment Grants (Community-wide Assessment Grants),2026-01-28,2025-11-20,NA,FALSE
-314743,U.S. National Science Foundation,"Methodology, Measurement, and Statistics",2026-01-29,2019-04-10,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf19575,FALSE
-360917,NASA Headquarters,ROSES 2025: D.2 Astrophysics Data Analysis,2026-01-30,2025-11-26,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={14FFD7A0-5539-4C5C-ACC5-530F9A4ADB0E}&amp;path=&amp;method=init,FALSE
+357123,Advanced Research Projects Agency Energy ,CATALYTIC APPLICATION TESTING FOR ACCELERATED LEARNING CHEMISTRIES VIA HIGH-THROUGHPUT EXPERIMENTATION AND MODELING EFFICIENTLY (CATALCHEM-E),2026-02-25,2024-11-14,https://arpa-e-foa.energy.gov,TRUE
+358259,Advanced Research Projects Agency Energy ,Stimulate Utilization of Plentiful Energy in Rocks through High-temperature Original Technologies SBIR/STTR (SUPERHOT SBIR/STTR),2026-03-05,2025-01-16,https://arpa-e-foa.energy.gov,TRUE
+358258,Advanced Research Projects Agency Energy ,Stimulate Utilization of Plentiful Energy in Rocks through High-temperature Original Technologies (SUPERHOT),2026-03-05,2025-01-16,https://arpa-e-foa.energy.gov,TRUE
+361211,National Institute of Food and Agriculture,Agriculture and Food Research Initiative  Strengthening Agricultural Systems,2026-03-26,2026-01-29,https://www.nifa.usda.gov/grants/funding-opportunities/agriculture-food-research-initiative-sustainable-agricultural-systems,TRUE
+NA,NEFMC,Council Solicits Contractor Proposals to Support Development of Atlantic Sea Scallop Stock Projection Methods,2026-03-27,2026-01-26,https://www.nefmc.org/news/council-solicits-contractor-proposals-to-support-development-of-atlantic-sea-scallop-stock-projection-methods,TRUE
+NA,NEFMC,NOAA and NEFMC Now Soliciting Proposals for 2026-2027 Sea Scallop RSA Program,2026-03-28,2026-01-27,https://www.nefmc.org/news/now-soliciting-proposals-for-2026-2027-sea-scallop-research-set-aside-program,TRUE
+361218,Environmental Protection Agency,PRIA 5 Training Development,2026-03-31,2026-01-30,NA,TRUE
+357592,National Energy Technology Laboratory,HARMONY: Human-Centric Analytics for Resilient &amp; Modernized Power sYstems,2026-04-09,2024-12-09,https://www.fedconnect.net,TRUE
+361217,Environmental Protection Agency,Wildfire Smoke Preparedness in Community Buildings,2026-04-15,2026-01-30,NA,TRUE
+355219,U.S. National Science Foundation,"Research on the Science and Technology Enterprise: Indicators, Statistics, and Methods (NCSES S&amp;T)",2026-06-16,2024-07-01,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24587,TRUE
+344124,U.S. National Science Foundation,Improving Undergraduate STEM Education: Directorate for STEM Education,2026-07-15,2022-10-20,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23510,TRUE
+344715,U.S. National Science Foundation,Oceanographic Facilities and Equipment Support,2027-01-11,2022-12-01,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23525,TRUE
 360019,NASA Headquarters,ROSES 2025: F.3 Exoplanets Research,2026-02-02,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={2F7D763F-B1F4-2C89-27C5-B1A961209D3F}&amp;path=&amp;method=init,FALSE
 360448,U.S. National Science Foundation,Foundations for Operating the National Artificial Intelligence Research Resource: the NAIRR Operations Center  (NAIRR-OC),2026-02-04,2025-09-02,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf25546,FALSE
 361133,Bureau of Justice Assistance,BJA FY25 Preventing Violence Against Law Enforcement Officers and Ensuring Officer Resilience and Survivability (VALOR) Initiative,2026-02-05,2026-01-13,https://bja.ojp.gov/funding/opportunities/o-bja-2025-172465,FALSE
 348260,U.S. National Science Foundation,Human Networks and Data Science,2026-02-05,2023-05-20,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23568,FALSE
 352796,U.S. National Science Foundation,"Artificial Intelligence, Formal Methods, and Mathematical Reasoning",2026-02-05,2024-03-05,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24554,FALSE
+361192,Bureau of International Narcotics-Law Enforcement,"Travel, Training and Logistics for Costa Rica",2026-02-06,2026-01-22,https://mygrants.servicenowservices.com/mygrants?id=mygrants_form&amp;table=x_g_usd4_o_grant_funding_opportunity&amp;sys_id=086e4ca247aab6504f681864336d4308&amp;view=Default,FALSE
 360989,National Park Service,Public Programming and Educational Outreach: Brown v. Board of Education National Historical Park,2026-02-09,2025-12-11,NA,FALSE
 337984,U.S. National Science Foundation,Algorithms for Modern Power Systems,2026-02-09,2022-02-11,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22569,FALSE
 352562,U.S. National Science Foundation,"Hispanic-Serving Institutions: Enriching Learning, Programs, and Student Experiences",2026-02-11,2024-02-22,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24551,FALSE
+361171,Bureau of Justice Statistics,BJS FY25 Census of Law Enforcement Training Academies (CLETA),2026-02-12,2026-01-21,https://bjs.ojp.gov/funding/opportunities/o-bjs-2025-172532,FALSE
 361130,Geological Survey,Cooperative Agreement for affiliated Partner with the Californian Cooperative Ecosystem Studies Unit,2026-02-13,2026-01-12,NA,FALSE
 361034,Geological Survey,Cooperative Agreement for Affiliated Partner with the Great Rivers Cooperative Ecosystem Studies Unit (CESU),2026-02-15,2025-12-17,NA,FALSE
 45793,U.S. National Science Foundation,Ocean Technology and Interdisciplinary Coordination,2026-02-16,2009-03-05,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12724,FALSE
 275150,U.S. National Science Foundation,Chemical Oceanography,2026-02-17,2015-03-13,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11698,FALSE
 344858,U.S. National Science Foundation,Biological Oceanography,2026-02-17,2022-12-13,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506154,FALSE
+361184,U.S. National Science Foundation,Physical Oceanography,2026-02-17,2026-01-21,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12729,FALSE
+361033,Geological Survey,Cooperative Agreement for affiliated Partner with the North Atlantic Coast Cooperative Ecosystem Studies Unit,2026-02-22,2025-12-17,NA,FALSE
 361156,Bureau of Justice Statistics,"BJS FY25 National Corrections Reporting Program (NCRP) National Prisoner Statistics (NPS) Program, Reference Years (RY) 2025&#8211;2029",2026-02-24,2026-01-15,https://bjs.ojp.gov/funding/opportunities/o-bjs-2025-172528,FALSE
 361154,Bureau of Justice Statistics,BJS FY25 State Justice Statistics Program for Statistical Analysis Centers,2026-02-24,2026-01-15,https://bjs.ojp.gov/funding/opportunities/o-bjs-2025-172526,FALSE
-361107,Department of Housing and Urban Development,Lead Hazard Reduction Capacity Building Grant Program,2026-02-26,2026-01-08,https://www.hud.gov/grants,FALSE
 360956,NASA Headquarters,ROSES25: D.3C XRISM General Observer - Type 2,2026-02-27,2025-12-10,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={A952E51B-7AD4-B180-2F8C-4E8A79AFFAED}&amp;path=&amp;method=init,FALSE
 354134,DARPA - Microsystems Technology Office ,Microsystems Technology Office (MTO) Office-wide,2026-03-02,2024-05-09,https://sam.gov/opp/73d3fb917e4445fba326ccd7d58f77d9/view,FALSE
 361100,Environmental Protection Agency,San Francisco Bay Restoration Grants,2026-03-03,2026-01-07,NA,FALSE
 361098,Environmental Protection Agency,Environmental Education Grant Program,2026-03-03,2026-01-07,NA,FALSE
+361107,Department of Housing and Urban Development,Lead Hazard Reduction Capacity Building Grant Program,2026-03-05,2026-01-08,https://www.hud.gov/grants,FALSE
 NA,MAFMC,Request for Proposals: Strategies for Improving Access and Quota Utilization in the Atlantic Surfclam and Ocean Quahog ITQ Fisheries – Proposals due March 31,2026-03-08,2026-01-07,https://www.mafmc.org/s/2026Jan_RFP_SCOQITQProgramImprovements.pdf,FALSE
 361148,Institute of Museum and Library Services,Native American/Native Hawaiian Museum Services (2026),2026-03-13,2026-01-13,https://www.imls.gov/find-funding/funding-opportunities/grant-programs/native-american-native-hawaiian-museum-services,FALSE
 360995,Administration for Children and Families - ACYF/CB,Support for a National Electronic Interstate Records Exchange System,2026-03-16,2026-01-13,NA,FALSE
 361132,NASA Headquarters,"ROSES25: F.19 Collaborative Opportunities for Mentorship, Partnership and Academic Success in Science",2026-03-20,2026-01-13,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={2DBE72FD-35D3-6723-D733-1F9429C08C29}&amp;path=&amp;method=init,FALSE
+NA,NOAA Fisheries,Application Solicitation - Scallop Research Set Aside Program,2026-03-23,2026-01-22,https://www.fisheries.noaa.gov/grant/application-solicitation-scallop-research-set-aside-program,FALSE
 351947,U.S. National Science Foundation,Innovations in Graduate Education (IGE) Program,2026-03-25,2024-01-24,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24529,FALSE
 361064,Department of Education,"Office of Special Education and Rehabilitative Services (OSERS): Rehabilitation Services Administration (RSA): Braille Training Program, Assistance Listing Number 84.235E",2026-03-27,2025-12-29,https://ncrtm.ed.gov/RSAGrantInfo.aspx,FALSE
 352198,DOC NOAA - ERA Production,FY 2024 Atlantic Salmon Habitat Restoration Partnership Grants,2026-03-31,2024-02-05,NA,FALSE
@@ -43,6 +47,7 @@ NA,MAFMC,Request for Proposals: Strategies for Improving Access and Quota Utiliz
 360983,NASA Headquarters,ROSES25: F.6 Science Activation Program,2026-03-31,2025-12-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={51E42B6A-FB1A-1A45-7E35-CA5FF915D8C6}&amp;path=&amp;method=init,FALSE
 360018,NASA Headquarters,ROSES 2025: D.5 Astrophysics Pioneers,2026-04-02,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={2D567042-5011-7D69-C481-D5002E89FB62}&amp;path=&amp;method=init,FALSE
 358568,U.S. National Science Foundation,Fire Science Innovations through Research and Education,2026-04-07,2025-03-16,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506410,FALSE
+361174,Institute of Museum and Library Services,Native Hawaiian Library Services Grants (2026),2026-04-10,2026-01-21,https://www.imls.gov/find-funding/funding-opportunities/grant-programs/native-hawaiian-library-services,FALSE
 360022,NASA Headquarters,ROSES 2025: B.4 Space Weather Science Application Research-to-Operations-to-Research,2026-04-10,2025-07-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={44C4B6D5-A499-3314-7172-3435A7ED59C6}&amp;path=&amp;method=init,FALSE
 361125,NASA Headquarters,ROSES25: A.6 Earth Venture Suborbital-4 Landslide Change Characterization Experiment Science Team,2026-04-14,2026-01-12,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={28B359CF-8866-0872-479B-5AEE711E3AC0}&amp;path=&amp;method=init,FALSE
 361127,NASA Headquarters,ROSES25: B.6 Heliophysics Technology and Instrument Development for Science,2026-04-15,2026-01-12,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={6848BC23-D81A-ECD0-24F2-5CBCE5ECFFF8}&amp;path=&amp;method=init,FALSE
@@ -64,6 +69,7 @@ NA,MAFMC,Request for Proposals: Strategies for Improving Access and Quota Utiliz
 348012,U.S. National Science Foundation,Robert Noyce Teacher Scholarship Program,2026-08-25,2023-05-09,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23586,FALSE
 359996,NASA Headquarters,ROSES 2025: A.4 Rapid Response and Novel Research in Earth Science,2026-08-31,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={F2C85D95-15CF-AB33-C8A7-2BF14ADA5A8A}&amp;path=&amp;method=init,FALSE
 360003,NASA Headquarters,ROSES 2025: A.10 INNOVATE,2026-08-31,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={9E3216E9-ADB7-B72A-A1D7-12EC8050DC3F}&amp;path=&amp;method=init,FALSE
+356423,U.S. National Science Foundation,Pathways to Enable Open-Source Ecosystems,2026-09-01,2024-09-14,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24606,FALSE
 NA,NOAA Fisheries,NOAA Great Lakes Fish Habitat Restoration Partnership Grants,2026-09-04,2024-08-27,https://www.fisheries.noaa.gov/grant/noaa-great-lakes-fish-habitat-restoration-partnership-grants,FALSE
 356119,U.S. National Science Foundation,U.S. National Science Foundation Research Traineeship (NRT) Program,2026-09-08,2024-08-17,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24597,FALSE
 355706,DOC NOAA - ERA Production,"FY 2024 &#8211; 2026 Broad Agency Announcement (BAA), National Marine Fisheries Service",2026-09-30,2024-07-29,NA,FALSE
@@ -79,6 +85,8 @@ NA,NOAA Fisheries,Fiscal Year 2024–2026: Broad Agency Announcement,2026-09-30,
 350910,U.S. National Science Foundation,International Research Experiences for Students,2026-10-26,2023-11-08,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24506,FALSE
 359104,U.S. National Science Foundation,Louis Stokes Alliances for Minority Participation,2026-11-20,2025-05-23,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24563,FALSE
 302271,U.S. National Science Foundation,Statistics,2026-12-15,2018-03-29,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5556,FALSE
+361169,National Institute of Food and Agriculture,Agriculture and Food Research Initiative Competitive Grants Program Education and Workforce Development,2026-12-31,2026-01-20,https://www.nifa.usda.gov/grants/funding-opportunities/agriculture-food-research-initiative-education-workforce-development,FALSE
+344608,U.S. National Science Foundation,Training-based Workforce Development for Advanced Cyberinfrastructure  (CyberTraining),2027-01-21,2022-11-22,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23520,FALSE
 359816,Food and Drug Administration,"Animal Food Regulatory Program Standards Implementation Development and Maintenance, with Mutual Reliance Initiatives Clinical Trials Not Allowed",2027-04-01,2025-06-25,https://grants.nih.gov/grants/guide/pa-files/PAR-25-003.html,FALSE
 360006,Food and Drug Administration,NARMS Cooperative Agreement Program to Strengthen Antibiotic Resistance Surveillance in Retail Food Specimens,2027-04-01,2025-07-11,https://grants.nih.gov/grants/guide/pa-files/PAR-25-014.html,FALSE
 351547,Environmental Protection Agency,CONTAMINATED ALASKA NATIVE CLAIMS SETTLEMENT ACT LANDS ASSISTANCE PROGRAM,2027-12-31,2023-12-28,https://www.epa.gov/r10-tribal/contamination-ancsa-conveyed-lands#grants,FALSE
