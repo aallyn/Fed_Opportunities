@@ -1,11 +1,12 @@
 OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
-NA,NEFMC,Council Extends Deadline for Solicitation of Contractor Proposals to Support Development of Atlantic Sea Scallop Stock Projection Methods,2026-04-28,2026-02-27,https://www.nefmc.org/news/council-solicits-contractor-proposals-to-support-development-of-atlantic-sea-scallop-stock-projection-methods,TRUE
-354134,DARPA - Microsystems Technology Office ,Microsystems Technology Office (MTO) Office-wide,2026-03-02,2024-05-09,https://sam.gov/opp/73d3fb917e4445fba326ccd7d58f77d9/view,FALSE
-361100,Environmental Protection Agency,San Francisco Bay Restoration Grants,2026-03-03,2026-01-07,NA,FALSE
-361098,Environmental Protection Agency,Environmental Education Grant Program,2026-03-03,2026-01-07,NA,FALSE
-358259,Advanced Research Projects Agency Energy ,Stimulate Utilization of Plentiful Energy in Rocks through High-temperature Original Technologies SBIR/STTR (SUPERHOT SBIR/STTR),2026-03-05,2025-01-16,https://arpa-e-foa.energy.gov,FALSE
-358258,Advanced Research Projects Agency Energy ,Stimulate Utilization of Plentiful Energy in Rocks through High-temperature Original Technologies (SUPERHOT),2026-03-05,2025-01-16,https://arpa-e-foa.energy.gov,FALSE
-NA,MAFMC,Request for Proposals: Strategies for Improving Access and Quota Utilization in the Atlantic Surfclam and Ocean Quahog ITQ Fisheries – Proposals due March 31,2026-03-08,2026-01-07,https://www.mafmc.org/s/2026Jan_RFP_SCOQITQProgramImprovements.pdf,FALSE
+360971,Substance Abuse and Mental Health Services Adminis,Implementing Zero Suicide in Health Systems,2026-04-20,2026-03-06,https://www.samhsa.gov/grants/grant-announcements/sm-26-008,TRUE
+361421,Department of Housing and Urban Development,Housing-Related Hazards and Lead-Based Paint Capital Fund Program,2026-05-04,2026-03-06,https://www.hud.gov/grants/,TRUE
+361419,Bureau of Reclamation,Snow Water Supply Forecasting Program FY 2026,2026-05-05,2026-03-06,NA,TRUE
+361392,DOC NOAA - ERA Production,Fiscal Year 2027 National Sea Grant College Program Dean John A. Knauss Marine Policy Fellowship,2026-07-22,2026-03-02,NA,TRUE
+275150,U.S. National Science Foundation,Chemical Oceanography,2026-08-17,2015-03-13,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11698,TRUE
+344858,U.S. National Science Foundation,Biological Oceanography,2026-08-17,2022-12-13,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506154,TRUE
+361184,U.S. National Science Foundation,Physical Oceanography,2026-08-17,2026-01-21,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12729,TRUE
+45793,U.S. National Science Foundation,Ocean Technology and Interdisciplinary Coordination,2027-02-15,2009-03-05,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12724,TRUE
 361107,Department of Housing and Urban Development,Lead Hazard Reduction Capacity Building Grant Program,2026-03-10,2026-01-08,https://www.hud.gov/grants,FALSE
 361292,Geological Survey,Cooperative Agreement for Affiliated Partner with the Rocky Mountain Cooperative Ecosystem Studies Unit (CESU),2026-03-12,2026-02-12,NA,FALSE
 361148,Institute of Museum and Library Services,Native American/Native Hawaiian Museum Services (2026),2026-03-13,2026-01-13,https://www.imls.gov/find-funding/funding-opportunities/grant-programs/native-american-native-hawaiian-museum-services,FALSE
@@ -38,10 +39,10 @@ NA,NEFMC,NOAA and NEFMC Now Soliciting Proposals for 2026-2027 Sea Scallop RSA P
 360601,Forest Service,2026 Community Wood Energy and Wood Innovation Program,2026-04-22,2026-02-18,https://www.fs.usda.gov/science-technology/energy-forest-products/wood-innovation,FALSE
 361036,NASA Headquarters,ROSES25: B.5 Research and Development of Initiatives for Advanced New Technologies,2026-04-27,2025-12-18,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={41FD555D-00B8-AE92-3285-4DE49EA8B6F1}&amp;path=&amp;method=init,FALSE
 361136,NASA Headquarters,ROSES25: C.12 Foundational Artificial Intelligence for the Moon and Mars,2026-04-28,2026-01-13,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={6F6D173C-46CD-003B-26EF-EFA39D4004A4}&amp;path=&amp;method=init,FALSE
+NA,NEFMC,Council Extends Deadline for Solicitation of Contractor Proposals to Support Development of Atlantic Sea Scallop Stock Projection Methods,2026-04-28,2026-02-27,https://www.nefmc.org/news/council-solicits-contractor-proposals-to-support-development-of-atlantic-sea-scallop-stock-projection-methods,FALSE
 356472,U.S. National Science Foundation,"Safety, Security, and Privacy of Open-Source Ecosystems",2026-04-28,2024-09-20,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24608,FALSE
 361289,NASA Headquarters,"ROSES25: A.3 NASA ISRO Synthetic Aperture Radar Mission Data, Applications, Research, and Technology Team",2026-05-14,2026-02-12,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={0073A14E-AFC3-13BD-0128-56AFE0030B08}&amp;path=&amp;method=init,FALSE
 359989,NASA Headquarters,ROSES 2025: Research Opportunities in Space and Earth Science,2026-05-31,2025-07-11,https://solicitation.nasaprs.com/ROSES2025,FALSE
-355219,U.S. National Science Foundation,"Research on the Science and Technology Enterprise: Indicators, Statistics, and Methods (NCSES S&amp;T)",2026-06-16,2024-07-01,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24587,FALSE
 359932,Office of Naval Research,"FY25 ONR Office Of Naval Research (ONR) Science, Technology, Engineering, and Mathematics(STEM) Education and Workforce Program",2026-06-30,2025-07-07,https://www.onr.navy.mil/work-with-us/funding-opportunities,FALSE
 361309,Office of Science,Energy Frontier Research Centers (EFRCs),2026-07-01,2026-02-18,NA,FALSE
 344124,U.S. National Science Foundation,Improving Undergraduate STEM Education: Directorate for STEM Education,2026-07-15,2022-10-20,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23510,FALSE
@@ -49,7 +50,6 @@ NA,NEFMC,NOAA and NEFMC Now Soliciting Proposals for 2026-2027 Sea Scallop RSA P
 361009,U.S. National Science Foundation,NSF Trailblazer Engineering Impact Award,2026-07-24,2025-12-12,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf26502,FALSE
 360371,U.S. National Science Foundation,Integrated Data Systems &amp; Services,2026-07-28,2025-08-27,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf25544,FALSE
 360004,NASA Headquarters,ROSES 2025: C.2 Solar System Science,2026-08-01,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={C92A28D2-9E30-4149-24B7-8A40ED4F564B}&amp;path=&amp;method=init,FALSE
-348260,U.S. National Science Foundation,Human Networks and Data Science,2026-08-06,2023-05-20,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23568,FALSE
 351715,U.S. National Science Foundation,ECosystem for Leading Innovation in Plasma Science and Engineering,2026-08-11,2024-01-06,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505924,FALSE
 353962,U.S. National Science Foundation,Research Training Groups in the Mathematical Sciences,2026-08-11,2024-05-03,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24570,FALSE
 354144,U.S. National Science Foundation,Correctness for Scientific Computing Systems,2026-08-11,2024-05-10,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24571,FALSE
