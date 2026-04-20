@@ -1,15 +1,15 @@
 OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
-361760,Department of Education,"Office of Special Education and Rehabilitative Services (OSERS): Office of Special Education Programs (OSEP): Community Parent Resource Centers (CPRCs), Assistance Listing Number 84.328C",2026-06-05,2026-04-06,NA,TRUE
-361861,Bureau of Counterterrorism ,Protecting U.S. Critical Energy Investments Through C-UAS and UAS Surveillance Capabilities in Iraq,2026-06-08,2026-04-10,https://mygrants.servicenowservices.com/mygrants?id=mygrants_form&amp;table=x_g_usd4_d_grant_funding_opportunity&amp;sys_id=2ec3f09b934c4fd0d114b7986cba107e&amp;view=Default,TRUE
-361758,National Institute of Food and Agriculture,Renewable Resource Extension Act National Focus Fund Projects,2026-06-08,2026-04-06,https://www.nifa.usda.gov/grants/funding-opportunities/renewable-resources-extension-act-national-focus-fund-projects-rrea,TRUE
-361864,Bureau of Counterterrorism ,Strengthening Law Enforcement Engagement with Repatriated Individuals,2026-06-09,2026-04-10,https://mygrants.servicenowservices.com/mygrants?id=mygrants_form&amp;table=x_g_usd4_d_grant_funding_opportunity&amp;sys_id=87d6ceaf93c8c314d114b7986cba10ed&amp;view=Default,TRUE
-361809,Office of Elementary and Secondary Education,Teacher and School Leader Incentive Fund 84.374A,2026-06-09,2026-04-08,https://www.ed.gov/grants-and-programs/teacher-preparation-grants/teacher-and-school-leader-incentive-program,TRUE
-361851,Fish and Wildlife Service,F27AS00007 FY 2027 National Coastal Wetlands Conservation Grant Program Notice of Funding Opportunity,2026-07-09,2026-04-10,NA,TRUE
-361238,U.S. National Science Foundation,CyberAICorps Scholarship for Service,2026-07-21,2026-02-04,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf26503,TRUE
-361274,DOC NOAA - ERA Production,FY 2026 Implementation of the U.S. Integrated Ocean Observing System (IOOS),2026-04-13,2026-02-10,NA,FALSE
-361125,NASA Headquarters,ROSES25: A.6 Earth Venture Suborbital-4 Landslide Change Characterization Experiment Science Team,2026-04-14,2026-01-12,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={28B359CF-8866-0872-479B-5AEE711E3AC0}&amp;path=&amp;method=init,FALSE
-361217,Environmental Protection Agency,Wildfire Smoke Preparedness in Community Buildings,2026-04-15,2026-01-30,NA,FALSE
-361127,NASA Headquarters,ROSES25: B.6 Heliophysics Technology and Instrument Development for Science,2026-04-15,2026-01-12,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={6848BC23-D81A-ECD0-24F2-5CBCE5ECFFF8}&amp;path=&amp;method=init,FALSE
+361909,Bureau of Justice Assistance,"BJA FY25 Comprehensive Opioid, Stimulant, and Substance Use Program (COSSUP) Investigations Training and Technical Assistance (TTA)",2026-05-08,2026-04-15,https://bja.ojp.gov/funding/opportunities/o-bja-2025-172581,TRUE
+361870,Environmental Protection Agency,Training and Technical Assistance to Improve Water Quality and Enable Small Public Water Systems to Provide Safe Drinking Water,2026-05-13,2026-04-13,NA,TRUE
+361957,DoD Education Activity,"Military-Connected Schools Construction, Modernization and Facilities Maintenance Program",2026-05-22,2026-04-19,https://dodeagrants.org/FundingOpportunities,TRUE
+361907,Bureau of Justice Assistance,BJA FY25 De-escalation and Crisis Response Training Program,2026-05-27,2026-04-15,https://bja.ojp.gov/funding/opportunities/o-bja-2025-172498,TRUE
+361881,National Institute of Standards and Technology,Regional Alliances and Multistakeholder Partnerships to Stimulate (RAMPS) Cybersecurity Education and Workforce Development,2026-05-28,2026-04-13,NA,TRUE
+NA,MAFMC,Request for Proposals: Technical Review of Confidence Interval Methods for the Percent Change Approach,2026-06-14,2026-04-15,https://www.mafmc.org/newsfeed/2026/request-for-proposals-technical-review-of-confidence-interval-methods-for-the-percent-change-approach,TRUE
+361896,U.S. National Science Foundation,"Arctic Doctoral Dissertation Research Improvement Grants (Arctic DDRIG)  Arctic Social Sciences, Arctic System Sciences, and Arctic Observing Network",2026-06-15,2026-04-14,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf20597,TRUE
+361904,Department of Education,"Office of Special Education and Rehabilitative Services (OSERS): Office of Special Education Programs (OSEP): State Personnel Development Grants (SPDG) Program, Assistance Listing Number 84.323A",2026-06-16,2026-04-15,NA,TRUE
+361936,NASA Headquarters,ROSES25: A.11 Early Career Investigator Program in Earth Science,2026-06-17,2026-04-17,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={44243B5E-CA6C-13B1-4ED1-A99181C7F72F}&amp;path=&amp;method=init,TRUE
+361941,Office of Local Defense Community Cooperation,FY 2026 Defense Community Infrastructure Program,2026-06-25,2026-04-17,NA,TRUE
+361889,NASA Headquarters,ROSES25: F.5 Future Investigators in NASA Earth and Space Science and Technology,2026-07-14,2026-04-14,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={F9C7B701-6405-FD55-6705-EB4B190646B8}&amp;path=&amp;method=init,TRUE
 361327,Bureau Of Educational and Cultural Affairs,FY 2026 Community College Administrator Program,2026-04-20,2026-02-19,https://www.state.gov/eca-grant-opportunities/,FALSE
 361672,Bureau of Justice Assistance,BJA FY25 Public Safety and Mental Health Initiative Training and Technical Assistance,2026-04-20,2026-03-26,https://bja.ojp.gov/funding/opportunities/o-bja-2025-172489,FALSE
 360971,Substance Abuse and Mental Health Services Adminis,Implementing Zero Suicide in Health Systems,2026-04-20,2026-03-06,https://www.samhsa.gov/grants/grant-announcements/sm-26-008,FALSE
@@ -40,38 +40,44 @@ NA,NEFMC,Council Extends Deadline for Solicitation of Contractor Proposals to Su
 361421,Department of Housing and Urban Development,Housing-Related Hazards and Lead-Based Paint Capital Fund Program,2026-05-04,2026-03-06,https://www.hud.gov/grants/,FALSE
 361624,Office of Juvenile Justice Delinquency Prevention ,OJJDP FY25 Expanding Youth Access to Community-Based Treatment,2026-05-04,2026-03-25,https://www.ojp.gov/funding/docs/OJJDP-2025-172517.pdf,FALSE
 361419,Bureau of Reclamation,Snow Water Supply Forecasting Program FY 2026,2026-05-05,2026-03-06,NA,FALSE
-NA,MAFMC,Request for Proposals: Facilitation Services for a Recreational Sector Separation Workshop,2026-05-09,2026-03-10,https://www.mafmc.org/newsfeed/2026/request-for-proposals-facilitation-services-for-a-recreational-sector-separation-workshop,FALSE
 361460,Bureau Of Educational and Cultural Affairs,FY 2026 John McCain Study of the U.S. Institute for Student Leaders on the Rule of Law and Public Service,2026-05-11,2026-03-12,https://www.state.gov/eca-grant-opportunities/,FALSE
 361479,Bureau of Cyberspace and Digital Policy,Fueling AI Innovation and Adoption,2026-05-11,2026-03-12,https://mygrants.servicenowservices.com/mygrants?id=mygrants_form&amp;table=x_g_usd4_d_grant_funding_opportunity&amp;sys_id=ef571cc81baf76d02405ea85624bcbb3&amp;view=Default,FALSE
 361562,DOC NOAA - ERA Production,Ocean and Coastal Mapping Center 2026,2026-05-11,2026-03-20,NA,FALSE
 361550,National Institute of Justice,NIJ FY25 Research and Evaluation on Violence Against Women,2026-05-11,2026-03-19,https://nij.ojp.gov/funding/opportunities/o-nij-2025-172572,FALSE
-361503,DOC NOAA - ERA Production,"Prevention, Control, and Mitigation of Harmful Algal Blooms Program",2026-05-14,2026-03-13,NA,FALSE
-361499,DOC NOAA - ERA Production,Harmful Algal Bloom Innovation Challenge: Toxin Detection in Seafood,2026-05-14,2026-03-13,NA,FALSE
 361508,Foreign Agricultural Service,Coordinating Agricultural Development &amp; Innovation (CADI) Armenia Exchanges: U.S. Food Safety Regulations and Standards Training Program,2026-05-14,2026-03-16,NA,FALSE
 361289,NASA Headquarters,"ROSES25: A.3 NASA ISRO Synthetic Aperture Radar Mission Data, Applications, Research, and Technology Team",2026-05-14,2026-02-12,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={0073A14E-AFC3-13BD-0128-56AFE0030B08}&amp;path=&amp;method=init,FALSE
-361443,National Institute of Food and Agriculture,Organic Agriculture Research and Extension Initiative - OREI Research Projects with Extension and/or Education Components,2026-05-14,2026-03-11,https://www.nifa.usda.gov/grants/funding-opportunities/organic-agriculture-research-extension-initiative,FALSE
+361443,National Institute of Food and Agriculture-eRA,Organic Agriculture Research and Extension Initiative - OREI Research Projects with Extension and/or Education Components,2026-05-14,2026-03-11,https://www.nifa.usda.gov/grants/funding-opportunities/organic-agriculture-research-extension-initiative,FALSE
 361715,Office of Postsecondary Education ,Educational Opportunity Centers Program (EOC),2026-05-14,2026-03-30,NA,FALSE
 361494,Center for Medicare and Medicaid Services,Make America Healthy Again &#8211; Enhancing Lifestyle and Evaluating Value-based Approaches Through Evidence,2026-05-15,2026-03-13,NA,FALSE
 361493,Bureau Of Educational and Cultural Affairs,"FY 2026 U.S. Leadership in Education, Advanced Manufacturing, and Digital Skills (U.S. LEADS) Program",2026-05-18,2026-03-13,https://www.state.gov/eca-grant-opportunities/,FALSE
 361515,Department of the Interior,OIA Maintenance Assistance Program 2026,2026-05-18,2026-03-16,https://www.youtube.com/watch?v=En5rUeVohEo,FALSE
-361737,DARPA - Defense Sciences Office,Automated Discovery for Design and Control of Turbulent Systems (AutoDIDACTS),2026-05-20,2026-04-01,https://sam.gov/opp/eaa017193be842c1a7289ad37117a690/view,FALSE
+361737,DARPA - Defense Sciences Office,Automated Discovery for Design and Control of Turbulent Systems (AutoDIDACTS),2026-05-20,2026-04-01,https://sam.gov/opp/447a8e817fdc4c10aaeffb5d15c66d68/view,FALSE
 361621,Department of Education,Office of Special Education and Rehabilitative Services (OSERS): Rehabilitation Services Administration (RSA): Training of Interpreters for Individuals Who Are Deaf or Hard of Hearing and Individuals Who Are DeafBlind; Assistance Listing Number 84.160D,2026-05-26,2026-03-25,NA,FALSE
 361689,Department of Housing and Urban Development,Comprehensive Housing Counseling (CHC) and the Housing Counseling Training (HCT) NOFO&#160;(FY2025),2026-05-26,2026-03-26,https://www.hud.gov/program_offices/cfo/gmomgmt/grantsinfo/fundingopps,FALSE
 361613,Geological Survey,The Educational Component of the National Cooperative Geologic Mapping Program,2026-05-26,2026-03-24,NA,FALSE
 361726,DOC NOAA - ERA Production,2026 Marine Mammal Co-Management Grant Program,2026-05-31,2026-03-31,NA,FALSE
 359989,NASA Headquarters,ROSES 2025: Research Opportunities in Space and Earth Science,2026-05-31,2025-07-11,https://solicitation.nasaprs.com/ROSES2025,FALSE
 361685,Bureau Of Educational and Cultural Affairs,FY 2026 Young Leaders of the Americas Initiative (YLAI),2026-06-05,2026-03-26,https://www.state.gov/eca-grant-opportunities/,FALSE
+361760,Department of Education,"Office of Special Education and Rehabilitative Services (OSERS): Office of Special Education Programs (OSEP): Community Parent Resource Centers (CPRCs), Assistance Listing Number 84.328C",2026-06-05,2026-04-06,NA,FALSE
+361894,Bureau of Counterterrorism ,Protecting U.S. Critical Energy Investments Through C-UAS and UAS Surveillance Capabilities in Iraq,2026-06-08,2026-04-14,https://mygrants.servicenowservices.com/mygrants?id=mygrants_form&amp;table=x_g_usd4_d_grant_funding_opportunity&amp;sys_id=2ec3f09b934c4fd0d114b7986cba107e&amp;view=Default,FALSE
 361722,Interior Business Center,HOIHI Grant Program for Native Hawaiian Organizations,2026-06-08,2026-03-31,NA,FALSE
+361758,National Institute of Food and Agriculture-eRA,Renewable Resource Extension Act National Focus Fund Projects,2026-06-08,2026-04-06,https://www.nifa.usda.gov/grants/funding-opportunities/renewable-resources-extension-act-national-focus-fund-projects-rrea,FALSE
+361864,Bureau of Counterterrorism ,Strengthening Law Enforcement Engagement with Repatriated Individuals,2026-06-09,2026-04-10,https://mygrants.servicenowservices.com/mygrants?id=mygrants_form&amp;table=x_g_usd4_d_grant_funding_opportunity&amp;sys_id=87d6ceaf93c8c314d114b7986cba10ed&amp;view=Default,FALSE
+361809,Office of Elementary and Secondary Education,Teacher and School Leader Incentive Fund 84.374A,2026-06-09,2026-04-08,https://www.ed.gov/grants-and-programs/teacher-preparation-grants/teacher-and-school-leader-incentive-program,FALSE
 359932,Office of Naval Research,"FY25 ONR Office Of Naval Research (ONR) Science, Technology, Engineering, and Mathematics(STEM) Education and Workforce Program",2026-06-30,2025-07-07,https://www.onr.navy.mil/work-with-us/funding-opportunities,FALSE
 361309,Office of Science,Energy Frontier Research Centers (EFRCs),2026-07-01,2026-02-18,NA,FALSE
+361503,DOC NOAA - ERA Production,"Prevention, Control, and Mitigation of Harmful Algal Blooms Program",2026-07-09,2026-03-13,NA,FALSE
+361851,Fish and Wildlife Service,F27AS00007 FY 2027 National Coastal Wetlands Conservation Grant Program Notice of Funding Opportunity,2026-07-09,2026-04-10,NA,FALSE
 361483,DOC NOAA - ERA Production,FY 2026 Ocean Technology Transition Program,2026-07-15,2026-03-12,NA,FALSE
 344124,U.S. National Science Foundation,Improving Undergraduate STEM Education: Directorate for STEM Education,2026-07-15,2022-10-20,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23510,FALSE
+361499,DOC NOAA - ERA Production,Harmful Algal Bloom Innovation Challenge: Toxin Detection in Seafood,2026-07-16,2026-03-13,NA,FALSE
 361664,U.S. National Science Foundation,TechAccess: AI-Ready America,2026-07-16,2026-03-25,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf26508,FALSE
 357725,U.S. National Science Foundation,EPSCoR Research Infrastructure Improvement Program: EPSCoR Collaborations for Optimizing Research Ecosystems,2026-07-21,2024-12-14,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf25523,FALSE
+361238,U.S. National Science Foundation,CyberAICorps Scholarship for Service,2026-07-21,2026-02-04,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf26503,FALSE
 361392,DOC NOAA - ERA Production,Fiscal Year 2027 National Sea Grant College Program Dean John A. Knauss Marine Policy Fellowship,2026-07-22,2026-03-02,NA,FALSE
 361628,Golden Field Office,Unleashing Tribal Energy Development,2026-07-24,2026-03-25,https://ie-exchange.energy.gov,FALSE
 361009,U.S. National Science Foundation,NSF Trailblazer Engineering Impact Award,2026-07-24,2025-12-12,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf26502,FALSE
-360371,U.S. National Science Foundation,Integrated Data Systems &amp; Services,2026-07-28,2025-08-27,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf25544,FALSE
+361915,U.S. National Science Foundation,Integrated Data Systems &amp; Services,2026-07-28,2026-04-15,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf26509,FALSE
 360004,NASA Headquarters,ROSES 2025: C.2 Solar System Science,2026-08-01,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={C92A28D2-9E30-4149-24B7-8A40ED4F564B}&amp;path=&amp;method=init,FALSE
 351715,U.S. National Science Foundation,ECosystem for Leading Innovation in Plasma Science and Engineering,2026-08-11,2024-01-06,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505924,FALSE
 353962,U.S. National Science Foundation,Research Training Groups in the Mathematical Sciences,2026-08-11,2024-05-03,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24570,FALSE
