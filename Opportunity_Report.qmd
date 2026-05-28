@@ -20,7 +20,7 @@ body {
 ```
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, include = FALSE) # Set global defaults
+knitr::opts_chunk$set(echo = FALSE, include = FALSE)
 Sys.setenv(TZ = "America/New_York")
 library(tidyr)
 library(readr)
@@ -32,97 +32,101 @@ library(svglite)
 library(kableExtra)
 library(here)
 
-
-link_color <- "#0047AB" # Royal blue
+link_color <- "#0047AB"
 ```
 
 ```{r data-processing}
-# Load the most recent grants CSV
-# Define a known path using here::here() or fallback to getwd()
-project_root <- tryCatch(
-    here::here(),
-    error = function(e) getwd()
-)
-
-# Explicitly define the expected CSV path
+project_root <- tryCatch(here::here(), error = function(e) getwd())
 csv_path <- file.path(project_root, "GMRI_Grants.csv")
 
-# Check existence before reading
-if (!file.exists(csv_path)) {
-    stop("CSV file not found at expected location: ", csv_path)
-}
+if (!file.exists(csv_path)) stop("CSV file not found at expected location: ", csv_path)
 
-# Read in grants file
-grants <- readr::read_csv(csv_path, show_col_types = FALSE) %>%
-    mutate(
-        Deadline = as.Date(Deadline),
-        Posted = as.Date(Posted),
-        IsNew = replace_na(IsNew, FALSE)
-    ) %>%
-    filter(is.na(Deadline) | Deadline >= Sys.Date())
+grants_raw <- readr::read_csv(csv_path, show_col_types = FALSE) |>
+  mutate(
+    Deadline = as.Date(Deadline),
+    Posted   = as.Date(Posted),
+    IsNew    = replace_na(IsNew, FALSE)
+  )
 
-# Create the formatted table
-# Build your table data
-grants_out <- grants %>%
-    mutate(
-        Title = paste0(
-            "<a href='", AdditionalInfoURL, "' style='color:", link_color, ";'>", Title, "</a>"
-        ),
-        Deadline = as.Date(Deadline),
-        Posted = as.Date(Posted),
-        New = if_else(IsNew, "<span style='color:#ea4f12;font-size:1.2em;'>&#x25CF;</span>", ""),
-        Posted_for_sort = if_else(IsNew, Posted, as.Date(NA)),
-        Deadline_for_sort = if_else(!IsNew, Deadline, as.Date(NA))
-    ) %>%
-    arrange(desc(IsNew), desc(Posted_for_sort), Deadline_for_sort)
+# Split into active opportunities (have a deadline) and standing programs (no deadline)
+grants <- grants_raw |>
+  filter(!is.na(Deadline), Deadline >= Sys.Date())
 
+standing <- grants_raw |>
+  filter(is.na(Deadline)) |>
+  arrange(Agency, Title)
+
+# ── Active opportunities table ──────────────────────────────────────────────
 new_indices <- which(grants$IsNew)
-has_new <- length(new_indices) > 0
+has_new     <- length(new_indices) > 0
 break_index <- if (has_new) max(new_indices) + 1 else 1
 
-grants_out <- grants %>%
-    mutate(
-        Title = paste0("<a href='", AdditionalInfoURL, "' style='color:", link_color, ";'>", Title, "</a>"),
-        Deadline = format(Deadline, "%b %d, %Y"),
-        Posted = format(Posted, "%b %d, %Y"),
-        New = if_else(IsNew, "<span style='color:#ea4f12;font-size:1.2em;'>&#x25CF;</span>", "")
-    ) %>%
-    select(Agency, Title, New, Deadline, Posted)
+grants_out <- grants |>
+  mutate(
+    Title    = paste0("<a href='", AdditionalInfoURL, "' style='color:", link_color, ";'>", Title, "</a>"),
+    Deadline = format(Deadline, "%b %d, %Y"),
+    Posted   = format(Posted,   "%b %d, %Y"),
+    New      = if_else(IsNew, "<span style='color:#ea4f12;font-size:1.2em;'>&#x25CF;</span>", "")
+  ) |>
+  select(Agency, Title, New, Deadline, Posted)
 
-break_row <- tibble(
-    Agency = "&nbsp;", Title = "&nbsp;", New = "&nbsp;",
-    Deadline = "&nbsp;", Posted = "&nbsp;"
-)
+break_row <- tibble(Agency = "&nbsp;", Title = "&nbsp;", New = "&nbsp;",
+                    Deadline = "&nbsp;", Posted = "&nbsp;")
 
 if (!has_new) {
-    no_new_row <- tibble(
-        Agency = "",
-        Title = "<strong>📭 No new funding opportunities since the last update.</strong>",
-        New = "", Deadline = "", Posted = ""
-    )
-    grants_out <- bind_rows(no_new_row, break_row, grants_out)
+  no_new_row <- tibble(
+    Agency = "", New = "", Deadline = "", Posted = "",
+    Title  = "<strong>&#128587; No new funding opportunities since the last update.</strong>"
+  )
+  grants_out <- bind_rows(no_new_row, break_row, grants_out)
 } else {
-    grants_out <- bind_rows(
-        grants_out[1:(break_index - 1), ],
-        break_row,
-        grants_out[break_index:nrow(grants_out), ]
-    )
+  grants_out <- bind_rows(
+    grants_out[1:(break_index - 1), ],
+    break_row,
+    grants_out[break_index:nrow(grants_out), ]
+  )
 }
+
+# ── Standing programs table ──────────────────────────────────────────────────
+standing_out <- standing |>
+  mutate(
+    Title = paste0("<a href='", AdditionalInfoURL, "' style='color:", link_color, ";'>",
+                   Title, "</a>")
+  ) |>
+  select(Agency, Title)
 ```
 
 ```{r date-heading, include=TRUE, results="asis"}
-cat("# Grants Report - ", format(Sys.Date(), "%B %d, %Y"), "\n\n")
+cat("# Grants Report —", format(Sys.Date(), "%B %d, %Y"), "\n\n")
 ```
 
 ```{r table-output, include=TRUE, results="asis"}
-fmt <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+fmt        <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 tbl_format <- ifelse(fmt == "html", "html", "latex")
 
-kable(grants_out, format = tbl_format, escape = FALSE) %>%
+kable(grants_out, format = tbl_format, escape = FALSE) |>
+  kable_styling(
+    bootstrap_options = if (tbl_format == "html") "striped" else NULL,
+    latex_options     = if (tbl_format == "latex") c("striped", "hold_position") else NULL,
+    full_width        = FALSE
+  ) |>
+  row_spec(break_index, background = "#686868")
+```
+
+```{r standing-heading, include=TRUE, results="asis"}
+if (nrow(standing_out) > 0) {
+  cat("\n\n---\n\n## Standing Programs\n\n")
+  cat("*Recurring programs without fixed deadlines — check pages directly for current solicitation status.*\n\n")
+}
+```
+
+```{r standing-table, include=TRUE, results="asis"}
+if (nrow(standing_out) > 0) {
+  kable(standing_out, format = tbl_format, escape = FALSE) |>
     kable_styling(
-        bootstrap_options = if (tbl_format == "html") "striped" else NULL,
-        latex_options = if (tbl_format == "latex") c("striped", "hold_position") else NULL,
-        full_width = FALSE
-    ) %>%
-    row_spec(break_index, background = "#686868")
+      bootstrap_options = if (tbl_format == "html") "striped" else NULL,
+      latex_options     = if (tbl_format == "latex") c("striped", "hold_position") else NULL,
+      full_width        = FALSE
+    )
+}
 ```
