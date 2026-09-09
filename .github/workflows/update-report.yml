@@ -54,14 +54,19 @@ jobs:
             blastula
             rvest
             xml2
-            janitor  
+            janitor
+            jsonlite
       - name: Run R script to download new pages
         run: Rscript download_pages.R
       - name: Run R script to fetch grants and save CSV
         run: Rscript Get_Opportunity_Updates.R
-      - name: Render Quarto report
+      - name: Run R script to fetch engagement opportunities and save CSV
+        run: Rscript Get_Engagement_Opportunities.R
+        env:
+          SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
+      - name: Render Quarto site
         run: |
-          quarto render Opportunity_Report.qmd --output-dir docs
+          quarto render
       - name: Configure GitHub credentials
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -70,7 +75,7 @@ jobs:
 
       - name: Commit and push report
         run: |
-          git add docs/Opportunity_Report.html GMRI_Grants.csv
+          git add docs/ GMRI_Grants.csv GMRI_Engagement_Opportunities.csv
           git commit -m "Auto-update report for $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push origin main
         env:

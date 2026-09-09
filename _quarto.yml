@@ -8,6 +8,8 @@ website:
     left:
       - href: Opportunity_Report.qmd
         text: Grants Summary
+      - href: Engagement_Report.qmd
+        text: Engagement Opportunities
 
 format:
   html:

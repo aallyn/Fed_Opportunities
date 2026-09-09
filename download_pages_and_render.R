@@ -33,6 +33,12 @@ for (i in seq_along(urls)) {
   writeBin(httr::content(page, "raw"), paths[i])
 }
 
-# Step 2: Render HTML and PDF versions of the report
-system("quarto render Opportunity_Report.qmd --output-dir docs")
+# Step 2: Fetch grants and engagement opportunities, save CSVs
+# (parity with .github/workflows/update-report.yml -- SAM_API_KEY must be
+# set in the environment for the SAM.gov half of the engagement fetch)
+system("Rscript Get_Opportunity_Updates.R")
+system("Rscript Get_Engagement_Opportunities.R")
+
+# Step 3: Render the Quarto site (both report tabs)
+system("quarto render")
 # rmarkdown::render(report_file, output_format = "pdf", output_file = output_pdf)

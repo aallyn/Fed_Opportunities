@@ -1,0 +1,93 @@
+---
+engine: knitr
+format:
+  html:
+    toc: FALSE
+    df-print: paged
+    theme: flatly
+    code-fold: false
+    title-block-banner: false
+    title-block: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, include = FALSE)
+Sys.setenv(TZ = "America/New_York")
+library(tidyr)
+library(readr)
+library(dplyr)
+library(tibble)
+library(lubridate)
+library(knitr)
+library(svglite)
+library(kableExtra)
+library(here)
+
+link_color <- "#0047AB"
+```
+
+```{r data-processing}
+project_root <- tryCatch(here::here(), error = function(e) getwd())
+csv_path <- file.path(project_root, "GMRI_Engagement_Opportunities.csv")
+
+if (!file.exists(csv_path)) stop("CSV file not found at expected location: ", csv_path)
+
+items <- readr::read_csv(csv_path, show_col_types = FALSE) |>
+  mutate(
+    Deadline = as.Date(Deadline),
+    Posted   = as.Date(Posted),
+    IsNew    = replace_na(IsNew, FALSE)
+  ) |>
+  filter(is.na(Deadline) | Deadline >= Sys.Date())
+
+new_indices <- which(items$IsNew)
+has_new     <- length(new_indices) > 0
+break_index <- if (has_new) max(new_indices) + 1 else 1
+
+items_out <- items |>
+  mutate(
+    Title      = paste0("<a href='", AdditionalInfoURL, "' style='color:", link_color, ";'>", Title, "</a>"),
+    Deadline   = if_else(is.na(Deadline), "—", format(Deadline, "%b %d, %Y")),
+    Posted     = if_else(is.na(Posted),   "—", format(Posted,   "%b %d, %Y")),
+    Categories = replace_na(Categories, ""),
+    New        = if_else(IsNew, "<span style='color:#ea4f12;font-size:1.2em;'>&#x25CF;</span>", "")
+  ) |>
+  select(Agency, Title, Categories, New, Deadline, Posted)
+
+break_row <- tibble(Agency = "&nbsp;", Title = "&nbsp;", Categories = "&nbsp;",
+                    New = "&nbsp;", Deadline = "&nbsp;", Posted = "&nbsp;")
+
+if (!has_new) {
+  no_new_row <- tibble(
+    Agency = "", Categories = "", New = "", Deadline = "", Posted = "",
+    Title  = "<strong>&#128587; No new engagement opportunities since the last update.</strong>"
+  )
+  items_out <- bind_rows(no_new_row, break_row, items_out)
+} else {
+  items_out <- bind_rows(
+    items_out[1:(break_index - 1), ],
+    break_row,
+    items_out[break_index:nrow(items_out), ]
+  )
+}
+```
+
+```{r date-heading, include=TRUE, results="asis"}
+cat("# Engagement Opportunities —", format(Sys.Date(), "%B %d, %Y"), "\n\n")
+cat("*Requests for Information, Notices of Intent, FACA/advisory-committee nomination calls, ",
+    "review-panel solicitations, Sources Sought/Special Notices, and public meetings/workshops ",
+    "— things to notice and respond to, not funding to apply for.*\n\n")
+```
+
+```{r table-output, include=TRUE, results="asis"}
+fmt        <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+tbl_format <- ifelse(fmt == "html", "html", "latex")
+
+kable(items_out, format = tbl_format, escape = FALSE) |>
+  kable_styling(
+    bootstrap_options = if (tbl_format == "html") "striped" else NULL,
+    latex_options     = if (tbl_format == "latex") c("striped", "hold_position") else NULL,
+    full_width        = FALSE
+  ) |>
+  row_spec(break_index, background = "#686868")
+```

@@ -10,15 +10,6 @@ format:
     title-block: false
 ---
 
-```{css, echo=FALSE}
-.navbar, .navbar-default {
-  display: none !important;
-}
-body {
-  padding-top: 0 !important;
-}
-```
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, include = FALSE)
 Sys.setenv(TZ = "America/New_York")
