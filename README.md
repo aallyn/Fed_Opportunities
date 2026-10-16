@@ -5,6 +5,28 @@ A weekly-refreshed GitHub Pages site tracking federal (and a few state/regional)
 - **Grants Summary** — funding opportunities: things to apply for money through.
 - **Engagement Opportunities** — Requests for Information, Notices of Intent, FACA/advisory-committee nomination calls, review-panel solicitations, Sources Sought/Special Notices, and public meetings/workshops: things to notice and respond to (or nominate someone for), not funding.
 
+Live site: <https://aallyn.github.io/Fed_Opportunities/>
+
+## Interacting with the Reporter
+
+You don't need to edit any code to change what the reporter tracks. Describe the change you want to Claude Code and review what it does:
+
+1. **Open Claude Code.** In the Claude desktop app, switch to the **Code** tab and start a new session.
+2. **Give it the repo and the change you want.** Paste `https://github.com/aallyn/Fed_Opportunities` and describe the change in plain language. For example:
+   - "Add engagement opportunities from the National Academies of Sciences."
+   - "Add 'kelp' and 'seaweed' to the keyword filter."
+   - "Stop showing USDA items on the Engagement tab."
+   - "The MAFMC scraper returned nothing this week. Can you find out why?"
+
+   Claude clones the repo, reads the relevant script, and proposes how to make the change.
+3. **Talk it through.** Ask questions and push back on scope (which agencies, keywords, or categories), the same way you would with a colleague. For a new or changed source, have Claude run that fetch on its own and show you what it returns.
+4. **Render locally and review before you commit.** Ask Claude to re-run the affected `Get_*.R` script(s) and `quarto render` the site. Then open `docs/Opportunity_Report.html` and `docs/Engagement_Report.html` and check that the tables look right. **Don't skip this step:** every push to `main` triggers the GitHub Actions workflow, which re-runs the pipeline, republishes the live site, and **posts to Slack**, so a broken change goes straight to the channel.
+   - SAM.gov results need a `SAM_API_KEY`. Without one, a local run of `Get_Engagement_Opportunities.R` leaves out SAM.gov items. That's fine for previewing.
+5. **Commit and push.** Once the preview looks right, ask Claude to commit and push to `main`. Commit only the code and documentation changes, and ask Claude to discard the locally regenerated CSVs and `docs/`. The workflow regenerates both with the full set of API keys. Put related changes in a single push so Slack only gets one message.
+6. **Confirm the run.** The workflow takes about 10–15 minutes. Check the repo's **Actions** tab (or the Slack message) and then the live site.
+
+**Setup (one time):** you need push access to this repo, plus R and [Quarto](https://quarto.org/docs/get-started/) installed locally for step 4. If either is missing, Claude can tell you what's needed.
+
 ## Sources
 
 **Funding side** (`Get_Opportunity_Updates.R` → `GMRI_Grants.csv`):
@@ -37,8 +59,6 @@ SAM_API_KEY=... Rscript Get_Engagement_Opportunities.R   # SAM_API_KEY optional;
 quarto render
 open docs/Opportunity_Report.html docs/Engagement_Report.html
 ```
-
-`local_testing.R` is a minimal example of sourcing `Get_Opportunity_Updates.R` directly and dumping a quick table without going through Quarto — useful for a fast sanity check on the fetch logic alone.
 
 Get a free SAM.gov API key at <https://sam.gov/data-services>. In GitHub Actions it's read from the `SAM_API_KEY` repo secret; locally, export it in your shell before running `Get_Engagement_Opportunities.R`.
 
