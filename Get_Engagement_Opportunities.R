@@ -61,7 +61,10 @@ target_agencies <- list(
        sam_match = c("Fish and Wildlife Service", "USFWS")),
   list(label = "USDA / NIFA",
        fr_match  = c("Agriculture Department", "National Institute of Food and Agriculture"),
-       sam_match = c("Department of Agriculture", "National Institute of Food and Agriculture", "NIFA"))
+       sam_match = c("Department of Agriculture", "National Institute of Food and Agriculture", "NIFA")),
+  list(label = "NIH",
+       fr_match  = c("National Institutes of Health"),
+       sam_match = c("National Institutes of Health", "NIH"))
 )
 
 # ── Category patterns ────────────────────────────────────────────────────────
