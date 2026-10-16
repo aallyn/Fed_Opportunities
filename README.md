@@ -20,10 +20,10 @@ You don't need to edit any code to change what the reporter tracks. Describe the
 
    Claude clones the repo, reads the relevant script, and proposes how to make the change.
 3. **Talk it through.** Ask questions and push back on scope (which agencies, keywords, or categories), the same way you would with a colleague. For a new or changed source, have Claude run that fetch on its own and show you what it returns.
-4. **Render locally and review before you commit.** Ask Claude to re-run the affected `Get_*.R` script(s) and `quarto render` the site. Then open `docs/Opportunity_Report.html` and `docs/Engagement_Report.html` and check that the tables look right. **Don't skip this step:** every push to `main` triggers the GitHub Actions workflow, which re-runs the pipeline, republishes the live site, and **posts to Slack**, so a broken change goes straight to the channel.
+4. **Render locally and review before you commit.** Ask Claude to re-run the affected `Get_*.R` script(s) and `quarto render` the site. Then open `docs/Opportunity_Report.html` and `docs/Engagement_Report.html` and check that the tables look right. **Don't skip this step:** every push to `main` triggers the GitHub Actions workflow, which re-runs the pipeline and **republishes the live site**, so a broken change goes straight to the page everyone uses. Pushes don't post to Slack (only the weekly Monday run and manual runs do), so a bad push would sit on the site until someone noticed it.
    - SAM.gov results need a `SAM_API_KEY`. Without one, a local run of `Get_Engagement_Opportunities.R` leaves out SAM.gov items. That's fine for previewing.
-5. **Commit and push.** Once the preview looks right, ask Claude to commit and push to `main`. Commit only the code and documentation changes, and ask Claude to discard the locally regenerated CSVs and `docs/`. The workflow regenerates both with the full set of API keys. Put related changes in a single push so Slack only gets one message.
-6. **Confirm the run.** The workflow takes about 10–15 minutes. Check the repo's **Actions** tab (or the Slack message) and then the live site.
+5. **Commit and push.** Once the preview looks right, ask Claude to commit and push to `main`. Commit only the code and documentation changes, and ask Claude to discard the locally regenerated CSVs and `docs/`. The workflow regenerates both with the full set of API keys. Put related changes in a single push so the site only rebuilds once.
+6. **Confirm the run.** The workflow takes about 10–15 minutes. Check the repo's **Actions** tab and then the live site.
 
 **Setup (one time):** you need push access to this repo, plus R and [Quarto](https://quarto.org/docs/get-started/) installed locally for step 4. If either is missing, Claude can tell you what's needed.
 
@@ -44,9 +44,7 @@ You don't need to edit any code to change what the reporter tracks. Describe the
 
 Each `Get_*.R` script fetches its sources, classifies/filters them, diffs titles against the previous run's CSV to flag `IsNew`, and writes a CSV. `Opportunity_Report.qmd` and `Engagement_Report.qmd` each read their CSV and render an HTML table (new items flagged with a red dot) via Quarto. `_quarto.yml` (`project: type: website`) ties both pages together with a two-tab navbar and renders them into `docs/`, which is published via GitHub Pages.
 
-This runs weekly via `.github/workflows/update-report.yml` (Mondays, also triggerable manually via `workflow_dispatch`): download pages → run both `Get_*.R` scripts → `quarto render` the whole site → commit `docs/` and both CSVs → push → post a short Slack message linking to the report.
-
-`run_all.sh` / `download_pages_and_render.R` is a local macOS-cron equivalent, kept in parity with the workflow above but not what actually runs in production — GitHub Actions is the source of truth (that's where the weekly "Auto-update report" commits come from).
+This runs weekly via `.github/workflows/update-report.yml` (Mondays, also triggerable manually via `workflow_dispatch`): download pages → run both `Get_*.R` scripts → `quarto render` the whole site → commit `docs/` and both CSVs → push → post a short Slack message linking to both tabs. The Slack post is skipped when the run was triggered by a push to `main` (code/README changes), so only the weekly scheduled run and manual runs notify the channel.
 
 ## Running locally
 

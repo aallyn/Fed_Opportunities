@@ -65,3 +65,9 @@ Thumbs.db
 
 
 /.quarto/
+
+# LaTeX/PDF render byproducts and local logs
+*.aux
+*.log
+*.tex
+*.toc

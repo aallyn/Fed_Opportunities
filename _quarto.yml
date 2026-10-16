@@ -18,4 +18,3 @@ format:
     df-print: paged
     theme: flatly
     code-fold: true
-    after_body: dt-dependencies.html

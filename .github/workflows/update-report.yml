@@ -81,13 +81,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
+      # Only ping Slack for the weekly scheduled run and manual runs -- pushes
+      # (code/README changes) still refresh the site but stay quiet.
       - name: Notify Slack
+        if: github.event_name != 'push'
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
         run: |
           REPORT_DATE=$(date '+%B %d, %Y')
-          REPORT_URL="https://aallyn.github.io/Fed_Opportunities/Opportunity_Report.html"
-          MESSAGE="*GMRI Weekly Grants Report* for ${REPORT_DATE}\n${REPORT_URL}"
+          SITE_URL="https://aallyn.github.io/Fed_Opportunities"
+          MESSAGE="*GMRI Weekly Opportunities Report* for ${REPORT_DATE}\nGrants: ${SITE_URL}/Opportunity_Report.html\nEngagement: ${SITE_URL}/Engagement_Report.html"
           curl -X POST -H 'Content-type: application/json' \
             --data "{\"text\": \"${MESSAGE}\"}" \
             "$SLACK_WEBHOOK"
