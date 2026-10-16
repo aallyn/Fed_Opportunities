@@ -5,14 +5,14 @@ A weekly-refreshed GitHub Pages site tracking federal (and a few state/regional)
 - **Grants Summary** — funding opportunities: things to apply for money through.
 - **Engagement Opportunities** — Requests for Information, Notices of Intent, FACA/advisory-committee nomination calls, review-panel solicitations, Sources Sought/Special Notices, and public meetings/workshops: things to notice and respond to (or nominate someone for), not funding.
 
-Live site: <https://aallyn.github.io/Fed_Opportunities/>
+Live site: <https://gulfofmaine.github.io/Fed_Opportunities/>
 
 ## Interacting with the Reporter
 
 You don't need to edit any code to change what the reporter tracks. Describe the change you want to Claude Code and review what it does:
 
 1. **Open Claude Code.** In the Claude desktop app, switch to the **Code** tab and start a new session.
-2. **Give it the repo and the change you want.** Paste `https://github.com/aallyn/Fed_Opportunities` and describe the change in plain language. For example:
+2. **Give it the repo and the change you want.** Paste `https://github.com/gulfofmaine/Fed_Opportunities` and describe the change in plain language. For example:
    - "Add engagement opportunities from the National Academies of Sciences."
    - "Add 'kelp' and 'seaweed' to the keyword filter."
    - "Stop showing USDA items on the Engagement tab."
