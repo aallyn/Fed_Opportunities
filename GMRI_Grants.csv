@@ -1,16 +1,4 @@
 OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
-364077,Geological Survey,Cooperative Agreement for affiliated Partner with Great Lakes-Northern Forest Cooperative Ecosystem Studies Unit,2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364077,TRUE
-364076,Geological Survey,Cooperative Agreement for affiliated Partner with Chesapeake Watershed Cooperative Ecosystem Studies Unit,2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364076,TRUE
-364079,Geological Survey,Cooperative Agreement for affiliated Partner with Rocky Mountain Cooperative Ecosystem Studies Unit,2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364079,TRUE
-364078,Geological Survey,Cooperative Agreement for affiliated Partner with Northern Great Plains Cooperative Ecosystem Studies Unit,2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364078,TRUE
-364075,Geological Survey,Cooperative Agreement for Affiliated Partner with the Great Lakes-Northern Forest Cooperative Ecosystem Studies Unit (CESU),2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364075,TRUE
-364074,Geological Survey,Cooperative Agreement for affiliated Partner with Californian Cooperative Ecosystem Studies Unit,2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364074,TRUE
-364085,Geological Survey,Cooperative Agreement for Affiliated Partner with the North Atlantic Coast Cooperative Ecosystem Studies Unit (CESU),2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364085,TRUE
-364084,Geological Survey,Cooperative Agreement for Affiliated Partner with the Pacific Northwest Cooperative Ecosystem Studies Unit (CESU),2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364084,TRUE
-364081,Geological Survey,Cooperative Agreement for Affiliated Partner with the Pacific Northwest Cooperative Ecosystem Studies Unit (CESU),2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364081,TRUE
-364080,Geological Survey,Cooperative Agreement for Affiliated Partner with the Colorado Plateau Cooperative Ecosystem Studies Unit (CESU),2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364080,TRUE
-364083,Geological Survey,Cooperative Agreement for Affiliated Partner with the Hawai&#699;i-Pacific Islands Cooperative Ecosystem Studies Unit (CESU),2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364083,TRUE
-364082,Geological Survey,Cooperative Agreement for Affiliated Partner with the Rocky Mountains Cooperative Ecosystem Studies Unit (CESU),2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364082,TRUE
 363594,National Energy Technology Laboratory,Annual Recurring University Training and Research,2026-10-16,2026-08-14,https://netl-exchange.energy.gov/Default.aspx,FALSE
 363852,DOC NOAA - ERA Production,Climate Program Office (CPO) FY2026 Earth System Science and Services Partnership,2026-10-26,2026-09-11,https://www.grants.gov/search-results-detail/363852,FALSE
 363325,NASA Headquarters,ROSES25: D.8 Habitable Worlds Observatory Precursor Science Investigation,2026-10-26,2026-07-27,https://solicitation.nasaprs.com/NNH25ZDA001N-HWOPSI,FALSE
@@ -27,6 +15,18 @@ OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
 363241,NASA Headquarters,ROSES25: A.15 Biosphere,2026-11-06,2026-07-20,https://solicitation.nasaprs.com/NNH25ZDA001N-BIOS,FALSE
 363258,NASA Headquarters,ROSES25: C.4 Planetary Science Enabling Facilities,2026-11-10,2026-07-21,https://solicitation.nasaprs.com/NNH25ZDA001N-PSEF,FALSE
 360004,NASA Headquarters,ROSES 2025: C.2 Solar System Science,2026-11-12,2025-07-11,https://nspires.nasaprs.com/external/solicitations/summary.do?solId={C92A28D2-9E30-4149-24B7-8A40ED4F564B}&amp;path=&amp;method=init,FALSE
+364077,Geological Survey,Cooperative Agreement for affiliated Partner with Great Lakes-Northern Forest Cooperative Ecosystem Studies Unit,2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364077,FALSE
+364076,Geological Survey,Cooperative Agreement for affiliated Partner with Chesapeake Watershed Cooperative Ecosystem Studies Unit,2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364076,FALSE
+364079,Geological Survey,Cooperative Agreement for affiliated Partner with Rocky Mountain Cooperative Ecosystem Studies Unit,2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364079,FALSE
+364078,Geological Survey,Cooperative Agreement for affiliated Partner with Northern Great Plains Cooperative Ecosystem Studies Unit,2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364078,FALSE
+364075,Geological Survey,Cooperative Agreement for Affiliated Partner with the Great Lakes-Northern Forest Cooperative Ecosystem Studies Unit (CESU),2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364075,FALSE
+364074,Geological Survey,Cooperative Agreement for affiliated Partner with Californian Cooperative Ecosystem Studies Unit,2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364074,FALSE
+364085,Geological Survey,Cooperative Agreement for Affiliated Partner with the North Atlantic Coast Cooperative Ecosystem Studies Unit (CESU),2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364085,FALSE
+364084,Geological Survey,Cooperative Agreement for Affiliated Partner with the Pacific Northwest Cooperative Ecosystem Studies Unit (CESU),2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364084,FALSE
+364081,Geological Survey,Cooperative Agreement for Affiliated Partner with the Pacific Northwest Cooperative Ecosystem Studies Unit (CESU),2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364081,FALSE
+364080,Geological Survey,Cooperative Agreement for Affiliated Partner with the Colorado Plateau Cooperative Ecosystem Studies Unit (CESU),2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364080,FALSE
+364083,Geological Survey,Cooperative Agreement for Affiliated Partner with the Hawai&#699;i-Pacific Islands Cooperative Ecosystem Studies Unit (CESU),2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364083,FALSE
+364082,Geological Survey,Cooperative Agreement for Affiliated Partner with the Rocky Mountains Cooperative Ecosystem Studies Unit (CESU),2026-11-14,2026-10-14,https://www.grants.gov/search-results-detail/364082,FALSE
 364060,National Institute of Justice,NIJ FY 2026 Research and Evaluation on Justice System Responses to Illegal Immigration,2026-11-16,2026-10-09,https://nij.ojp.gov/funding/opportunities/o-nij-2026-172800,FALSE
 364040,Office of Juvenile Justice Delinquency Prevention ,OJJDP FY 2026 Expanding Youth Access to Community-Based Treatment,2026-11-16,2026-10-08,https://www.ojp.gov/funding/docs/ojjdp-2026-172737.pdf,FALSE
 364020,National Institute of Food and Agriculture,Small Business Innovation Research and Small Business Technology Transfer Programs Phase II,2026-11-17,2026-10-01,https://www.nifa.usda.gov/grants/funding-opportunities/small-business-innovation-research-small-business-technology,FALSE
