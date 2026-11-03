@@ -7,6 +7,10 @@ on:
   push:
     branches:
       - main
+concurrency:
+  group: weekly-grants-report
+  cancel-in-progress: false
+
 jobs:
   build-and-notify:
     runs-on: ubuntu-latest
@@ -77,6 +81,7 @@ jobs:
         run: |
           git add docs/ GMRI_Grants.csv GMRI_Engagement_Opportunities.csv
           git commit -m "Auto-update report for $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git pull --rebase -X theirs origin main
           git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
