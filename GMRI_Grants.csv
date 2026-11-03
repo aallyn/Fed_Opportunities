@@ -1,17 +1,24 @@
 OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
-364132,Small Business Administration,FY27 Small Business Development Center State of Kansas Network Rebid,2026-11-19,2026-10-20,The U.S. Small Business Administration (SBA) issues Program Announcement No. SB-OEDSB-27-003 to invite applications from eligible applicants that are public or private institutions of higher education; a land-grant college or university; a college or,TRUE
-364125,Environmental Protection Agency,Southeast New England Program (SNEP) Innovative Restoration Grants,2026-12-11,2026-10-20,https://www.grants.gov/search-results-detail/364125,TRUE
-364124,Department of Homeland Security - FEMA,Fiscal Year 2026 Flood Mitigation Assistance,2027-02-26,2026-10-22,https://www.fema.gov/grants/mitigation/flood-mitigation-assistance,TRUE
-364130,DOC NOAA - ERA Production,"FY 2027 - 2029 Broad Agency Announcement (BAA), Oceanic and Atmospheric Research (OAR)",2029-09-30,2026-10-20,https://www.grants.gov/search-results-detail/364130,TRUE
-363852,DOC NOAA - ERA Production,Climate Program Office (CPO) FY2026 Earth System Science and Services Partnership,2026-10-26,2026-09-11,https://www.grants.gov/search-results-detail/363852,FALSE
-363325,NASA Headquarters,ROSES25: D.8 Habitable Worlds Observatory Precursor Science Investigation,2026-10-26,2026-07-27,https://solicitation.nasaprs.com/NNH25ZDA001N-HWOPSI,FALSE
-363902,Office of Juvenile Justice Delinquency Prevention ,OJJDP FY 2026 Community and Schools Youth Drug Prevention Program,2026-10-29,2026-09-21,https://www.ojp.gov/funding/docs/ojjdp-2026-172734.pdf,FALSE
-363892,Bureau of Justice Assistance,BJA FY 2026 Second Chance Act Community-based Reentry Program,2026-10-30,2026-09-21,https://bja.ojp.gov/funding/opportunities/o-bja-2026-172717,FALSE
-363691,Fish and Wildlife Service,F26AS00071 Cooperative Endangered Species Conservation Fund: Habitat Conservation Plan Land Acquisition Grants,2026-10-30,2026-08-24,https://www.grants.gov/search-results-detail/363691,FALSE
-364016,Geological Survey,Cooperative Agreement for Affiliated Partner with the Southern Appalachian Cooperative Ecosystem Studies Unit (CESU),2026-10-30,2026-10-01,https://www.grants.gov/search-results-detail/364016,FALSE
-363996,69A350 OSDBU,Small Business Transportation Technical Assistance Center (Region 1),2026-10-31,2026-10-01,https://www.grants.gov/search-results-detail/363996,FALSE
-363998,69A350 OSDBU,Small Business Transportation Technical Assistance Center (Region 3),2026-10-31,2026-10-01,https://www.grants.gov/search-results-detail/363998,FALSE
-364004,69A350 OSDBU,Region 4 Small Business Transportation Technical Assistance Center (SBTTAC),2026-10-31,2026-09-30,https://www.grants.gov/search-results-detail/364004,FALSE
+364181,Geological Survey,Cooperative Agreement for affiliated Partner with the Colorado Plateau Cooperative Ecosystem Studies Unit,2026-11-30,2026-10-30,https://www.grants.gov/search-results-detail/364181,TRUE
+364180,Geological Survey,Cooperative Agreement for affiliated Partner with the Great Lakes-Northern Forest Cooperative Ecosystem Studies Unit,2026-11-30,2026-10-30,https://www.grants.gov/search-results-detail/364180,TRUE
+364183,Geological Survey,Cooperative Agreement for affiliated Partner with Great Basin Cooperative Ecosystem Studies Unit,2026-11-30,2026-10-30,https://www.grants.gov/search-results-detail/364183,TRUE
+364182,Geological Survey,Cooperative Agreement for affiliated Partner with the Pacific Northwest Cooperative Ecosystem Studies Unit,2026-11-30,2026-10-30,https://www.grants.gov/search-results-detail/364182,TRUE
+364177,Geological Survey,Cooperative Agreement for affiliated Partner with the Great Plains Cooperative Ecosystem Studies Unit,2026-11-30,2026-10-30,https://www.grants.gov/search-results-detail/364177,TRUE
+364179,Geological Survey,Cooperative Agreement for affiliated Partner with the Chesapeake Watershed Cooperative Ecosystem Studies Unit,2026-11-30,2026-10-30,https://www.grants.gov/search-results-detail/364179,TRUE
+364178,Geological Survey,Cooperative Agreement for affiliated Partner with the Californian Cooperative Ecosystem Studies Unit,2026-11-30,2026-10-30,https://www.grants.gov/search-results-detail/364178,TRUE
+364185,Geological Survey,Cooperative Agreement for affiliated Partner with Great Basin Cooperative Ecosystem Studies Unit,2026-11-30,2026-10-30,https://www.grants.gov/search-results-detail/364185,TRUE
+364187,Geological Survey,Cooperative Agreement for affiliated Partner with Colorado Plateau Cooperative Ecosystem Studies Unit,2026-11-30,2026-10-30,https://www.grants.gov/search-results-detail/364187,TRUE
+364186,Geological Survey,Cooperative Agreement for affiliated Partner with Hawai&#699;i-Pacific Islands Cooperative Ecosystem Studies Unit,2026-11-30,2026-10-30,https://www.grants.gov/search-results-detail/364186,TRUE
+364191,Geological Survey,Cooperative Agreement for affiliated Partner with the Rocky Mountain Cooperative Ecosystem Studies Unit,2026-12-02,2026-11-02,https://www.grants.gov/search-results-detail/364191,TRUE
+364192,Geological Survey,Cooperative Agreement for affiliated Partner with the Great Lakes Northern Forrest Cooperative Ecosystem Studies Unit,2026-12-02,2026-11-02,https://www.grants.gov/search-results-detail/364192,TRUE
+364176,Geological Survey,Cooperative Agreement for affiliated Partner with the Great Rivers Cooperative Ecosystem Studies Unit,2026-12-04,2026-10-30,https://www.grants.gov/search-results-detail/364176,TRUE
+364194,Geological Survey,Cooperative Agreement for affiliated Partner with the Californian Cooperative Ecosystem Studies Unit,2026-12-23,2026-11-02,https://www.grants.gov/search-results-detail/364194,TRUE
+364198,Environmental Protection Agency,FY27 Guidelines for Brownfield Assessment Grants (Community-wide Assessment Grants),2027-01-21,2026-11-02,https://www.grants.gov/search-results-detail/364198,TRUE
+364200,Environmental Protection Agency,FY27 Guidelines for Brownfield Assessment Grants (Community-wide Assessment Grants for States and Tribes),2027-01-21,2026-11-02,https://www.grants.gov/search-results-detail/364200,TRUE
+364145,Forest Service,Landscape Scale Restoration Grant Program for Tribes,2027-01-26,2026-10-28,https://www.fs.usda.gov/managing-land/private-land/landscape-scale-restoration,TRUE
+364144,Forest Service,Landscape Scale Restoration Grant Program for Non-Federal Lands,2027-01-26,2026-10-28,https://www.fs.usda.gov/managing-land/private-land/landscape-scale-restoration,TRUE
+364160,DOC NOAA - ERA Production,Climate Program Office FY 2027 - Super Intelligence/Machine Learning Innovation to Advance NOAA&apos;s Earth System Science and Support Hazard Resilience,2027-02-09,2026-10-27,https://www.grants.gov/search-results-detail/364160,TRUE
+364142,DOC NOAA - ERA Production,"FY 2026 - 2028 Broad Agency Announcement (BAA), National Ocean Service",2028-09-30,2026-10-29,https://www.grants.gov/search-results-detail/364142,TRUE
 363796,National Institute of Food and Agriculture,"1890 Institution Teaching, Research, and Extension Capacity Building Grants Program",2026-11-04,2026-09-03,https://www.nifa.usda.gov/grants/funding-opportunities/1890-institution-teaching-research-extension-capacity-building-grants,FALSE
 362551,U.S. National Science Foundation,"NSF Small Business Innovation Research / Small Business Technology Transfer Phase I, Phase II, Fast-Track Programs: A Pilot Emphasis on Scientific Instrumentation",2026-11-04,2026-05-22,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf26511,FALSE
 363481,U.S. National Science Foundation,U.S. National Science Foundation State and Regional Artificial Intelligence Infrastructure Hubs:,2026-11-04,2026-08-06,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf26513,FALSE
@@ -36,8 +43,12 @@ OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
 363758,DOC NOAA - ERA Production,DARRP Restoration Implementation Grants (2026),2026-11-18,2026-09-01,https://www.grants.gov/search-results-detail/363758,FALSE
 362850,Defense Health Agency Contracting Activity - DHACA,DoW Rare Cancers Resource and Community Development Award,2026-11-18,2026-06-17,https://www.grants.gov/search-results-detail/362850,FALSE
 363920,Natural Resources Conservation Service,Easement Restoration and Stewardship,2026-11-19,2026-09-25,https://www.grants.gov/search-results-detail/363920,FALSE
+364132,Small Business Administration,FY27 Small Business Development Center State of Kansas Network Rebid,2026-11-19,2026-10-20,The U.S. Small Business Administration (SBA) issues Program Announcement No. SB-OEDSB-27-003 to invite applications from eligible applicants that are public or private institutions of higher education; a land-grant college or university; a college or,FALSE
 363992,Fish and Wildlife Service,F26AS00023 FY2026 Prescott Marine Mammal Rescue and Response Grant Program,2026-11-30,2026-09-29,https://www.grants.gov/search-results-detail/363992,FALSE
+364184,Geological Survey,Cooperative Agreement for affiliated Partner with Chesapeake Watershed Cooperative Ecosystem Studies Unit,2026-11-30,2026-10-30,https://www.grants.gov/search-results-detail/364184,FALSE
 363929,DOC NOAA - ERA Production,John H. Prescott Marine Mammal Rescue Assistance Grant,2026-12-01,2026-09-23,https://www.grants.gov/search-results-detail/363929,FALSE
+364190,Geological Survey,Cooperative Agreement for affiliated Partner with Rocky Mountain Cooperative Ecosystem Studies Unit,2026-12-02,2026-11-02,https://www.grants.gov/search-results-detail/364190,FALSE
+364193,Geological Survey,Cooperative Agreement for affiliated Partner with Californian Cooperative Ecosystem Studies Unit,2026-12-02,2026-11-02,https://www.grants.gov/search-results-detail/364193,FALSE
 363240,NASA Headquarters,ROSES25: A.14 Atmosphere,2026-12-02,2026-07-20,https://solicitation.nasaprs.com/NNH25ZDA001N-ATMOS,FALSE
 363747,NASA Headquarters,ROSES 2025: D.4 Theoretical and Computational Astrophysics Networks,2026-12-03,2026-08-31,https://solicitation.nasaprs.com/NNH25ZDA001N-TCAN,FALSE
 363734,NASA Headquarters,Solar System Exploration Research Virtual Institute Cooperative Agreement Notice-5 (SSERVI CAN-5),2026-12-04,2026-09-01,https://solicitation.nasaprs.com/NNH26ZDA016C,FALSE
@@ -45,6 +56,7 @@ OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
 361418,Forest Service,Great Lakes Restoration Initiative: Community Forest and Open Space Conservation Program,2026-12-08,2026-07-22,https://www.grants.gov/search-results-detail/361418,FALSE
 364087,Department of Education,"Institute of Education Sciences (IES): National Center for Special Education Research (NCSER): Transformative Research in Special Education, Assistance Listing Number (ALN) 84.324T",2026-12-11,2026-10-16,https://ies.ed.gov/sites/default/files/ncser/document/2026/10/FY2027_324T.pdf,FALSE
 364086,Department of Education,"Institute of Education Sciences (IES): National Center on Education Research (NCER): From Seedlings to Scale, Assistance Listing Number (ALN) 84.305J",2026-12-11,2026-10-16,https://ies.ed.gov/sites/default/files/ncer/document/2026/10/FY2027_305J.pdf,FALSE
+364125,Environmental Protection Agency,Southeast New England Program (SNEP) Innovative Restoration Grants,2026-12-11,2026-10-20,https://www.grants.gov/search-results-detail/364125,FALSE
 302271,U.S. National Science Foundation,Statistics,2026-12-15,2018-03-29,http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5556,FALSE
 361896,U.S. National Science Foundation,"Arctic Doctoral Dissertation Research Improvement Grants (Arctic DDRIG)  Arctic Social Sciences, Arctic System Sciences, and Arctic Observing Network (DDRIG)",2026-12-15,2026-04-14,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf20597,FALSE
 354620,Department of Homeland Security - FEMA,Fiscal Year 2024 Flood Mitigation Assistance Swift Current,2026-12-30,2024-05-30,https://www.grants.gov/search-results-detail/354620,FALSE
@@ -64,6 +76,7 @@ OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
 314743,U.S. National Science Foundation,"Methodology, Measurement, and Statistics (MMS)",2027-01-28,2019-04-10,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf19575,FALSE
 364039,NASA Headquarters,ROSES 2025: B.8 Heliophysics Spaceflight Science Foundations,2027-02-05,2026-10-08,https://solicitation.nasaprs.com/NNH25ZDA001N-SSF,FALSE
 363958,DOC NOAA - ERA Production,"Advancing coastal flood protection through public-private partnerships, innovative insurance products, and improved sediment management.",2027-02-12,2026-09-25,https://www.grants.gov/search-results-detail/363958,FALSE
+364124,Department of Homeland Security - FEMA,Fiscal Year 2026 Flood Mitigation Assistance,2027-02-26,2026-10-22,https://www.fema.gov/grants/mitigation/flood-mitigation-assistance,FALSE
 361333,U.S. National Science Foundation,Pathways to Enable Secure Open-Source Ecosystems (PESOSE),2027-03-02,2026-02-19,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf26506,FALSE
 364032,NASA Headquarters,ROSES 2025: B.7 The Heliophysics Low-Cost Access to Space,2027-03-16,2026-10-07,https://solicitation.nasaprs.com/NNH25ZDA001N-LCAS,FALSE
 363530,Air Force Office of Scientific Research,FY26 DEFENSE ESTABLISHED PROGRAM TO STIMULATE COMPETITIVE RESEARCH (DEPSCoR) CAPACITY BUILDING (CB),2027-04-05,2026-08-10,https://www.grants.gov/,FALSE
@@ -76,7 +89,8 @@ OpportunityID,Agency,Title,Deadline,Posted,AdditionalInfoURL,IsNew
 363151,Department of Homeland Security - FEMA,Fiscal Year 2026 Flood Mitigation Assistance Swift Current,2028-01-31,2026-07-14,https://www.grants.gov/search-results-detail/363151,FALSE
 362034,DOC NOAA - ERA Production,2026 Alaska Marine Education and Training Mini-Grant Program,2028-05-01,2026-04-23,https://www.grants.gov/search-results-detail/362034,FALSE
 364099,DOC NOAA - ERA Production,"FY 2027 &#8211; 2029 Broad Agency Announcement (BAA), National Marine Fisheries Service",2028-09-30,2026-10-16,https://www.grants.gov/search-results-detail/364099,FALSE
-363684,U.S. National Science Foundation,"Geosciences Core Research: Atmospheric, Geospace, Earth and Ocean Sciences (GEO Core)",2076-10-05,2026-08-21,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf26516,FALSE
+364130,DOC NOAA - ERA Production,"FY 2027 - 2029 Broad Agency Announcement (BAA), Oceanic and Atmospheric Research (OAR)",2029-09-30,2026-10-20,https://www.grants.gov/search-results-detail/364130,FALSE
+363684,U.S. National Science Foundation,"Geosciences Core Research: Atmospheric, Geospace, Earth and Ocean Sciences (GEO Core)",2076-10-27,2026-08-21,http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf26516,FALSE
 NA,NOAA Fisheries,Species Recovery Grants to States [Spring (Mar-May)],NA,NA,https://www.fisheries.noaa.gov/grant/species-recovery-grants-states,FALSE
 NA,NOAA Fisheries,Saltonstall-Kennedy Grant Program [Fall (Sep-Nov)],NA,NA,https://www.fisheries.noaa.gov/grant/saltonstall-kennedy-grant-program,FALSE
 NA,NOAA Fisheries,John H. Prescott Marine Mammal Rescue Assistance Grant [Spring (Mar-May)],NA,NA,https://www.fisheries.noaa.gov/grant/john-h-prescott-marine-mammal-rescue-assistance-grant-program,FALSE
