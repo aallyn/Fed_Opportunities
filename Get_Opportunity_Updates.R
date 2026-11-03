@@ -14,28 +14,39 @@ library(here)
 library(janitor)
 
 Sys.setenv(TZ = "America/New_York")
-today_str <- format(Sys.Date(), "%Y%m%d")
 today_date <- today()
 
 #####
 # Grants.gov (includes NOAA and USFWS — no separate scrapers needed)
 #####
 
-# Step 1: Build download URL from today's date
-filename <- paste0("GrantsDBExtract", today_str, "v2.zip")
+# Step 1: Build download URLs, newest first. Today's extract may not be
+# published yet when the scheduled run fires, so fall back to recent days.
 base_url <- "https://prod-grants-gov-chatbot.s3.amazonaws.com/extracts/"
-url <- paste0(base_url, filename)
+candidate_dates <- format(Sys.Date() - 0:3, "%Y%m%d")
+urls <- paste0(base_url, "GrantsDBExtract", candidate_dates, "v2.zip")
 
-# Step 2: Download ZIP file
+# Step 2: Download ZIP file (first candidate that exists)
 zip_path <- tempfile(fileext = ".zip")
-tryCatch(
-  {
-    download.file(url, zip_path, mode = "wb")
-  },
-  error = function(e) {
-    stop("Download failed. Check if the file exists at: ", url)
+downloaded <- FALSE
+for (url in urls) {
+  ok <- tryCatch(
+    {
+      download.file(url, zip_path, mode = "wb")
+      TRUE
+    },
+    error = function(e) FALSE,
+    warning = function(w) FALSE
+  )
+  if (ok) {
+    message("Using extract: ", url)
+    downloaded <- TRUE
+    break
   }
-)
+}
+if (!downloaded) {
+  stop("Download failed. None of these exist: ", paste(urls, collapse = ", "))
+}
 
 # Step 3: Unzip
 unzip_dir <- tempdir()
